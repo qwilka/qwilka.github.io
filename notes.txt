@@ -2,8 +2,14 @@ https://jekyllrb.com/
 https://jekyllrb.com/docs/github-pages/
 http://jmcglone.com/guides/github-pages/
 
-https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links
+
 
 https://stackoverflow.com/a/45907768  How to fix page 404 on Github Page?
 git commit --allow-empty -m "Trigger rebuild"
 git push
+
+
+markdown
+========
+https://guides.github.com/features/mastering-markdown/
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links
