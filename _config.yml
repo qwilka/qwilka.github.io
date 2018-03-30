@@ -1,4 +1,4 @@
-theme: jekyll-theme-cayman
+theme: minima
 name: "Stephen McEntee"
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
