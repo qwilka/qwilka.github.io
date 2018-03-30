@@ -1,5 +1,5 @@
 theme: minima
-name: Stephen McEntee
+name: ""
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 baseurl: "/"
