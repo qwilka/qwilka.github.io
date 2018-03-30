@@ -13,3 +13,8 @@ markdown
 ========
 https://guides.github.com/features/mastering-markdown/
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links
+
+
+theme
+=====
+https://stackoverflow.com/questions/48609407/github-pages-jekyll-site-theme-not-applied-despite-setting-it-up
