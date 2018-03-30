@@ -1,7 +1,9 @@
 ---
 layout: post
-title: "Qwilka, Launches Site"
+title: "Launching new website"
 date: 2018-03-27
 ---
 
-Well. Finally got around to putting the Qwilka website together. It is powered by [Jekyll](http://jekyllrb.com) and I can use Markdown to author my posts. 
+Finally got around to putting my website together. It's  hosted on [GitHub](https://github.com/)
+and powered by [Jekyll](http://jekyllrb.com), 
+so I can use Markdown to author my posts. 
