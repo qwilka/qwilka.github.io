@@ -2,4 +2,4 @@ theme: jekyll-theme-cayman
 name: Stephen McEntee
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
-baseurl: ""
+baseurl: "/"
