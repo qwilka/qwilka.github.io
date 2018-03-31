@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Qwilka-home-page
+title: SMcEntee-home-page
 ---
 <h1>{{ page.title }}</h1>
 <ul class="posts">
