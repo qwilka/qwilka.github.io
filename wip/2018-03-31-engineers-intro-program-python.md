@@ -8,6 +8,8 @@ _work-in-progress_ NOT READY TO ISSUE YET
 
 ## Why another introduction to Python programming?
 
+Because getting started isn't easy, even Python.
+
 This article is written for engineers, civil, mechanical or similar, who wish to become
 proficent in computer programming, but who are starting from a low base.  It particularly concerns more experienced engineers who have become accostomed to directing the work of others, while still keeping up with technical development in their own field, but who have been observing the encroachment of newer computer and data technologies into their field, and are no longer happy to completely delegate these newer developments to others. Some of these hypothetical engineers may have 
 programmed a bit in the past, perhaps in Matlab at university, or they may have written some macros for Excel in VBA to automate some design calculations earlier in their career.  
