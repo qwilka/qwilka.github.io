@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Qwilka GIS</title>
+    <title>Qwilka Subsea GIS</title>
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css"
     integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
@@ -60,7 +60,7 @@
             noWrap: true,
             transparent: false,
             opacity: 0.7,
-            attribution: "OSM"	
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
         }
     }
     var OSM = L.tileLayer.wms(OSMobj.baseUrl, OSMobj.options)
@@ -75,7 +75,7 @@
             noWrap: true,
             transparent: false,
             opacity: 0.7,
-            attribution: "GEBCO"	
+            attribution: '<a href="https://www.gebco.net/">GEBCO</a>'	
         }
     }
     var GEBCO = L.tileLayer.wms(GEBCOobj.baseUrl, GEBCOobj.options)
@@ -93,7 +93,7 @@
             noWrap: true,
             transparent: true,
             opacity: 0.6,
-            attribution: "GEBCO"	
+            attribution: '<a href="https://www.gebco.net/">GEBCO</a>'	
         }
     }
     var GEBCOsig = L.tileLayer.wms(GEBCOsigObj.baseUrl, GEBCOsigObj.options)
@@ -108,7 +108,7 @@
             transparent: true,
             noWrap: true,
             opacity: 0.9,
-            attribution: "NPD"
+            attribution: '<a href="http://npdwms.npd.no/">NPD</a>'
         }
     }
     var NPD = L.tileLayer.wms(NPDobj.baseUrl, NPDobj.options)
@@ -123,7 +123,7 @@
             transparent: true,
             noWrap: true,
             opacity: 0.9,
-            attribution: ""
+            attribution: '<a href="https://data.gov.ie/dataset/offshore-gas-pipeline">GovDataIE</a> <a href="https://creativecommons.org/licenses/by/4.0/">(CC BY 4.0)</a>'
         }
     }
     var IRE = L.tileLayer.wms(IREobj.baseUrl, IREobj.options)
@@ -179,7 +179,7 @@
         return this._div;
     };
     title.update = function(props) {
-        this._div.innerHTML = "Qwilka GIS";
+        this._div.innerHTML = "Qwilka Subsea GIS";
     };
     title.addTo(map);
 
@@ -215,38 +215,38 @@
         };
         // info_format: 'text/html'  'application/json'
         var featInfoUrl = GEBCOobj.baseUrl + L.Util.getParamString(params, GEBCOobj.baseUrl, true)
-var elevation = "WAIT"
-var getinfo = $.ajax({
- url: featInfoUrl,
- dataType: "html",
- success: console.log("getinfo successfully loaded!"),
- error: function (xhr) {
-    alert(xhr.statusText)
- }
-})
-$.when(getinfo).done(function() {
-            var htmlstr = $.parseHTML( getinfo.responseText );
-            //var body = $(htmlstr).find('body:first');
-            var body = $(htmlstr).find('body:first');
-            $.each(htmlstr, function(i, el){
-                //console.log(i, el)
-                if (el.nodeName == '#text') {
-                    var targetStr = el.nodeValue
-                    console.log(i, targetStr);
-                    var test = targetStr.match(/Elevation value \(m\):\s*(-?\d+)/)
-                    if (test) {
-                        elevation = test[1];
-                        pustr += "<br>elevation/depth " + elevation + " m (GEBCO)"
-                        console.log("elevation=", elevation)
-                        popup.setContent(pustr)
-                    }
-                    // var loc1 = targetStr.search("(m)");
-                    // var loc2 = targetStr.search("Derived");
-                    // if (loc > 0) {
-                    //     console.log("loc=", loc)
-                    //     console.log(target.slice(loc+20, loc+25))
-                    // }
-                }
+
+        var getinfo = $.ajax({
+        url: featInfoUrl,
+        dataType: "html",
+        success: console.log("getinfo successfully loaded!"),
+        error: function (xhr) {
+            alert(xhr.statusText)
+        }
+        })
+        $.when(getinfo).done(function() {
+                    var htmlstr = $.parseHTML( getinfo.responseText );
+                    //var body = $(htmlstr).find('body:first');
+                    var body = $(htmlstr).find('body:first');
+                    $.each(htmlstr, function(i, el){
+                        //console.log(i, el)
+                        if (el.nodeName == '#text') {
+                            var targetStr = el.nodeValue
+                            console.log(i, targetStr);
+                            var test = targetStr.match(/Elevation value \(m\):\s*(-?\d+)/)
+                            if (test) {
+                                var elevation = test[1];
+                                pustr += "<br>elevation/depth " + elevation + " m (GEBCO)"
+                                console.log("elevation=", elevation)
+                                popup.setContent(pustr)
+                            }
+                            // var loc1 = targetStr.search("(m)");
+                            // var loc2 = targetStr.search("Derived");
+                            // if (loc > 0) {
+                            //     console.log("loc=", loc)
+                            //     console.log(target.slice(loc+20, loc+25))
+                            // }
+                        }
             });
             // parser = new DOMParser();
             // doc = parser.parseFromString(htmlstr, "text/html");
