@@ -1,8 +1,12 @@
+---
+title: Qwilka GIS
+permalink: /GIS/
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>SMcEntee GIS</title>
+    <title>Qwilka GIS</title>
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css"
     integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
@@ -50,6 +54,21 @@
     //  .. White background
     var WhiteBG = L.tileLayer("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEAAQMAAABmvDolAAAAA1BMVEX///+nxBvIAAAAH0lEQVQYGe3BAQ0AAADCIPunfg43YAAAAAAAAAAA5wIhAAAB9aK9BAAAAABJRU5ErkJggg==");
 
+    var OSMobj = {
+        baseUrl: "http://ows.terrestris.de/osm/service",
+        options: {
+            layers: ["TOPO-OSM-WMS"],
+            CRS: "EPSG:4326",
+            format: 'image/png',
+            maxZoom: 12,
+            noWrap: true,
+            transparent: false,
+            opacity: 0.7,
+            attribution: "OSM"	
+        }
+    }
+    var OSM = L.tileLayer.wms(OSMobj.baseUrl, OSMobj.options)
+
     var GEBCOobj = {
         baseUrl: "https://www.gebco.net/data_and_products/gebco_web_services/web_map_service/mapserv",
         options: {
@@ -78,7 +97,7 @@
             noWrap: true,
             transparent: true,
             opacity: 0.6,
-            attribution: "GEBCO-SI"	
+            attribution: "GEBCO"	
         }
     }
     var GEBCOsig = L.tileLayer.wms(GEBCOsigObj.baseUrl, GEBCOsigObj.options)
@@ -92,11 +111,41 @@
             format: 'image/png',
             transparent: true,
             noWrap: true,
-            opacity: 0.8,
+            opacity: 0.9,
             attribution: "NPD"
         }
     }
     var NPD = L.tileLayer.wms(NPDobj.baseUrl, NPDobj.options)
+
+    // https://data.gov.ie/dataset/offshore-gas-pipeline
+    var IREobj = {
+        baseUrl: "http://atlas.marine.ie/arcgis/services/EnergyResourcesInfrastructure/MapServer/WMSServer",
+        options: {
+            layers: ['2'],
+            CRS: "EPSG:4326",
+            format: 'image/png',
+            transparent: true,
+            noWrap: true,
+            opacity: 0.9,
+            attribution: ""
+        }
+    }
+    var IRE = L.tileLayer.wms(IREobj.baseUrl, IREobj.options)
+
+    // // http://www.arcgis.com/home/item.html?id=03a2802ec17d4512801d6f9b9ed84942
+    // var LAobj = {
+    //     baseUrl: "http://atlas.marine.ie/arcgis/services/EnergyResourcesInfrastructure/MapServer/WMSServer",
+    //     options: {
+    //         layers: ['NRG_LA_PipelinesOffshore_2007'],
+    //         CRS: "EPSG:4326",
+    //         format: 'image/png',
+    //         transparent: true,
+    //         noWrap: true,
+    //         opacity: 0.9,
+    //         attribution: ""
+    //     }
+    // }
+    // var LA = L.tileLayer.wms(LAobj.baseUrl, LAobj.options)
 
     var map = L.map('map', {
         attributionControl: true,
@@ -118,11 +167,13 @@
 
     var basemaps = {
         "GEBCO": GEBCO,
+        "OpenStreetMap": OSM,
         "white background": WhiteBG
     }
     var overlaymaps = {
-        "GEBCO source identifier": GEBCOsig,
-        "Norwegian Petroleum Directorate": NPD
+        "Ireland offshore pipelines": IRE,
+        "Norwegian Petroleum Directorate": NPD,
+        "GEBCO source identifier": GEBCOsig
     }
 
     var title = L.control();
@@ -132,13 +183,13 @@
         return this._div;
     };
     title.update = function(props) {
-        this._div.innerHTML = "GIS";
+        this._div.innerHTML = "Qwilka GIS";
     };
     title.addTo(map);
 
     L.control.layers(basemaps, overlaymaps, {collapsed: true}).addTo(map);
 
-    var scale = L.control.scale({position:'bottomleft', metric:true, imperial:false});
+    var scale = L.control.scale({position:'bottomright', metric:true, imperial:false});
     scale.addTo(map);
 
     // map.setView([65.75, 7.58], 10);
