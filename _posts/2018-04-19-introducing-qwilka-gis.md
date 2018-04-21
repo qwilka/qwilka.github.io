@@ -4,7 +4,7 @@ title: "Introducing the Qwilka Subsea GIS"
 date: 2018-04-19
 ---
 
-![Qwilka Subsea GIS](https://qwilka.github.io/images/Introducing_QwilkaGIS.png)
+[![Qwilka Subsea GIS](https://qwilka.github.io/images/Introducing_QwilkaGIS.jpg)](https://qwilka.github.io/GIS/)
 
 I have just set up a demonstration web [GIS](https://qwilka.github.io/GIS/) (geographical information system) for my subsea data company Qwilka. It is built using the open source web mapping library [Leaflet](http://leafletjs.com/), which is lightweight and easy to program. The plan is to use the [GIS](https://qwilka.github.io/GIS/) to display open data related to the subsea oil & gas industry. The base map is taken from [GEBCO](https://www.gebco.net/) which provides a global map with ocean bathymetry. This is also an alternative base map from [OpenStreetMap](https://www.openstreetmap.org/) with more land based details like borders, roads and cities. 
 
