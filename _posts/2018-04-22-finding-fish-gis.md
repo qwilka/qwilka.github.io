@@ -6,7 +6,7 @@ date: 2018-04-22
 
 I recently came across this 2002 ROV video of a small strange sea creature apparently walking across the seabed [on Linkedin](https://www.linkedin.com/feed/update/urn:li:activity:6390252332893900800):
 
-<iframe align="middle" width="560" height="315" src="https://www.youtube.com/embed/zKK5qJjI98c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zKK5qJjI98c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 &nbsp;
 
@@ -14,8 +14,10 @@ This set me wondering about two things: what type of creature is it, and where w
 
 ![Nam Con Son pipeline route](https://qwilka.github.io/images/NCSP2.jpg)
 
-<div style="font-size:xx-small">(Image dapted from the <a href="http://abarrelfull.wikidot.com/nam-con-son-gas-pipeline">Nam Con Son 2003 Environmental Statement.)</a></div>
+<div style="font-size:xx-small">(Image dapted from the <a href="http://abarrelfull.wikidot.com/nam-con-son-gas-pipeline">Nam Con Son 2003 Environmental Statement.</a>)</div>
 
-The video overlay indicates the location water depth and [UTM coordinates](https://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system), but the UTM zone is not given. The KP 0.102 value on the overlay suggests that the location is close to the platform (since [KPs](https://geodyssey.neocities.org/papers/ahgpp.html) usually follow product flow direction). Initially I thought of writing a program to scan through all the UTM zones and check the water depth at each location, but since there is a hint that the location is close to the Lan Tay platform offshore Vietnam, I decided it would be quicker to add a capability to query location water depth to the [Qwilka Subsea GIS](https://qwilka.github.io/GIS/), and use that to check the water depth at the location. Right-clicking at the appoximate location of Lan Tay on the GIS gives a water depth of 117m, which is close enough to the indicated depth on the ROV video to make me believe that this is the correct location of the frog fish:
+&nbsp;
+
+The video overlay indicates the location water depth and [UTM coordinates](https://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system), but the UTM zone is not given. The KP 0.102 value on the overlay suggests that the location is close to the platform (since [KPs](https://geodyssey.neocities.org/papers/ahgpp.html) usually follow product flow direction). Initially I thought of writing a program to scan through all the UTM zones and check the water depth at each location, but since there is a hint that the location is close to the Lan Tay platform offshore Vietnam, I decided it would be quicker to add a capability to query location water depth to the [Qwilka Subsea GIS](https://qwilka.github.io/GIS/), and use that to check the water depth at the suspected location. Right-clicking at the appoximate location of Lan Tay on the GIS gives a water depth of 117m, which is close enough to the indicated depth on the ROV video to satisfy me that this is the correct location of the frog fish:
 
 [![Lan Tay location](https://qwilka.github.io/images/QwilkaGIS_LanTay.jpg)](https://qwilka.github.io/GIS/)
