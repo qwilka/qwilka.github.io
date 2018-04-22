@@ -60,7 +60,7 @@
             noWrap: true,
             transparent: false,
             opacity: 0.7,
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+            attribution: '&copy; <a target="_blank" href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
         }
     }
     var OSM = L.tileLayer.wms(OSMobj.baseUrl, OSMobj.options)
@@ -75,7 +75,7 @@
             noWrap: true,
             transparent: false,
             opacity: 0.7,
-            attribution: '<a href="https://www.gebco.net/">GEBCO</a>'	
+            attribution: '<a target="_blank" href="https://www.gebco.net/">GEBCO</a>'	
         }
     }
     var GEBCO = L.tileLayer.wms(GEBCOobj.baseUrl, GEBCOobj.options)
@@ -93,7 +93,7 @@
             noWrap: true,
             transparent: true,
             opacity: 0.6,
-            attribution: '<a href="https://www.gebco.net/">GEBCO</a>'	
+            attribution: '<a target="_blank" href="https://www.gebco.net/">GEBCO</a>'	
         }
     }
     var GEBCOsig = L.tileLayer.wms(GEBCOsigObj.baseUrl, GEBCOsigObj.options)
@@ -108,7 +108,7 @@
             transparent: true,
             noWrap: true,
             opacity: 0.9,
-            attribution: '<a href="http://npdwms.npd.no/">NPD</a>'
+            attribution: '<a target="_blank" href="http://npdwms.npd.no/">NPD</a>'
         }
     }
     var NPD = L.tileLayer.wms(NPDobj.baseUrl, NPDobj.options)
@@ -123,7 +123,7 @@
             transparent: true,
             noWrap: true,
             opacity: 0.9,
-            attribution: '<a href="https://data.gov.ie/dataset/offshore-gas-pipeline">GovDataIE</a> <a href="https://creativecommons.org/licenses/by/4.0/">(CC BY 4.0)</a>'
+            attribution: '<a target="_blank" href="https://data.gov.ie/dataset/offshore-gas-pipeline">GovDataIE</a> <a href="https://creativecommons.org/licenses/by/4.0/">(CC BY 4.0)</a>'
         }
     }
     var IRE = L.tileLayer.wms(IREobj.baseUrl, IREobj.options)
@@ -180,7 +180,7 @@
     };
     title.update = function(props) {
         this._div.innerHTML = '<div style="font-family:Arial">Qwilka Subsea GIS</div> \
-        <div align="middle" style="font-family:Arial;font-size:small"><a href="https://qwilka.github.io/blog/2018/04/19/introducing-qwilka-gis">about</a></div>';
+        <div align="middle" style="font-family:Arial;font-size:small"><a target="_blank" href="https://qwilka.github.io/blog/2018/04/19/introducing-qwilka-gis">about</a></div>';
     };
     title.addTo(map);
 
