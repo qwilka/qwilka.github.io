@@ -14,7 +14,7 @@ This set me wondering about two things: what type of creature is it, and where w
 
 ![Nam Con Son pipeline route](https://qwilka.github.io/images/NCSP2.jpg)
 
-<div style="font-size:xx-small">(Image dapted from the <a href="http://abarrelfull.wikidot.com/nam-con-son-gas-pipeline">Nam Con Son 2003 Environmental Statement.</a>)</div>
+<div style="font-size:xx-small">(Image adapted from the <a href="http://abarrelfull.wikidot.com/nam-con-son-gas-pipeline">Nam Con Son 2003 Environmental Statement.</a>)</div>
 
 &nbsp;
 
