@@ -1,7 +1,7 @@
 https://jekyllrb.com/
 https://jekyllrb.com/docs/github-pages/
 http://jmcglone.com/guides/github-pages/
-
+https://gist.github.com/qwilka/c5c53e1bba02c82e70aaab7d7d6d0d73
 
 
 https://stackoverflow.com/a/45907768  How to fix page 404 on Github Page?
