@@ -130,24 +130,36 @@
     }
     var IRE = L.tileLayer.wms(IREobj.baseUrl, IREobj.options)
 
-    // http://data.geus.dk/geusmap/ows/help/?lang=en
-    // http://data.geus.dk/geusmap/ows/4326.jsp?layers=pipelines_simplified&nocache=nocache&service=WMS&version=1.1.1&format=image%2Fpng&width=1700&height=900&srs=epsg%3A4326&bbox=0%2C50%2C20%2C60&request=GetMap
-    // http://data.geus.dk/geusmap/ows/25832.jsp?version=1.1.1&service=WMS&request=GetLegendGraphic&layer=oil_and_gas&format=image/png&STYLE=default
-    // var DKobj = {
-    //     baseUrl: "http://data.geus.dk/geusmap/ows/25832.jsp",
+    // http://www.gov.scot/Topics/marine/seamanagement/nmpihome/wms-wfs
+    // var MarScoobj = {
+    //     baseUrl: "https://msmap1.atkinsgeospatial.com/geoserver/nmp/wms",
     //     options: {
-    //         layers: 'pipelines_simplified',
-    //         CRS: "EPSG:4326",
-    //         version: '1.1.1',
+    //         layers: 'nmp:fishing_intensity_pipelines_all_gears',
+    //         CRS: "EPSG:3857",
     //         format: 'image/png',
     //         transparent: true,
     //         noWrap: true,
     //         opacity: 0.9,
-    //         attribution: '<a target="_blank" href="http://data.geus.dk/geusmap/ows/help/?lang=en">DK-Gues</a>'
+    //         attribution: '<a target="_blank" href="http://www.gov.scot/Topics/marine/seamanagement/nmpihome/wms-wfs">Marine Scotland MAPS NMPi</a>'
     //     }
     // }
-    // var DK = L.tileLayer.wms(DKobj.baseUrl, DKobj.options)
-    // line routes geojson test  geojsonLayer
+    // var MarSco = L.tileLayer.wms(MarScoobj.baseUrl, MarScoobj.options)
+
+    // var UKOGobj = {
+    //     baseUrl: "https://gis.ukoilandgasdata.com/gis/services/CDA/UKOilAndGasData/MapServer/WMSServer",
+    //     options: {
+    //         layers: 'Pipelines',
+    //         CRS: "EPSG:4326",
+    //         format: 'image/png',
+    //         transparent: true,
+    //         noWrap: true,
+    //         opacity: 0.9,
+    //         attribution: '<a target="_blank" href="http://www.gov.scot/Topics/marine/seamanagement/nmpihome/wms-wfs">Marine Scotland MAPS NMPi</a>'
+    //     }
+    // }
+    // var UKOG = L.tileLayer.wms(UKOGobj.baseUrl, UKOGobj.options)
+
+
     let DK = new L.GeoJSON.AJAX("./data/DK_Geus_pipelines_simplified.geojson" ,{
         dataType: 'json',
         local: true,
@@ -175,22 +187,6 @@
         },
     }  );
 
-
-    // // http://www.arcgis.com/home/item.html?id=03a2802ec17d4512801d6f9b9ed84942
-    // var LAobj = {
-    //     baseUrl: "http://atlas.marine.ie/arcgis/services/EnergyResourcesInfrastructure/MapServer/WMSServer",
-    //     options: {
-    //         layers: ['NRG_LA_PipelinesOffshore_2007'],
-    //         CRS: "EPSG:4326",
-    //         format: 'image/png',
-    //         transparent: true,
-    //         noWrap: true,
-    //         opacity: 0.9,
-    //         attribution: ""
-    //     }
-    // }
-    // var LA = L.tileLayer.wms(LAobj.baseUrl, LAobj.options)
-
     var map = L.map('map', {
         attributionControl: true,
         zoom: 5,
@@ -199,15 +195,6 @@
         center: [57.0, 2.46],
         layers: [GEBCO]
     });
-
-    // var map = L.map('map', {
-    //     attributionControl: false,
-    //     center: [65.44605898069102, 7.263163986321805],
-    //     zoom: 20,
-    //     minZoom: 1,
-    //     maxZoom: 18,
-    //     layers: [GEBCO, NPD]
-    // });
 
     var basemaps = {
         "GEBCO": GEBCO,
