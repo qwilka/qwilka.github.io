@@ -11,4 +11,6 @@ title: About
 	</p>
 	<p>Following from my work on Skarv, I have developed a major interest and a high degree of expertise in subsea data. I have worked with large quantities of ROV video and multi-beam sonar data from pipeline surveys, and other types of data such as pipe vibrations data, and temperature and pressure process data. It's not easy visualizing and analysing large quantities of unstructured data, but I think it's worth the effort because all the things you can learn about how infrastructure actually behaves in the field. I often see things in the data that you wouldn't expect from engineering theory. Because I believe that other engineers would benefit from working closer with their data, I have founded a company called Qwilka that will help engineers manage, visualize, analyse and ultimately extract value from their data.
 	</p>
+	<p>There is a short [video in this post](https://qwilka.github.io/blog/2018/03/07/introducing_qwilka), in which I describe Qwilka and its plans for the future.
+	</p>
 </div>
