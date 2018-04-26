@@ -4,13 +4,13 @@ title: "Finding the fish in GIS"
 date: 2018-04-22
 ---
 
-I recently came across this 2002 ROV video of a small strange sea creature apparently walking across the seabed [on Linkedin](https://www.linkedin.com/feed/update/urn:li:activity:6390252332893900800):
+I recently came across this video in a [Linkedin post](https://www.linkedin.com/feed/update/urn:li:activity:6390252332893900800).  It's a clip of [ROV](https://en.wikipedia.org/wiki/Remotely_operated_underwater_vehicle) video that shows a small strange sea creature apparently walking across the seabed from a pipeline towards the ROV, and encountering a predator along the way:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zKK5qJjI98c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 &nbsp;
 
-This set me wondering about two things: what type of creature is it, and where was the video recorded? The video clip is also available [on YouTube](https://www.youtube.com/watch?v=zKK5qJjI98c), which incorrectly states that the location is in the North Sea. Commenters on the [Linkedin post](https://www.linkedin.com/feed/update/urn:li:activity:6390252332893900800) identify the creature as a [frog fish](https://en.wikipedia.org/wiki/Frogfish), and the location as offshore Vietnam, based on the [Lan Tay](https://www.rosneft.com/press/releases/item/181439/) identification on the video overlay. This would suggest that the pipeline that is visible at the start of the video clip is the [Nam Con Son](https://www.pvgas.com.vn/product-and-service/services/gas-transportation-and-distribution) 26" pipeline, which transports gas from the Lan Tay platform to the Vietnam mainland, and which was installed in 2002. 
+This set me wondering about two things: what type of creature is it, and where was the video recorded? The video clip is also available [on YouTube](https://www.youtube.com/watch?v=zKK5qJjI98c), which incorrectly states that the location is in the North Sea. The video overlay indicates that it was recorded in 2002. Commenters on the [Linkedin post](https://www.linkedin.com/feed/update/urn:li:activity:6390252332893900800) identify the creature as a [frog fish](https://en.wikipedia.org/wiki/Frogfish), and the location as offshore Vietnam, based on the [Lan Tay](https://www.rosneft.com/press/releases/item/181439/) identification on the overlay. This would suggest that the pipeline that is visible at the start of the video clip is the [Nam Con Son](https://www.pvgas.com.vn/product-and-service/services/gas-transportation-and-distribution) 26" pipeline, which transports gas from the Lan Tay platform to the Vietnam mainland, and which was installed in 2002. 
 
 ![Nam Con Son pipeline route](https://qwilka.github.io/images/NCSP2.jpg)
 
