@@ -13,6 +13,7 @@ markdown
 ========
 https://guides.github.com/features/mastering-markdown/
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links
+https://stackoverflow.com/questions/4823468/comments-in-markdown
 
 
 theme
@@ -35,3 +36,10 @@ http://zevross.com/blog/2014/04/25/adding-arcgis-map-services-to-your-map-using-
 https://github.com/Esri/esri-leaflet
 https://marinecadastre.gov/nationalviewer/
 https://marinecadastre.gov/data/
+
+Python 
+======
+# Windows paths: https://stackoverflow.com/a/46011113
+root_folder = os.path.join(pathlib.Path.home(), "Downloads")
+https://medium.com/@ageitgey/python-3-quick-tip-the-easy-way-to-deal-with-file-paths-on-windows-mac-and-linux-11a072b58d5f
+urllib.parse.quote("Table of Contents")
