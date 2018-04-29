@@ -37,9 +37,13 @@ https://github.com/Esri/esri-leaflet
 https://marinecadastre.gov/nationalviewer/
 https://marinecadastre.gov/data/
 
-Python 
+Learning Python 
 ======
 # Windows paths: https://stackoverflow.com/a/46011113
 root_folder = os.path.join(pathlib.Path.home(), "Downloads")
 https://medium.com/@ageitgey/python-3-quick-tip-the-easy-way-to-deal-with-file-paths-on-windows-mac-and-linux-11a072b58d5f
 urllib.parse.quote("Table of Contents")
+
+web
+===
+https://www.youtube.com/watch?v=gVXcqO9A1vo code academy Web Development 2018 - The Must-Know Tech
