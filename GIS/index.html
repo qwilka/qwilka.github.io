@@ -130,20 +130,27 @@
     }
     var IRE = L.tileLayer.wms(IREobj.baseUrl, IREobj.options)
 
+    // https://marinescotland.atkinsgeospatial.com/nmpi/default.aspx?layers=515#
+    // http://marine.gov.scot/maps/1529
+    // http://marine.gov.scot/maps/515
     // http://www.gov.scot/Topics/marine/seamanagement/nmpihome/wms-wfs
-    // var MarScoobj = {
-    //     baseUrl: "https://msmap1.atkinsgeospatial.com/geoserver/nmp/wms",
-    //     options: {
-    //         layers: 'nmp:fishing_intensity_pipelines_all_gears',
-    //         CRS: "EPSG:3857",
-    //         format: 'image/png',
-    //         transparent: true,
-    //         noWrap: true,
-    //         opacity: 0.9,
-    //         attribution: '<a target="_blank" href="http://www.gov.scot/Topics/marine/seamanagement/nmpihome/wms-wfs">Marine Scotland MAPS NMPi</a>'
-    //     }
-    // }
-    // var MarSco = L.tileLayer.wms(MarScoobj.baseUrl, MarScoobj.options)
+    // http://msmap1.atkinsgeospatial.com/geoserver/nmpwfs/ows?token=d46ffd2a-e192-4e51-8a6a-b3292c20f1ee&service=wms&request=getCapabilities
+    // https://data.gov.uk/dataset/ac766f0e-c121-4876-853d-cd68aa6181e1/resource/2987869a-dc81-4f4d-8955-1983ae288603
+    var MarScoobj = {
+        baseUrl: "http://msmap1.atkinsgeospatial.com/geoserver/nmpwfs/ows",
+        options: {
+            layers: 'utility_and_government_services_fishing_intensity_pipelines_all_gears',
+            CRS: "EPSG:3857",
+            format: 'image/png',
+            transparent: true,
+            noWrap: true,
+            opacity: 0.9,
+            token: "d46ffd2a-e192-4e51-8a6a-b3292c20f1ee",
+            attribution: '<a target="_blank" href="http://marine.gov.scot/maps/1529">&copy; Crown Copyright (ScotGov)</a>'
+        }
+    }
+    var MarSco = L.tileLayer.wms(MarScoobj.baseUrl, MarScoobj.options)
+//            layers: 'utility_and_government_services_fishing_intensity_pipelines_all_gears',
 
     // var UKOGobj = {
     //     baseUrl: "https://gis.ukoilandgasdata.com/gis/services/CDA/UKOilAndGasData/MapServer/WMSServer",
@@ -202,9 +209,10 @@
         "white background": WhiteBG
     }
     var overlaymaps = {
-        "Denmark offshore pipelines": DK,
-        "Ireland offshore pipelines": IRE,
-        "Norwegian Petroleum Directorate": NPD,
+        "Marine Scotland (fishing)": MarSco,
+        "Denmark pipelines": DK,
+        "Ireland pipelines": IRE,
+        "Norway NPD pipelines": NPD,
         "GEBCO source identifier": GEBCOsig
     }
 
