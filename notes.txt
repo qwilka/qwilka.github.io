@@ -43,6 +43,8 @@ Learning Python
 root_folder = os.path.join(pathlib.Path.home(), "Downloads")
 https://medium.com/@ageitgey/python-3-quick-tip-the-easy-way-to-deal-with-file-paths-on-windows-mac-and-linux-11a072b58d5f
 urllib.parse.quote("Table of Contents")
+https://github.com/jakevdp/WhirlwindTourOfPython
+https://www.oreilly.com/programming/free/files/a-whirlwind-tour-of-python.pdf
 
 web
 ===
