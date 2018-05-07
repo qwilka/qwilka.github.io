@@ -17,7 +17,7 @@ I have just set up a demonstration [GIS](https://en.wikipedia.org/wiki/Geographi
 </p>
 
 
-Hovering the cursor over the he layer control ![layer-control](/images/Leaflet_layer_control.svg){: height="24" width="24" } at the top-right enables selecting data layers for display. The attribution box (bottom-right) provides links to the displayed data sources (links will open in a new tab/window). Right-clicking on the map brings up a popup that displays the location coordinates.
+Hovering the cursor over the layer control (![layer-control](/images/Leaflet_layer_control.svg){: height="24" width="24" }) at the top-right enables selecting data layers for display. The attribution box on the bottom-right (![attribution-control](/images/Leaflet_attribution_control.jpg)) provides links to the sources of the displayed data (links will open in a new browser tab/window). Right-clicking on the map brings up a popup that displays the location coordinates:
 
 
 ![location pop-up](/images/location_coord_popup.jpg)
