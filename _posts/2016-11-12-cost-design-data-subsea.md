@@ -4,7 +4,7 @@ title: "Cost, Design and Data in Subsea"
 date: 2016-11-12
 ---
 
-![failed pipeline](https://qwilka.github.io/images/broken-pipeline.png)
+![failed pipeline](/images/broken-pipeline.png)
 
 _This article was first published on [first published on Linkedin](https://www.linkedin.com/pulse/cost-design-data-subsea-stephen-mcentee?articleId=6203192302513512448) on 12<sup>th</sup> November 2016._
 
