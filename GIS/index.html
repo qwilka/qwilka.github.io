@@ -210,7 +210,7 @@
     }
     var overlaymaps = {
         "Marine Scotland (fishing)": MarSco,
-        "Denmark pipelines": DK,
+        "Denmark pipelines (v)": DK,
         "Ireland pipelines": IRE,
         "Norway NPD pipelines": NPD,
         "GEBCO source identifier": GEBCOsig
@@ -281,7 +281,12 @@
                             var test = targetStr.match(/Elevation value \(m\):\s*(-?\d+)/)
                             if (test) {
                                 var elevation = test[1];
-                                pustr += "<br>elevation/depth " + elevation + " m (GEBCO)"
+                                if (elevation>=0) {
+                                    pustr += "<br>elevation " + elevation + " m (GEBCO)";
+                                } else {
+                                    pustr += "<br>depth " + elevation + " m (GEBCO)";
+                                }
+                                //pustr += "<br>elevation/depth " + elevation + " m (GEBCO)"
                                 console.log("elevation=", elevation)
                                 popup.setContent(pustr)
                             }

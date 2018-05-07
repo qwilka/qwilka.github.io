@@ -12,7 +12,7 @@ I recently came across this video in a [Linkedin post](https://www.linkedin.com/
 
 This set me wondering about two things: what type of creature is it, and where was the video recorded? The video clip is also available [on YouTube](https://www.youtube.com/watch?v=zKK5qJjI98c), which incorrectly states that the location is in the North Sea. The video overlay indicates that it was recorded in 2002. Commenters on the [Linkedin post](https://www.linkedin.com/feed/update/urn:li:activity:6390252332893900800) identify the creature as a [frog fish](https://en.wikipedia.org/wiki/Frogfish), and the location as offshore Vietnam, based on the [Lan Tay](https://www.rosneft.com/press/releases/item/181439/) identification on the overlay. This would suggest that the pipeline that is visible at the start of the video clip is the [Nam Con Son](https://www.pvgas.com.vn/product-and-service/services/gas-transportation-and-distribution) 26" pipeline, which transports gas from the Lan Tay platform to the Vietnam mainland, and which was installed in 2002. 
 
-![Nam Con Son pipeline route](https://qwilka.github.io/images/NCSP2.jpg)
+![Nam Con Son pipeline route](/images/NCSP2.jpg)
 
 <div style="font-size:xx-small">(Image adapted from the <a href="http://abarrelfull.wikidot.com/nam-con-son-gas-pipeline">Nam Con Son 2003 Environmental Statement.</a>)</div>
 

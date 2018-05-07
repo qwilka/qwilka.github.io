@@ -4,7 +4,7 @@ title: "Introducing the Qwilka Subsea GIS"
 date: 2018-04-19
 ---
 
-I have just set up a demonstration [GIS](https://en.wikipedia.org/wiki/Geographic_information_system) (geographic information system) for my subsea data company Qwilka. It is built using the open source web mapping library [Leaflet](http://leafletjs.com/), which is lightweight and easy to program. The plan is to use the [Qwilka Subsea GIS](https://qwilka.github.io/GIS/) to display openly available data related to the subsea oil & gas industry. The base map is taken from [GEBCO](https://www.gebco.net/) which provides a global map with ocean bathymetry. There is also an alternative base map from [OpenStreetMap](https://www.openstreetmap.org/) with more land based details like borders, roads and cities. You can use the layer control at the top-right to select data layers for display. The attribution box (bottom-right) provides links to the displayed data sources (links will open in a new tab/window). Right-clicking on the map brings up a popup displaying the location coordinates.
+I have just set up a demonstration [GIS](https://en.wikipedia.org/wiki/Geographic_information_system) (geographic information system) for my subsea data company Qwilka. It is built using the open source web mapping library [Leaflet](http://leafletjs.com/), which is lightweight and easy to program. The plan is to use the [Qwilka Subsea GIS](https://qwilka.github.io/GIS/) to display openly available data related to the subsea oil & gas industry. The base map is taken from [GEBCO](https://www.gebco.net/) which provides a global map with ocean bathymetry. There is also an alternative base map from [OpenStreetMap](https://www.openstreetmap.org/) with more land based details like borders, roads and cities. 
 
 &nbsp;
 
@@ -13,6 +13,16 @@ I have just set up a demonstration [GIS](https://en.wikipedia.org/wiki/Geographi
  <p align="center">
   <i>Go to webpage:</i><br>
   <a href="https://qwilka.github.io/GIS/">Qwilka Subsea GIS</a>
+  <br>
+</p>
+
+
+Hovering the cursor over the he layer control ![layer-control](/images/Leaflet_layer_control.svg){: height="24" width="24" } at the top-right enables selecting data layers for display. The attribution box (bottom-right) provides links to the displayed data sources (links will open in a new tab/window). Right-clicking on the map brings up a popup that displays the location coordinates.
+
+
+![location pop-up](/images/location_coord_popup.jpg)
+ <p align="left">
+  <i>Right-clicking at a location gives coordinate information.</i><br>
   <br>
 </p>
 
