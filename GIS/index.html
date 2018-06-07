@@ -194,6 +194,27 @@
         },
     }  );
 
+    // let BoundaryLines = new L.GeoJSON.AJAX("./data/ne_10m_admin_0_boundary_lines_maritime_indicator.geojson" ,{
+    //     dataType: 'json',
+    //     local: true,
+    //     attribution: '<a target="_blank" href="https://www.naturalearthdata.com/">NaturalEarth</a>',
+    // }  );
+
+    var EEZobj = {
+        baseUrl: "http://geo.vliz.be:80/geoserver/MarineRegions/wms",
+        options: {
+            layers: 'MarineRegions:eez_boundaries',
+            version: '1.1.1',
+            format: 'image/png',
+            transparent: true,
+            noWrap: true,
+            opacity: 0.9,
+            attribution: '<a target="_blank" href="http://www.marineregions.org">FlandersMarineInst (CC-BY-NC-SA)</a>'
+        }
+    }
+    var EEZ = L.tileLayer.wms(EEZobj.baseUrl, EEZobj.options)
+
+
     var map = L.map('map', {
         attributionControl: true,
         zoom: 5,
@@ -213,6 +234,7 @@
         "Denmark pipelines (v)": DK,
         "Ireland pipelines": IRE,
         "Norway NPD pipelines": NPD,
+        "Exclusive Economic Zones": EEZ,
         "GEBCO source identifier": GEBCOsig
     }
 

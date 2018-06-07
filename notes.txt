@@ -45,6 +45,7 @@ https://medium.com/@ageitgey/python-3-quick-tip-the-easy-way-to-deal-with-file-p
 urllib.parse.quote("Table of Contents")
 https://github.com/jakevdp/WhirlwindTourOfPython
 https://www.oreilly.com/programming/free/files/a-whirlwind-tour-of-python.pdf
+https://www.w3schools.com/python/default.asp
 
 web
 ===

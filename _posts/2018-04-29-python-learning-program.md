@@ -26,12 +26,12 @@ As you learn more, you will need to become familiar with the [Python Standard Li
 
 [PyVideo](http://pyvideo.org/) is a repository of presentations at various Python conferences around the world. [Browsing the videos](http://pyvideo.org/events.html) should give you some idea of the many interesting things people are doing with Python. There are also many [video tutorials](http://pyvideo.org/tag/tutorial/) available.
 
-https://www.learnpython.org/
-https://www.grahamwheeler.com/posts/python-crash-course.html
-https://github.com/jakevdp/WhirlwindTourOfPython
-(http://hplgit.github.io/prog4comp/)[Gentle Introduction to Numerical Simulations with Python, Linge & Langtangen]
-https://fangohr.github.io/blog/installation-of-python-spyder-numpy-sympy-scipy-pytest-matplotlib-via-anaconda.html
-https://github.com/spyder-ide/spyder
+* https://www.learnpython.org/
+* https://www.grahamwheeler.com/posts/python-crash-course.html
+* https://github.com/jakevdp/WhirlwindTourOfPython
+* (http://hplgit.github.io/prog4comp/)[Gentle Introduction to Numerical Simulations with Python, Linge & Langtangen]
+* https://fangohr.github.io/blog/installation-of-python-spyder-numpy-sympy-scipy-pytest-matplotlib-via-anaconda.html
+* https://github.com/spyder-ide/spyder
 
 
 ## And now for something completely different...
