@@ -29,7 +29,7 @@ As you learn more, you will need to become familiar with the [Python Standard Li
 * https://www.learnpython.org/
 * https://www.grahamwheeler.com/posts/python-crash-course.html
 * https://github.com/jakevdp/WhirlwindTourOfPython
-* (http://hplgit.github.io/prog4comp/)[Gentle Introduction to Numerical Simulations with Python, Linge & Langtangen]
+* [Gentle Introduction to Numerical Simulations with Python, Linge & Langtangen](http://hplgit.github.io/prog4comp/)
 * https://fangohr.github.io/blog/installation-of-python-spyder-numpy-sympy-scipy-pytest-matplotlib-via-anaconda.html
 * https://github.com/spyder-ide/spyder
 
