@@ -114,73 +114,66 @@ var MarSco = L.tileLayer.wms(MarScoobj.baseUrl, MarScoobj.options)
 // }
 // var UKOG = L.tileLayer.wms(UKOGobj.baseUrl, UKOGobj.options)
 
-//var DK = new L.LayerGroup; // empty layer https://stackoverflow.com/questions/28802535/add-empty-overlay-to-leaflet-map
-// DK = new L.GeoJSON.AJAX("./data/DK_Geus_pipelines_simplified.geojson" ,{
-//     dataType: 'json',
-//     local: true,
-//     attribution: '<a target="_blank" href="http://data.geus.dk/geusmap/ows/help/?lang=en">DK-Geus</a>',
-//     style: function(feature) {
-//         switch (feature.properties.content_name.toLowerCase()) {
-//             case 'gas': return {color: "#008b00"};
-//             case 'oil':  return {color: "#8b0000"};
-//             case 'multi-phase':  return {color: "#cdcd00"};
-//             default:  return {color: "#36648b", "weight": 1, "opacity": 1.0}; 
-//         }
-//     },
-//     onEachFeature: function (feature, layer) {
-//         layer.on({
-//             click: function onGeojsonLayerClick(evt) {
-//                 var contstr = "Denmark pipeline";
-//                 contstr += '<br>name: <b>'+feature.properties.name+'</b>';
-//                 contstr += '<br>service: '+feature.properties.content_name.toLowerCase();
-//                 popup
-//                     .setLatLng(evt.latlng)
-//                     .setContent(contstr)
-//                     .openOn(map)
-//             }
-//         });
-//     },
-// }  );
-$.getJSON("./data/DK_Geus_pipelines_simplified.geojson" , function(geoj) {
-    var DK = L.geoJSON(geoj, {
-        dataType: 'json',
-        local: true,
-        attribution: '<a target="_blank" href="http://data.geus.dk/geusmap/ows/help/?lang=en">DK-Geus</a>',
-        style: function(feature) {
-            switch (feature.properties.content_name.toLowerCase()) {
-                case 'gas': return {color: "#008b00"};
-                case 'oil':  return {color: "#8b0000"};
-                case 'multi-phase':  return {color: "#cdcd00"};
-                default:  return {color: "#36648b", "weight": 1, "opacity": 1.0}; 
-            }
-        },
-        onEachFeature: function (feature, layer) {
-            layer.on({
-                click: function onGeojsonLayerClick(evt) {
-                    var contstr = "Denmark pipeline";
-                    contstr += '<br>name: <b>'+feature.properties.name+'</b>';
-                    contstr += '<br>service: '+feature.properties.content_name.toLowerCase();
-                    popup
-                        .setLatLng(evt.latlng)
-                        .setContent(contstr)
-                        .openOn(map)
-                }
-            });
+var DK = new L.LayerGroup; // empty layer https://stackoverflow.com/questions/28802535/add-empty-overlay-to-leaflet-map
+DK = new L.GeoJSON.AJAX("./data/DK_Geus_pipelines_simplified.geojson" ,{
+    dataType: 'json',
+    local: true,
+    attribution: '<a target="_blank" href="http://data.geus.dk/geusmap/ows/help/?lang=en">DK-Geus</a>',
+    style: function(feature) {
+        switch (feature.properties.content_name.toLowerCase()) {
+            case 'gas': return {color: "#008b00"};
+            case 'oil':  return {color: "#8b0000"};
+            case 'multi-phase':  return {color: "#cdcd00"};
+            default:  return {color: "#36648b", "weight": 1, "opacity": 1.0}; 
         }
-    } );
-    layerCon.addOverlay(DK, "Denmark pipelines (v)");
-});
-
-// let BoundaryLines = new L.GeoJSON.AJAX("./data/ne_10m_admin_0_boundary_lines_maritime_indicator.geojson" ,{
-//     dataType: 'json',
-//     local: true,
-//     attribution: '<a target="_blank" href="https://www.naturalearthdata.com/">NaturalEarth</a>',
-// }  );
-// let GoMpl = new L.GeoJSON.AJAX("./data/gulf_of_mexico_pipelines_cpu.json" ,{
-//     dataType: 'json',
-//     local: true,
-//     attribution: '<a target="_blank" href="https://www.naturalearthdata.com/">NaturalEarth</a>',
-// }  );
+    },
+    onEachFeature: function (feature, layer) {
+        layer.on({
+            click: function onGeojsonLayerClick(evt) {
+                var contstr = "Denmark pipeline";
+                contstr += '<br>name: <b>'+feature.properties.name+'</b>';
+                contstr += '<br>service: '+feature.properties.content_name.toLowerCase();
+                popup
+                    .setLatLng(evt.latlng)
+                    .setContent(contstr)
+                    .openOn(map)
+            }
+        });
+    },
+}  );
+// $.getJSON("./data/DK_Geus_pipelines_simplified.geojson" , function(geoj) {
+//     DK = L.geoJSON(geoj, {
+//         dataType: 'json',
+//         local: true,
+//         attribution: '<a target="_blank" href="http://data.geus.dk/geusmap/ows/help/?lang=en">DK-Geus</a>',
+//         style: function(feature) {
+//             switch (feature.properties.content_name.toLowerCase()) {
+//                 case 'gas': return {color: "#008b00"};
+//                 case 'oil':  return {color: "#8b0000"};
+//                 case 'multi-phase':  return {color: "#cdcd00"};
+//                 default:  return {color: "#36648b", "weight": 1, "opacity": 1.0}; 
+//             }
+//         },
+//         onEachFeature: function (feature, layer) {
+//             layer.on({
+//                 click: function onGeojsonLayerClick(evt) {
+//                     var contstr = "Denmark pipeline";
+//                     contstr += '<br>name: <b>'+feature.properties.name+'</b>';
+//                     contstr += '<br>service: '+feature.properties.content_name.toLowerCase();
+//                     popup
+//                         .setLatLng(evt.latlng)
+//                         .setContent(contstr)
+//                         .openOn(map)
+//                 }
+//             });
+//         }
+//     } );
+//     //layerCon.addOverlay(DK, "Denmark pipelines (v)");
+// });
+// var DKgeojson = {
+//     "type": "Point", 
+//     "coordinates": [0, 0]
+// }
 
 // layers: 'MarineRegions:eez_boundaries',
 var EEZobj = {
