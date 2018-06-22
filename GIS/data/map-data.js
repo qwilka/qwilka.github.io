@@ -114,7 +114,7 @@ var MarSco = L.tileLayer.wms(MarScoobj.baseUrl, MarScoobj.options)
 // }
 // var UKOG = L.tileLayer.wms(UKOGobj.baseUrl, UKOGobj.options)
 
-//var DK = new L.LayerGroup; // empty layer
+//var DK = new L.LayerGroup; // empty layer https://stackoverflow.com/questions/28802535/add-empty-overlay-to-leaflet-map
 // DK = new L.GeoJSON.AJAX("./data/DK_Geus_pipelines_simplified.geojson" ,{
 //     dataType: 'json',
 //     local: true,

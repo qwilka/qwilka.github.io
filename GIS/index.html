@@ -17,6 +17,8 @@
     <script src="libs/geodesy/latlon-ellipsoidal.js"></script>
     <script src="libs/geodesy/utm.js"></script>
     <script src="libs/geodesy/dms.js"></script>
+    <script src="libs/layers_tree/L.Control.Layers.Tree.js"></script>
+    <link rel="stylesheet" type="text/css" href="libs/layers_tree/L.Control.Layers.Tree.css"/>
     <script src="data/map-data.js"></script>
     <!-- <script src="https://unpkg.com/rbush@2.0.1/rbush.min.js"></script> -->
 
@@ -62,20 +64,6 @@
         layers: [GEBCO]
     });
 
-    var basemaps = {
-        "GEBCO": GEBCO,
-        "OpenStreetMap": OSM,
-        "white background": WhiteBG
-    }
-    var overlaymaps = {
-        "Marine Scotland (fishing)": MarSco,
-        "Ireland pipelines": IRE,
-        "Norway NPD pipelines": NPD,
-        "BOEM GoM bathy hillshade": BOEMbathy,
-        "GoM pipelines": GoMpl,
-        "Exclusive Economic Zones": EEZ,
-        "GEBCO source identifier": GEBCOsig
-    }
 
     // var title = L.control();
     // title.onAdd = function(map) {
@@ -89,8 +77,23 @@
     // };
     // title.addTo(map);
 
-    var layerCon = L.control.layers(basemaps, overlaymaps, {collapsed: true})
-    layerCon.addTo(map);
+    // var basemaps = {
+    //     "GEBCO": GEBCO,
+    //     "OpenStreetMap": OSM,
+    //     "white background": WhiteBG
+    // }
+    // var overlaymaps = {
+    //     "Marine Scotland (fishing)": MarSco,
+    //     "Ireland pipelines": IRE,
+    //     "Norway NPD pipelines": NPD,
+    //     "BOEM GoM bathy hillshade": BOEMbathy,
+    //     "GoM pipelines": GoMpl,
+    //     "Exclusive Economic Zones": EEZ,
+    //     "GEBCO source identifier": GEBCOsig
+    // }
+
+    // var layerCon = L.control.layers(basemaps, overlaymaps, {collapsed: true})
+    // layerCon.addTo(map);
 
     var attribut = L.control.attribution({ 
         position: 'bottomright', 
@@ -167,6 +170,81 @@
     }
     map.on('contextmenu', onMapClick)
 
+
+
+var baseTree = {
+    label: 'World base maps &#x1f5fa;',
+    children: [
+        { label: 'GEBCO', layer: GEBCO },
+        { label: 'OpenStreetMap', layer: OSM },
+        { label: 'white background', layer: WhiteBG },
+    ]
+};
+var overlayTree = {
+    label: 'Ireland',
+    children: [
+        { label: 'pipelines & fields', layer: IRE },
+    ],
+    label: 'Norway',
+    children: [
+        { label: 'pipelines & infrastructure', layer: NPD },
+    ],
+    label: 'UK',
+    children: [
+        { label: 'Fishing intensity', layer: MarSco },
+    ],
+    label: 'USA',
+    children: [
+        { label: 'GoM pipelines', layer: GoMpl },
+        { label: 'GoM bathymetric hillshade', layer: BOEMbathy },
+    ],
+    label: 'other resources',
+    children: [
+        { label: 'Exclusive economic zones', layer: EEZ },
+        { label: 'GEBCO source identifier', layer: GEBCOsig },
+    ],
+};
+var overlayTree = [
+    {
+        label: 'Ireland',
+        children: [
+            { label: 'pipelines & fields', layer: IRE },
+        ],      
+    },
+    {
+        label: 'Norway',
+        children: [
+            { label: 'pipelines & infrastructure', layer: NPD },
+        ],      
+    },
+    {
+        label: 'UK',
+        children: [
+            { label: 'Fishing intensity', layer: GoMpl },
+        ],      
+    },
+    {
+        label: 'USA',
+        children: [
+            { label: 'GoM pipelines', layer: GoMpl },
+            { label: 'GoM bathymetric hillshade', layer: BOEMbathy },
+        ],      
+    },
+    {
+        label: 'other resources',
+        children: [
+        { label: 'Exclusive economic zone boundaries', layer: EEZ },
+        { label: 'GEBCO source identifier', layer: GEBCOsig },
+        ],      
+    },
+];
+
+var layerCtl = L.control.layers.tree(baseTree, overlayTree, {
+    collapsed: true,
+});
+layerCtl.addTo(map)
+layerCtl.collapseTree()
+layerCtl.collapseTree(true)
     </script>
 
 </body>
