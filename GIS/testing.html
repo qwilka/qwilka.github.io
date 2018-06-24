@@ -52,7 +52,71 @@
     
     <script>
 
-
+// var DK = $.getJSON("./data/DK_Geus_pipelines_simplified.geojson" , function(geoj) {
+//     L.geoJSON(geoj, {
+//         dataType: 'json',
+//         local: true,
+//         attribution: '<a target="_blank" href="http://data.geus.dk/geusmap/ows/help/?lang=en">DK-Geus</a>',
+//         style: function(feature) {
+//             switch (feature.properties.content_name.toLowerCase()) {
+//                 case 'gas': return {color: "#008b00"};
+//                 case 'oil':  return {color: "#8b0000"};
+//                 case 'multi-phase':  return {color: "#cdcd00"};
+//                 default:  return {color: "#36648b", "weight": 1, "opacity": 1.0}; 
+//             }
+//         },
+//         onEachFeature: function (feature, layer) {
+//             layer.on({
+//                 click: function onGeojsonLayerClick(evt) {
+//                     var contstr = "Denmark pipeline";
+//                     contstr += '<br>name: <b>'+feature.properties.name+'</b>';
+//                     contstr += '<br>service: '+feature.properties.content_name.toLowerCase();
+//                     popup
+//                         .setLatLng(evt.latlng)
+//                         .setContent(contstr)
+//                         .openOn(map)
+//                 }
+//             });
+//         }
+//     } ).done(function(data){
+//         console.log(data);
+//         return data
+//     }
+//     )
+//     //layerCon.addOverlay(DK, "Denmark pipelines (v)");
+// });
+var tt = $.getJSON("./data/DK_Geus_pipelines_simplified.geojson" , function(geoj) {
+    L.geoJSON(geoj, {
+        dataType: 'json',
+        local: true,
+        attribution: '<a target="_blank" href="http://data.geus.dk/geusmap/ows/help/?lang=en">DK-Geus</a>',
+        style: function(feature) {
+            switch (feature.properties.content_name.toLowerCase()) {
+                case 'gas': return {color: "#008b00"};
+                case 'oil':  return {color: "#8b0000"};
+                case 'multi-phase':  return {color: "#cdcd00"};
+                default:  return {color: "#36648b", "weight": 1, "opacity": 1.0}; 
+            }
+        },
+        onEachFeature: function (feature, layer) {
+            layer.on({
+                click: function onGeojsonLayerClick(evt) {
+                    var contstr = "Denmark pipeline";
+                    contstr += '<br>name: <b>'+feature.properties.name+'</b>';
+                    contstr += '<br>service: '+feature.properties.content_name.toLowerCase();
+                    popup
+                        .setLatLng(evt.latlng)
+                        .setContent(contstr)
+                        .openOn(map)
+                }
+            });
+        }
+    } ) 
+    }).done(function(data){
+        console.log("done!", data);
+        return data
+    }
+    )
 
 
     var map = L.map('map', {
@@ -66,35 +130,6 @@
     });
 
 
-    // var title = L.control();
-    // title.onAdd = function(map) {
-    //     this._div = L.DomUtil.create('div', 'ctl title');
-    //     this.update();
-    //     return this._div;
-    // };
-    // title.update = function(props) {
-    //     this._div.innerHTML = '<div style="font-family:Arial">Qwilka Subsea GIS</div> \
-    //     <div align="middle" style="font-family:Arial;font-size:small"><a target="_blank" href="https://qwilka.github.io/blog/2018/04/19/introducing-qwilka-gis">about</a></div>';
-    // };
-    // title.addTo(map);
-
-    // var basemaps = {
-    //     "GEBCO": GEBCO,
-    //     "OpenStreetMap": OSM,
-    //     "white background": WhiteBG
-    // }
-    // var overlaymaps = {
-    //     "Marine Scotland (fishing)": MarSco,
-    //     "Ireland pipelines": IRE,
-    //     "Norway NPD pipelines": NPD,
-    //     "BOEM GoM bathy hillshade": BOEMbathy,
-    //     "GoM pipelines": GoMpl,
-    //     "Exclusive Economic Zones": EEZ,
-    //     "GEBCO source identifier": GEBCOsig
-    // }
-
-    // var layerCon = L.control.layers(basemaps, overlaymaps, {collapsed: true})
-    // layerCon.addTo(map);
 
     var attribut = L.control.attribution({ 
         position: 'bottomright', 
@@ -173,61 +208,61 @@
 
 
 
-    var baseTree = {
-        label: 'World base maps &#x1f5fa;',
+var baseTree = {
+    label: 'World base maps &#x1f5fa;',
+    children: [
+        { label: 'GEBCO', layer: GEBCO },
+        { label: 'OpenStreetMap', layer: OSM },
+        { label: 'white background', layer: WhiteBG },
+    ]
+};
+var overlayTree = [
+    {
+            label: 'Denmark',
+            children: [
+                { label: 'pipelines (v)', layer: DK },
+            ],      
+        },
+    {
+        label: 'Ireland',
         children: [
-            { label: 'GEBCO', layer: GEBCO },
-            { label: 'OpenStreetMap', layer: OSM },
-            { label: 'white background', layer: WhiteBG },
-        ]
-    };
-    var overlayTree = [
-        {
-                label: 'Denmark',
-                children: [
-                    { label: 'pipelines (v)', layer: DK },
-                ],      
-            },
-        {
-            label: 'Ireland',
-            children: [
-                { label: 'pipelines & fields', layer: IRE },
-            ],      
-        },
-        {
-            label: 'Norway',
-            children: [
-                { label: 'pipelines & infrastructure', layer: NPD },
-            ],      
-        },
-        {
-            label: 'UK',
-            children: [
-                { label: 'Fishing intensity', layer: MarSco },
-            ],      
-        },
-        {
-            label: 'USA',
-            children: [
-                { label: 'GoM pipelines', layer: GoMpl },
-                { label: 'GoM bathymetric hillshade', layer: BOEMbathy },
-            ],      
-        },
-        {
-            label: 'other resources',
-            children: [
-            { label: 'Exclusive economic zone boundaries', layer: EEZ },
-            { label: 'GEBCO source identifier', layer: GEBCOsig },
-            ],      
-        },
-    ];
+            { label: 'pipelines & fields', layer: IRE },
+        ],      
+    },
+    {
+        label: 'Norway',
+        children: [
+            { label: 'pipelines & infrastructure', layer: NPD },
+        ],      
+    },
+    {
+        label: 'UK',
+        children: [
+            { label: 'Fishing intensity', layer: MarSco },
+        ],      
+    },
+    {
+        label: 'USA',
+        children: [
+            { label: 'GoM pipelines', layer: GoMpl },
+            { label: 'GoM bathymetric hillshade', layer: BOEMbathy },
+        ],      
+    },
+    {
+        label: 'other resources',
+        children: [
+        { label: 'Exclusive economic zone boundaries', layer: EEZ },
+        { label: 'GEBCO source identifier', layer: GEBCOsig },
+        ],      
+    },
+];
 
-    var layerCtl = L.control.layers.tree(baseTree, overlayTree, {
-        collapsed: true,
-    });
-    layerCtl.addTo(map)
-    layerCtl.collapseTree()
-    layerCtl.collapseTree(true)
+var layerCtl = L.control.layers.tree(baseTree, overlayTree, {
+    collapsed: true,
+});
+layerCtl.addTo(map)
+layerCtl.collapseTree()
+layerCtl.collapseTree(true)
     </script>
 
 </body>
