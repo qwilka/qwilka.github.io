@@ -234,7 +234,7 @@ var BOEMbathyobj = {
         maxZoom: 14,
         noWrap: true,
         transparent: true,
-        opacity: 0.7,
+        opacity: 0.8,
         attribution: '<a target="_blank" href="https://gis.boem.gov/">BOEM</a>'	
     }
 }
@@ -265,7 +265,7 @@ var GoMplobj = {
         maxZoom: 14,
         noWrap: true,
         transparent: true,
-        opacity: 0.7,
+        opacity: 1.0,
         attribution: '<a target="_blank" href="https://worldmap.harvard.edu/data/geonode:gulf_of_mexico_pipelines_cpu">Harvard WorldMap Project</a>'	
     }
 }
