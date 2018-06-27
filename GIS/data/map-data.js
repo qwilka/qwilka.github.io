@@ -47,8 +47,95 @@ var GEBCOsigObj = {
     }
 }
 var GEBCOsig = L.tileLayer.wms(GEBCOsigObj.baseUrl, GEBCOsigObj.options)
-//baseUrl: "https://www.gebco.net/data_and_products/gebco_web_services/web_map_service/mapserv?request=getmap&service=wms&BBOX=-90,-180,90,180&crs=EPSG:4326&format=image/jpeg&layers=gebco_latest_sid&width=900&height=600&version=1.3.0",
-//  layers: ['dscAll', 'pplAll', 'fclFixed'],
+
+// https://ogc.fiskeridir.no/wms.ashx?service=WMS&request=GetCapabilities&version=1.3.0
+var FiskDir2017K4 = {
+    title: "2017 K4 Norske fiskefartøy",
+    source: "WMS",
+    type: "OVERLAY",
+    ref: ["https://www.gebco.net/data_and_products/gebco_web_services/web_map_service/"],
+    baseUrl: "https://ogc.fiskeridir.no/wms.ashx",
+    options: {
+        layers: "layer_585",
+        CRS: "EPSG:23032",
+        format: 'image/png',
+        transparent: true,
+        noWrap: true,
+        opacity: 0.9,
+        attribution: '<a target="_blank" href="https://www.fiskeridir.no/Kart/Om-kartdata/Om-nedlasting-av-geodata">Fiskeridirektoratet</a>'
+    }
+}
+FiskDir2017K4.layer = L.tileLayer.wms(FiskDir2017K4.baseUrl, FiskDir2017K4.options)
+var FiskDir2017K3 = {
+    title: "2017 K3 Norske fiskefartøy",
+    source: "WMS",
+    type: "OVERLAY",
+    ref: ["https://www.gebco.net/data_and_products/gebco_web_services/web_map_service/"],
+    baseUrl: "https://ogc.fiskeridir.no/wms.ashx",
+    options: {
+        layers: "layer_584",
+        CRS: "EPSG:23032",
+        format: 'image/png',
+        transparent: true,
+        noWrap: true,
+        opacity: 0.9,
+        attribution: '<a target="_blank" href="https://www.fiskeridir.no/Kart/Om-kartdata/Om-nedlasting-av-geodata">Fiskeridirektoratet</a>'
+    }
+}
+FiskDir2017K3.layer = L.tileLayer.wms(FiskDir2017K3.baseUrl, FiskDir2017K3.options)
+var FiskDir2017K2 = {
+    title: "2017 K2 Norske fiskefartøy",
+    source: "WMS",
+    type: "OVERLAY",
+    ref: ["https://www.gebco.net/data_and_products/gebco_web_services/web_map_service/"],
+    baseUrl: "https://ogc.fiskeridir.no/wms.ashx",
+    options: {
+        layers: "layer_583",
+        CRS: "EPSG:23032",
+        format: 'image/png',
+        transparent: true,
+        noWrap: true,
+        opacity: 0.9,
+        attribution: '<a target="_blank" href="https://www.fiskeridir.no/Kart/Om-kartdata/Om-nedlasting-av-geodata">Fiskeridirektoratet</a>'
+    }
+}
+FiskDir2017K2.layer = L.tileLayer.wms(FiskDir2017K2.baseUrl, FiskDir2017K2.options)
+var FiskDir2017K1 = {
+    title: "2017 K1 Norske fiskefartøy",
+    source: "WMS",
+    type: "OVERLAY",
+    ref: ["https://www.gebco.net/data_and_products/gebco_web_services/web_map_service/"],
+    baseUrl: "https://ogc.fiskeridir.no/wms.ashx",
+    options: {
+        layers: "layer_582",
+        CRS: "EPSG:23032",
+        format: 'image/png',
+        transparent: true,
+        noWrap: true,
+        opacity: 0.9,
+        attribution: '<a target="_blank" href="https://www.fiskeridir.no/Kart/Om-kartdata/Om-nedlasting-av-geodata">Fiskeridirektoratet</a>'
+    }
+}
+FiskDir2017K1.layer = L.tileLayer.wms(FiskDir2017K1.baseUrl, FiskDir2017K1.options)
+var FiskDir2017U = {
+    title: "2017 Utenlandske fiskefartøy",
+    source: "WMS",
+    type: "OVERLAY",
+    ref: ["https://www.gebco.net/data_and_products/gebco_web_services/web_map_service/"],
+    baseUrl: "https://ogc.fiskeridir.no/wms.ashx",
+    options: {
+        layers: "layer_581",
+        CRS: "EPSG:23032",
+        format: 'image/png',
+        transparent: true,
+        noWrap: true,
+        opacity: 0.9,
+        attribution: '<a target="_blank" href="https://www.fiskeridir.no/Kart/Om-kartdata/Om-nedlasting-av-geodata">Fiskeridirektoratet</a>'
+    }
+}
+FiskDir2017U.layer = L.tileLayer.wms(FiskDir2017U.baseUrl, FiskDir2017U.options)
+
+
 var NPDobj = {
     baseUrl: "http://gis.npd.no/ogc/factmaps/2_0",
     options: {
