@@ -62,7 +62,7 @@ var FiskDir2017K4 = {
         transparent: true,
         noWrap: true,
         opacity: 0.9,
-        attribution: '<a target="_blank" href="https://www.fiskeridir.no/Kart/Om-kartdata/Om-nedlasting-av-geodata">Fiskeridirektoratet</a>'
+        attribution: '<a target="_blank" href="https://www.fiskeridir.no/Kart/Om-kartdata/Om-nedlasting-av-geodata">Fiskeridirektoratet</a> <a target="_blank" href="https://data.norge.no/nlod/no">(NLOD)</a>'
     }
 }
 FiskDir2017K4.layer = L.tileLayer.wms(FiskDir2017K4.baseUrl, FiskDir2017K4.options)
@@ -79,7 +79,7 @@ var FiskDir2017K3 = {
         transparent: true,
         noWrap: true,
         opacity: 0.9,
-        attribution: '<a target="_blank" href="https://www.fiskeridir.no/Kart/Om-kartdata/Om-nedlasting-av-geodata">Fiskeridirektoratet</a>'
+        attribution: '<a target="_blank" href="https://www.fiskeridir.no/Kart/Om-kartdata/Om-nedlasting-av-geodata">Fiskeridirektoratet</a> <a target="_blank" href="https://data.norge.no/nlod/no">(NLOD)</a>'
     }
 }
 FiskDir2017K3.layer = L.tileLayer.wms(FiskDir2017K3.baseUrl, FiskDir2017K3.options)
@@ -96,7 +96,7 @@ var FiskDir2017K2 = {
         transparent: true,
         noWrap: true,
         opacity: 0.9,
-        attribution: '<a target="_blank" href="https://www.fiskeridir.no/Kart/Om-kartdata/Om-nedlasting-av-geodata">Fiskeridirektoratet</a>'
+        attribution: '<a target="_blank" href="https://www.fiskeridir.no/Kart/Om-kartdata/Om-nedlasting-av-geodata">Fiskeridirektoratet</a> <a target="_blank" href="https://data.norge.no/nlod/no">(NLOD)</a>'
     }
 }
 FiskDir2017K2.layer = L.tileLayer.wms(FiskDir2017K2.baseUrl, FiskDir2017K2.options)
@@ -113,7 +113,7 @@ var FiskDir2017K1 = {
         transparent: true,
         noWrap: true,
         opacity: 0.9,
-        attribution: '<a target="_blank" href="https://www.fiskeridir.no/Kart/Om-kartdata/Om-nedlasting-av-geodata">Fiskeridirektoratet</a>'
+        attribution: '<a target="_blank" href="https://www.fiskeridir.no/Kart/Om-kartdata/Om-nedlasting-av-geodata">Fiskeridirektoratet</a> <a target="_blank" href="https://data.norge.no/nlod/no">(NLOD)</a>'
     }
 }
 FiskDir2017K1.layer = L.tileLayer.wms(FiskDir2017K1.baseUrl, FiskDir2017K1.options)
@@ -130,7 +130,7 @@ var FiskDir2017U = {
         transparent: true,
         noWrap: true,
         opacity: 0.9,
-        attribution: '<a target="_blank" href="https://www.fiskeridir.no/Kart/Om-kartdata/Om-nedlasting-av-geodata">Fiskeridirektoratet</a>'
+        attribution: '<a target="_blank" href="https://www.fiskeridir.no/Kart/Om-kartdata/Om-nedlasting-av-geodata">Fiskeridirektoratet</a> <a target="_blank" href="https://data.norge.no/nlod/no">(NLOD)</a>'
     }
 }
 FiskDir2017U.layer = L.tileLayer.wms(FiskDir2017U.baseUrl, FiskDir2017U.options)
@@ -138,6 +138,10 @@ FiskDir2017U.layer = L.tileLayer.wms(FiskDir2017U.baseUrl, FiskDir2017U.options)
 
 var NPDobj = {
     baseUrl: "http://gis.npd.no/ogc/factmaps/2_0",
+    title: "Pipelines & infrastructure",
+    source: "WMS",
+    type: "OVERLAY",
+    ref: ["http://npdwms.npd.no/", "http://www.npd.no/en/Maps/Fact-maps/"],
     options: {
         layers: "dscAll,pplAll,fclFixed",
         CRS: "EPSG:23032",
@@ -145,7 +149,7 @@ var NPDobj = {
         transparent: true,
         noWrap: true,
         opacity: 0.9,
-        attribution: '<a target="_blank" href="http://npdwms.npd.no/">NPD</a>'
+        attribution: '<a target="_blank" href="http://www.npd.no/en/Maps/Fact-maps/">NPD</a> <a target="_blank" href="https://data.norge.no/nlod/no">(NLOD)</a>'
     }
 }
 var NPD = L.tileLayer.wms(NPDobj.baseUrl, NPDobj.options)
@@ -185,7 +189,30 @@ var MarScoobj = {
     }
 }
 var MarSco = L.tileLayer.wms(MarScoobj.baseUrl, MarScoobj.options)
-//            layers: 'utility_and_government_services_fishing_intensity_pipelines_all_gears',
+var MarScoPl = {
+    title: "Pipelines & fields",
+    source: "WMS",
+    type: "OVERLAY",
+    ref: [
+        "http://marine.gov.scot/node/14373",
+        "http://marine.gov.scot/maps/616", 
+        "http://marine.gov.scot/maps/615",
+        "http://www.gov.scot/Topics/marine/seamanagement/nmpihome/layers",
+        "http://msmap1.atkinsgeospatial.com/geoserver/ows/nmp?service=WMS&request=GetCapabilities&version=1.3.0"
+    ],
+    baseUrl: "http://msmap1.atkinsgeospatial.com/geoserver/ows/nmp",
+    options: {
+        layers: "nmp:NMPMAP8polygon,nmp:NMPMAP8line",
+        CRS: "EPSG:3857",
+        format: 'image/png',
+        transparent: true,
+        noWrap: true,
+        opacity: 0.9,
+        token: "d46ffd2a-e192-4e51-8a6a-b3292c20f1ee",
+        attribution: '<a target="_blank" href="http://marine.gov.scot/maps/616">&copy; Crown Copyright (ScotGov)</a>'
+    }
+}
+MarScoPl.layer = L.tileLayer.wms(MarScoPl.baseUrl, MarScoPl.options)
 
 // var UKOGobj = {
 //     baseUrl: "https://gis.ukoilandgasdata.com/gis/services/CDA/UKOilAndGasData/MapServer/WMSServer",
