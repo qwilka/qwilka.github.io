@@ -338,21 +338,21 @@ var EEZobj = {
 var EEZ = L.tileLayer.wms(EEZobj.baseUrl, EEZobj.options)
 
 
-var BOEMbathyobj = {
-    baseUrl: "https://gis.boem.gov/arcgis/services/BOEM_BSEE/GOM_Deepwater_Bathymetry_and_Hillshade_Tiled/MapServer/WmsServer",
-    options: {
-        layers: "0",
-        CRS: "EPSG:4326",
-        version: '1.1.1',
-        format: 'image/png',
-        maxZoom: 14,
-        noWrap: true,
-        transparent: true,
-        opacity: 0.8,
-        attribution: '<a target="_blank" href="https://gis.boem.gov/">BOEM</a>'	
-    }
-}
-var BOEMbathy = L.tileLayer.wms(BOEMbathyobj.baseUrl, BOEMbathyobj.options)
+// var BOEMbathyobj = {
+//     baseUrl: "https://gis.boem.gov/arcgis/services/BOEM_BSEE/GOM_Deepwater_Bathymetry_and_Hillshade_Tiled/MapServer/WmsServer",
+//     options: {
+//         layers: "0",
+//         CRS: "EPSG:4326",
+//         version: '1.1.1',
+//         format: 'image/png',
+//         maxZoom: 14,
+//         noWrap: true,
+//         transparent: true,
+//         opacity: 0.8,
+//         attribution: '<a target="_blank" href="https://gis.boem.gov/">BOEM</a>'	
+//     }
+// }
+// var BOEMbathy = L.tileLayer.wms(BOEMbathyobj.baseUrl, BOEMbathyobj.options)
 
 // var BOEMplobj = {
 //     baseUrl: "https://gis.boem.gov/arcgis/services/BOEM_BSEE/POC_Layers/MapServer/WmsServer",
@@ -369,21 +369,77 @@ var BOEMbathy = L.tileLayer.wms(BOEMbathyobj.baseUrl, BOEMbathyobj.options)
 //     }
 // }
 // var BOEMpl = L.tileLayer.wms(BOEMplobj.baseUrl, BOEMplobj.options)
-var GoMplobj = {
-    baseUrl: "http://worldmap.harvard.edu/geoserver/geonode/gulf_of_mexico_pipelines_cpu/ows",
+
+// var GoMplobj = {
+//     baseUrl: "http://worldmap.harvard.edu/geoserver/geonode/gulf_of_mexico_pipelines_cpu/ows",
+//     options: {
+//         layers: "gulf_of_mexico_pipelines_cpu",
+//         CRS: "EPSG:4267",
+//         version: '1.3.0',
+//         format: 'image/png',
+//         maxZoom: 14,
+//         noWrap: true,
+//         transparent: true,
+//         opacity: 1.0,
+//         attribution: '<a target="_blank" href="https://worldmap.harvard.edu/data/geonode:gulf_of_mexico_pipelines_cpu">Harvard WorldMap Project</a>'	
+//     }
+// }
+// var GoMpl = L.tileLayer.wms(GoMplobj.baseUrl, GoMplobj.options)
+
+var GoMbathy = {
+    title: "GoM deepwater bathymetric hillshade",
+    source: "WMS",
+    type: "OVERLAY",
+    ref: [],
+    baseUrl: "https://gis.boem.gov/arcgis/services/BOEM_BSEE/GOM_Deepwater_Bathymetry_and_Hillshade_Tiled/MapServer/WmsServer",
     options: {
-        layers: "gulf_of_mexico_pipelines_cpu",
-        CRS: "EPSG:4267",
-        version: '1.3.0',
+        layers: "0",
+        CRS: "EPSG:4326",
         format: 'image/png',
         maxZoom: 14,
         noWrap: true,
         transparent: true,
-        opacity: 1.0,
-        attribution: '<a target="_blank" href="https://worldmap.harvard.edu/data/geonode:gulf_of_mexico_pipelines_cpu">Harvard WorldMap Project</a>'	
+        opacity: 0.8,
+        attribution: '<a target="_blank" href="https://gis.boem.gov/">BOEM</a>'	
     }
 }
-var GoMpl = L.tileLayer.wms(GoMplobj.baseUrl, GoMplobj.options)
+GoMbathy.layer = L.tileLayer.wms(GoMbathy.baseUrl, GoMbathy.options);
+
+var GoMpl = {
+    title: "OCS Oil & Gas Pipelines",
+    source: "WMS",
+    type: "OVERLAY",
+    ref: ["https://gis.boem.gov/arcgis/services/BOEM_BSEE/MMC_Layers/MapServer/WMSServer?request=GetCapabilities&service=WMS"],
+    baseUrl: "https://gis.boem.gov/arcgis/services/BOEM_BSEE/MMC_Layers/MapServer/WmsServer",
+    options: {
+        layers: "26",
+        CRS: "EPSG:4326",
+        format: 'image/png',
+        transparent: true,
+        noWrap: true,
+        opacity: 0.9,
+        attribution: '<a target="_blank" href="https://gis.boem.gov/arcgis/rest/services/BOEM_BSEE/POC_Layers/MapServer">BOEM</a>'
+    }
+}
+GoMpl.layer = L.tileLayer.wms(GoMpl.baseUrl, GoMpl.options);
+
+var EEZ = {
+    title: "Exclusive economic zone boundaries",
+    source: "WMS",
+    type: "OVERLAY",
+    ref: [],
+    baseUrl: "http://geo.vliz.be:80/geoserver/MarineRegions/wms",
+    options: {
+        layers: 'MarineRegions:eez_boundaries',
+        version: '1.1.1',
+        format: 'image/png',
+        transparent: true,
+        noWrap: true,
+        opacity: 0.9,
+        attribution: '<a target="_blank" href="http://www.marineregions.org">FlandersMarineInst (CC-BY-NC-SA)</a>'
+    }
+}
+EEZ.layer = L.tileLayer.wms(EEZ.baseUrl, EEZ.options);
 
 
 // allMapLayer is used by control leaflet-fullHash
@@ -391,7 +447,8 @@ var allMapLayers = {
     'GEBCO': GEBCO,
     "OSM": OSM,
     'NPD': NPD,
-    "GoMpl": GoMpl,
-    "GoMbathy": BOEMbathy,
-    'EEZ': EEZ
+    "GoMpl": GoMpl.layer,
+    "GoMbathy": GoMbathy.layer,
+    "MarScoPl": MarScoPl.layer,
+    'EEZ': EEZ.layer
 };

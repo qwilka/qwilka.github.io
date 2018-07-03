@@ -22,4 +22,10 @@ https://github.com/KoGor/leaflet-fullHash/blob/master/leaflet-fullHash.js
 Volve
 http://localhost:8000/#12/58.4222/1.9003/GEBCO-NPD
 
-http://localhost:8000/#6/26.392/-87.495/GEBCO-GoMpl-GoMbathy
+http://localhost:8000/#7/27.917/-89.923/GEBCO-GoMpl-GoMbathy
+
+
+base
+https://qwilka.github.io/GIS/#5/57.000/2.460/GEBCO
+
+http://localhost:8000/#5/57.000/2.460/GEBCO-MarScoPl

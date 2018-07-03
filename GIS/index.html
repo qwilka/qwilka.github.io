@@ -228,14 +228,19 @@
         {
             label: 'USA',
             children: [
-                { label: 'GoM bathymetric hillshade', layer: BOEMbathy },
-                { label: 'GoM pipelines', layer: GoMpl },
+                {
+                    label: 'Gulf of Mexico',
+                    children: [
+                        { label: GoMbathy.title, layer: GoMbathy.layer },
+                        { label: GoMpl.title, layer: GoMpl.layer },
+                    ],
+                },
             ],      
         },
         {
             label: 'other resources',
             children: [
-            { label: 'Exclusive economic zone boundaries', layer: EEZ },
+            { label: EEZ.title, layer: EEZ.layer },
             { label: 'GEBCO source identifier', layer: GEBCOsig },
             ],      
         },
@@ -243,9 +248,10 @@
 
     var layerCtl = L.control.layers.tree(baseTree, overlayTree, {
         collapsed: true,
+        collapseAll: '<font color="#909090" size="2">(close all)</font>'  
     });
     layerCtl.addTo(map)
-    layerCtl.collapseTree()
+    layerCtl.collapseTree(false)
     layerCtl.collapseTree(true)
 
 </script>
