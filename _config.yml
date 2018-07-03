@@ -3,4 +3,4 @@ name: "SMcE"
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 baseurl: "/"
-exclude: [wip, GIS/libs]
+exclude: [wip]
