@@ -384,3 +384,14 @@ var GoMplobj = {
     }
 }
 var GoMpl = L.tileLayer.wms(GoMplobj.baseUrl, GoMplobj.options)
+
+
+// allMapLayer is used by control leaflet-fullHash
+var allMapLayers = {
+    'GEBCO': GEBCO,
+    "OSM": OSM,
+    'NPD': NPD,
+    "GoMpl": GoMpl,
+    "GoMbathy": BOEMbathy,
+    'EEZ': EEZ
+};

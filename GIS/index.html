@@ -20,6 +20,7 @@
     <script src="libs/geodesy/dms.js"></script>
     <script src="libs/layers_tree/L.Control.Layers.Tree.js"></script>
     <link rel="stylesheet" type="text/css" href="libs/layers_tree/L.Control.Layers.Tree.css"/>
+    <script src="libs/leaflet_hash/leaflet-fullHash.js"></script>
     <script src="data/map-data.js"></script>
     <!-- <script src="https://unpkg.com/rbush@2.0.1/rbush.min.js"></script> -->
 
@@ -171,6 +172,8 @@
     }
     map.on('contextmenu', onMapClick)
 
+    //var hash = new L.Hash(map);
+    var hash = new L.Hash(map, allMapLayers);
 
 
     var baseTree = {
@@ -213,8 +216,13 @@
         {
             label: 'UK',
             children: [
-                { label: 'Fishing intensity', layer: MarSco },
-                { label: MarScoPl.title, layer: MarScoPl.layer },
+                {
+                    label: 'Marine Scotland',
+                    children: [
+                        { label: 'Fishing intensity', layer: MarSco },
+                        { label: MarScoPl.title, layer: MarScoPl.layer },
+                    ],
+                },
             ],      
         },
         {
@@ -239,7 +247,8 @@
     layerCtl.addTo(map)
     layerCtl.collapseTree()
     layerCtl.collapseTree(true)
-    </script>
+
+</script>
 
 </body>
 </html>
