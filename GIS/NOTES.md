@@ -16,6 +16,10 @@ https://github.com/jjimenezshaw/Leaflet.Control.Layers.Tree
 https://github.com/mlevans/leaflet-hash
 https://github.com/KoGor/leaflet-fullHash/blob/master/leaflet-fullHash.js
 
+
+## geojson
+http://labs.easyblog.it/maps/leaflet-geojson-selector/
+
 ### scratch
 <!-- comment  -->
 
@@ -29,3 +33,7 @@ base
 https://qwilka.github.io/GIS/#5/57.000/2.460/GEBCO
 
 http://localhost:8000/#5/57.000/2.460/GEBCO-MarScoPl
+
+https://qwilka.github.io/GIS/#7/27.917/-89.923/GEBCO-GoMpl
+
+http://localhost:8000/#5/-20.756/129.221/GEBCO-AusInfra

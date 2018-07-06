@@ -24,9 +24,15 @@
     <!-- <script src="https://unpkg.com/rbush@2.0.1/rbush.min.js"></script> -->
 
     <style>
-        body { margin:0; padding:0; }
+        body { margin:0; padding:0;  }
         body, table, tr, td, th, div, h1, h2, input { font-family: "Calibri", "Trebuchet MS", "Ubuntu", Serif; font-size: 11pt; }
-        #map { position:absolute; top:0; bottom:0; width:100%; } /* full size */
+        #map { position:absolute; 
+        top:0; 
+        bottom:0; 
+        width:100%; 
+        height:100%;
+        z-index:-1;
+        } /* full size */
         .ctl {
             padding: 2px 10px 2px 10px;
             background: white;
@@ -42,49 +48,21 @@
         .src {
             font-size: 10pt;
         }
-
+        .btn {
+            background-color: DodgerBlue; /* Blue background */
+            border: none; /* Remove borders */
+            color: white; /* White text */
+            padding: 12px 16px; /* Some padding */
+            font-size: 16px; /* Set a font size */
+            cursor: pointer; /* Mouse pointer on hover */
+        }
     </style>
 
 </head>
 <body>
+        <div id="map"></div>
+<script>
 
-    <div id="map"></div>
-    
-    <script>
-
-// var DK = $.getJSON("./data/DK_Geus_pipelines_simplified.geojson" , function(geoj) {
-//     L.geoJSON(geoj, {
-//         dataType: 'json',
-//         local: true,
-//         attribution: '<a target="_blank" href="http://data.geus.dk/geusmap/ows/help/?lang=en">DK-Geus</a>',
-//         style: function(feature) {
-//             switch (feature.properties.content_name.toLowerCase()) {
-//                 case 'gas': return {color: "#008b00"};
-//                 case 'oil':  return {color: "#8b0000"};
-//                 case 'multi-phase':  return {color: "#cdcd00"};
-//                 default:  return {color: "#36648b", "weight": 1, "opacity": 1.0}; 
-//             }
-//         },
-//         onEachFeature: function (feature, layer) {
-//             layer.on({
-//                 click: function onGeojsonLayerClick(evt) {
-//                     var contstr = "Denmark pipeline";
-//                     contstr += '<br>name: <b>'+feature.properties.name+'</b>';
-//                     contstr += '<br>service: '+feature.properties.content_name.toLowerCase();
-//                     popup
-//                         .setLatLng(evt.latlng)
-//                         .setContent(contstr)
-//                         .openOn(map)
-//                 }
-//             });
-//         }
-//     } ).done(function(data){
-//         console.log(data);
-//         return data
-//     }
-//     )
-//     //layerCon.addOverlay(DK, "Denmark pipelines (v)");
-// });
 var tt = $.getJSON("./data/DK_Geus_pipelines_simplified.geojson" , function(geoj) {
     L.geoJSON(geoj, {
         dataType: 'json',
@@ -223,38 +201,6 @@ var overlayTree = [
                 { label: 'pipelines (v)', layer: DK },
             ],      
         },
-    {
-        label: 'Ireland',
-        children: [
-            { label: 'pipelines & fields', layer: IRE },
-        ],      
-    },
-    {
-        label: 'Norway',
-        children: [
-            { label: 'pipelines & infrastructure', layer: NPD },
-        ],      
-    },
-    {
-        label: 'UK',
-        children: [
-            { label: 'Fishing intensity', layer: MarSco },
-        ],      
-    },
-    {
-        label: 'USA',
-        children: [
-            { label: 'GoM pipelines', layer: GoMpl },
-            { label: 'GoM bathymetric hillshade', layer: BOEMbathy },
-        ],      
-    },
-    {
-        label: 'other resources',
-        children: [
-        { label: 'Exclusive economic zone boundaries', layer: EEZ },
-        { label: 'GEBCO source identifier', layer: GEBCOsig },
-        ],      
-    },
 ];
 
 var layerCtl = L.control.layers.tree(baseTree, overlayTree, {

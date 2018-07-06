@@ -255,71 +255,6 @@ var DK = new L.GeoJSON.AJAX("./data/DK_Geus_pipelines_simplified.geojson" ,{
         });
     },
 }  );
-// var DK = $.getJSON("./data/DK_Geus_pipelines_simplified.geojson" , function(geoj) {
-//     L.geoJSON(geoj, {
-//         dataType: 'json',
-//         local: true,
-//         attribution: '<a target="_blank" href="http://data.geus.dk/geusmap/ows/help/?lang=en">DK-Geus</a>',
-//         style: function(feature) {
-//             switch (feature.properties.content_name.toLowerCase()) {
-//                 case 'gas': return {color: "#008b00"};
-//                 case 'oil':  return {color: "#8b0000"};
-//                 case 'multi-phase':  return {color: "#cdcd00"};
-//                 default:  return {color: "#36648b", "weight": 1, "opacity": 1.0}; 
-//             }
-//         },
-//         onEachFeature: function (feature, layer) {
-//             layer.on({
-//                 click: function onGeojsonLayerClick(evt) {
-//                     var contstr = "Denmark pipeline";
-//                     contstr += '<br>name: <b>'+feature.properties.name+'</b>';
-//                     contstr += '<br>service: '+feature.properties.content_name.toLowerCase();
-//                     popup
-//                         .setLatLng(evt.latlng)
-//                         .setContent(contstr)
-//                         .openOn(map)
-//                 }
-//             });
-//         }
-//     } ).done(function(data){
-//         console.log(data);
-//         return data
-//     }
-//     )
-//     //layerCon.addOverlay(DK, "Denmark pipelines (v)");
-// });
-// var tt = $.getJSON("./data/DK_Geus_pipelines_simplified.geojson" , function(geoj) {
-//     L.geoJSON(geoj, {
-//         dataType: 'json',
-//         local: true,
-//         attribution: '<a target="_blank" href="http://data.geus.dk/geusmap/ows/help/?lang=en">DK-Geus</a>',
-//         style: function(feature) {
-//             switch (feature.properties.content_name.toLowerCase()) {
-//                 case 'gas': return {color: "#008b00"};
-//                 case 'oil':  return {color: "#8b0000"};
-//                 case 'multi-phase':  return {color: "#cdcd00"};
-//                 default:  return {color: "#36648b", "weight": 1, "opacity": 1.0}; 
-//             }
-//         },
-//         onEachFeature: function (feature, layer) {
-//             layer.on({
-//                 click: function onGeojsonLayerClick(evt) {
-//                     var contstr = "Denmark pipeline";
-//                     contstr += '<br>name: <b>'+feature.properties.name+'</b>';
-//                     contstr += '<br>service: '+feature.properties.content_name.toLowerCase();
-//                     popup
-//                         .setLatLng(evt.latlng)
-//                         .setContent(contstr)
-//                         .openOn(map)
-//                 }
-//             });
-//         }
-//     } ) 
-//     }).done(function(data){
-//         console.log("done!", data);
-//         return data
-//     }
-//     )
 
 
 // layers: 'MarineRegions:eez_boundaries',
@@ -336,55 +271,6 @@ var EEZobj = {
     }
 }
 var EEZ = L.tileLayer.wms(EEZobj.baseUrl, EEZobj.options)
-
-
-// var BOEMbathyobj = {
-//     baseUrl: "https://gis.boem.gov/arcgis/services/BOEM_BSEE/GOM_Deepwater_Bathymetry_and_Hillshade_Tiled/MapServer/WmsServer",
-//     options: {
-//         layers: "0",
-//         CRS: "EPSG:4326",
-//         version: '1.1.1',
-//         format: 'image/png',
-//         maxZoom: 14,
-//         noWrap: true,
-//         transparent: true,
-//         opacity: 0.8,
-//         attribution: '<a target="_blank" href="https://gis.boem.gov/">BOEM</a>'	
-//     }
-// }
-// var BOEMbathy = L.tileLayer.wms(BOEMbathyobj.baseUrl, BOEMbathyobj.options)
-
-// var BOEMplobj = {
-//     baseUrl: "https://gis.boem.gov/arcgis/services/BOEM_BSEE/POC_Layers/MapServer/WmsServer",
-//     options: {
-//         layers: ["6", "7"],
-//         CRS: "EPSG:4326",
-//         version: '1.3.0',
-//         format: 'image/png',
-//         maxZoom: 14,
-//         noWrap: true,
-//         transparent: false,
-//         opacity: 0.7,
-//         attribution: '<a target="_blank" href="https://gis.boem.gov/arcgis/rest/services/BOEM_BSEE/POC_Layers/MapServer">BOEM</a>'	
-//     }
-// }
-// var BOEMpl = L.tileLayer.wms(BOEMplobj.baseUrl, BOEMplobj.options)
-
-// var GoMplobj = {
-//     baseUrl: "http://worldmap.harvard.edu/geoserver/geonode/gulf_of_mexico_pipelines_cpu/ows",
-//     options: {
-//         layers: "gulf_of_mexico_pipelines_cpu",
-//         CRS: "EPSG:4267",
-//         version: '1.3.0',
-//         format: 'image/png',
-//         maxZoom: 14,
-//         noWrap: true,
-//         transparent: true,
-//         opacity: 1.0,
-//         attribution: '<a target="_blank" href="https://worldmap.harvard.edu/data/geonode:gulf_of_mexico_pipelines_cpu">Harvard WorldMap Project</a>'	
-//     }
-// }
-// var GoMpl = L.tileLayer.wms(GoMplobj.baseUrl, GoMplobj.options)
 
 var GoMbathy = {
     title: "GoM deepwater bathymetric hillshade",
@@ -441,6 +327,28 @@ var EEZ = {
 }
 EEZ.layer = L.tileLayer.wms(EEZ.baseUrl, EEZ.options);
 
+var AusInfra = {
+    title: "National Oil and Gas Infrastructure",
+    source: "WMS",
+    type: "OVERLAY",
+    ref: [
+        "https://data.gov.au/dataset/d40adb23-4ca1-428c-8676-b1c3c247990e",
+        "http://services.ga.gov.au/gis/rest/services/Oil_Gas_Infrastructure/MapServer",
+        "http://services.ga.gov.au/gis/services/Oil_Gas_Infrastructure/MapServer/WMSServer?request=GetCapabilities&service=WMS"
+    ],
+    baseUrl: "http://services.ga.gov.au/gis/services/Oil_Gas_Infrastructure/MapServer/WMSServer",
+    options: {
+        layers: '0,1,2',
+        CRS: "EPSG:4283",
+        format: 'image/png',
+        transparent: true,
+        noWrap: true,
+        opacity: 0.9,
+        attribution: '<a target="_blank" href="https://data.gov.au/dataset/d40adb23-4ca1-428c-8676-b1c3c247990e">Geoscience Australia</a>'
+    }
+}
+AusInfra.layer = L.tileLayer.wms(AusInfra.baseUrl, AusInfra.options);
+
 
 // allMapLayer is used by control leaflet-fullHash
 var allMapLayers = {
@@ -450,5 +358,6 @@ var allMapLayers = {
     "GoMpl": GoMpl.layer,
     "GoMbathy": GoMbathy.layer,
     "MarScoPl": MarScoPl.layer,
+    "AusInfra": AusInfra.layer,
     'EEZ': EEZ.layer
 };
