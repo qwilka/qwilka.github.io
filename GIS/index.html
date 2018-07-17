@@ -63,7 +63,7 @@
         maxZoom: 16,
         maxBounds: [[-90,-180], [90,180]],
         center: [57.0, 2.46],
-        layers: [GEBCO]
+        layers: [GEBCO.layer]
     });
 
 
@@ -125,7 +125,7 @@
           query_layers: 'GEBCO_LATEST_2',
           info_format: 'text/html'
         };
-        var featInfoUrl = GEBCOobj.baseUrl + L.Util.getParamString(params, GEBCOobj.baseUrl, true);
+        var featInfoUrl = GEBCO.baseUrl + L.Util.getParamString(params, GEBCO.baseUrl, true);
         var getinfo = $.ajax({
             url: featInfoUrl,
             dataType: "html",
@@ -179,8 +179,8 @@
     var baseTree = {
         label: 'World base maps &#x1f5fa;',
         children: [
-            { label: 'GEBCO', layer: GEBCO },
-            { label: 'OpenStreetMap', layer: OSM },
+            { label: GEBCO.title, layer: GEBCO.layer },
+            { label: OSM.title, layer: OSM.layer },
             { label: 'white background', layer: WhiteBG },
         ]
     };
@@ -194,13 +194,13 @@
     {
                 label: 'Denmark',
                 children: [
-                    { label: 'pipelines (v)', layer: DK },
+                    { label: DKpl.title, layer: DKpl.layer },
                 ],      
         },
         {
             label: 'Ireland',
             children: [
-                { label: 'pipelines & fields', layer: IRE },
+                { label: IRE.title, layer: IRE.layer },
             ],      
         },
         {
@@ -216,7 +216,7 @@
                     { label: FiskDir2017U.title, layer: FiskDir2017U.layer },
                     ],
                 },
-                { label: 'pipelines & infrastructure', layer: NPD },
+                { label: NPD.title, layer: NPD.layer },
             ],      
         },
         {
@@ -225,8 +225,8 @@
                 {
                     label: 'Marine Scotland',
                     children: [
-                        { label: 'Fishing intensity', layer: MarSco },
-                        { label: MarScoPl.title, layer: MarScoPl.layer },
+                        { label: MarSCOfish.title, layer: MarSCOfish.layer },
+                        { label: MarSCOpl.title, layer: MarSCOpl.layer },
                     ],
                 },
             ],      
@@ -247,7 +247,7 @@
             label: 'other resources',
             children: [
             { label: EEZ.title, layer: EEZ.layer },
-            { label: 'GEBCO source identifier', layer: GEBCOsig },
+            { label: GEBCOsid.title, layer: GEBCOsid.layer },
             ],      
         },
     ];

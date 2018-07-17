@@ -28,6 +28,7 @@ http://bl.ocks.org/rclark/6908938
 https://astuntechnology.github.io/osgis-ol3-leaflet/leaflet/05-WMS-INFO.html
 https://medium.com/@maptastik/loading-external-geojson-a-nother-way-to-do-it-with-jquery-c72ae3b41c01
 https://asmaloney.com/2014/01/code/creating-an-interactive-map-with-leaflet-and-openstreetmap/
+http://usabilityetc.com/2016/06/how-to-create-leaflet-plugins/
 
 
 ESRI
