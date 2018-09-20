@@ -42,8 +42,8 @@ var OSM = {
 }
 OSM.layer = L.tileLayer.wms(OSM.baseUrl, OSM.options);
 
-// layers: "s2cloudless-2017_3857",  "blackmarble_3857"  "bluemarble_3857"
-var EOX2017 = {
+
+var EOXSent2 = {
     title: "Sentinel-2 cloudless",
     source: "WMS",
     type: "BASEMAP",
@@ -59,17 +59,17 @@ var EOX2017 = {
         transparent: false,
         noWrap: true,
         opacity: 1.0,
-        attribution: '<a target="_blank" href="https://s2maps.eu/">EOX (CC-BY-4.0)</a>'
+        attribution: '<a target="_blank" href="https://s2maps.eu/">Sentinel-2 cloudless</a> by <a target="_blank" href="https://eox.at/">EOX IT Services GmbH</a> (Contains modified <a target="_blank" href="https://sentinel.esa.int/web/sentinel/home">Copernicus Sentinel</a> data 2016 & 2017)'
     }
 }
-EOX2017.layer = L.tileLayer.wms(EOX2017.baseUrl, EOX2017.options);
+EOXSent2.layer = L.tileLayer.wms(EOXSent2.baseUrl, EOXSent2.options);
 
 var EOXBlue = {
     title: "Blue Marble",
     source: "WMS",
     type: "BASEMAP",
     ref: [
-        "https://s2maps.eu/",
+        "https://maps.eox.at/?#",
         "https://gis.stackexchange.com/questions/253034/sentinel-2-imagery-as-a-webservice-in-a-leaflet-or-openlayers-map?rq=1"
     ],
     baseUrl: "https://tiles.maps.eox.at/?",
@@ -80,7 +80,7 @@ var EOXBlue = {
         transparent: false,
         noWrap: true,
         opacity: 1.0,
-        attribution: '<a target="_blank" href="https://s2maps.eu/">EOX (CC-BY-4.0)</a>'
+        attribution: 'Blue Marble &copy; <a target="_blank" href="http://nasa.gov/">NASA</a>, Rendering &copy; <a target="_blank" href="https://maps.eox.at/">EOX</a>'
     }
 }
 EOXBlue.layer = L.tileLayer.wms(EOXBlue.baseUrl, EOXBlue.options);
@@ -90,7 +90,7 @@ var EOXBlack = {
     source: "WMS",
     type: "BASEMAP",
     ref: [
-        "https://s2maps.eu/",
+        "https://maps.eox.at/?#",
         "https://gis.stackexchange.com/questions/253034/sentinel-2-imagery-as-a-webservice-in-a-leaflet-or-openlayers-map?rq=1"
     ],
     baseUrl: "https://tiles.maps.eox.at/?",
@@ -101,33 +101,32 @@ var EOXBlack = {
         transparent: false,
         noWrap: true,
         opacity: 1.0,
-        attribution: '<a target="_blank" href="https://s2maps.eu/">EOX (CC-BY-4.0)</a>'
+        attribution: 'Black Marble &copy; <a target="_blank" href="http://nasa.gov/">NASA</a>, Rendering &copy; <a target="_blank" href="https://maps.eox.at/">EOX</a>'
     }
 }
 EOXBlack.layer = L.tileLayer.wms(EOXBlack.baseUrl, EOXBlack.options);
 
 
-var BM = {
-    title: "Blue Marble",
+var OSMEOXli = {
+    title: "OSM/Terrain Light",
     source: "WMS",
     type: "BASEMAP",
     ref: [
-        "https://s2maps.eu/",
+        "https://maps.eox.at/?#",
         "https://gis.stackexchange.com/questions/253034/sentinel-2-imagery-as-a-webservice-in-a-leaflet-or-openlayers-map?rq=1"
     ],
-    baseUrl: "https://svs.gsfc.nasa.gov/cgi-bin/wms",
+    baseUrl: "https://tiles.maps.eox.at/?",
     options: {
-        layers: "2915_21223",
-        CRS: "CRS:84",
-        version: '1.3.0',
+        layers: "terrain-light_3857,overlay_base_bright_3857",
+        CRS: "EPSG:4326",
         format: 'image/png',
         transparent: false,
         noWrap: true,
         opacity: 1.0,
-        attribution: '<a target="_blank" href="https://s2maps.eu/">EOX (CC-BY-4.0)</a>'
+        attribution: 'Terrain Light &copy; <a target="_blank" href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, Rendering &copy; <a target="_blank" href="https://maps.eox.at/">EOX</a>'
     }
 }
-BM.layer = L.tileLayer.wms(BM.baseUrl, BM.options);
+OSMEOXli.layer = L.tileLayer.wms(OSMEOXli.baseUrl, OSMEOXli.options);
 
 
 // https://ogc.fiskeridir.no/wms.ashx?service=WMS&request=GetCapabilities&version=1.3.0
@@ -491,13 +490,14 @@ var AusInfra = {
 AusInfra.layer = L.tileLayer.wms(AusInfra.baseUrl, AusInfra.options);
 
 
-// allMapLayer is used by control leaflet-fullHash
+// allMapLayer is used by control leaflet-fullHash  
 var allMapLayers = {
     'GEBCO': GEBCO.layer,
     "OSM": OSM.layer,
+    "OSMEOXli": OSMEOXli.layer,
     "EOXBlue": EOXBlue.layer,
     "EOXBlack": EOXBlack.layer,
-    "EOX2017": EOX2017.layer,
+    "EOXSent2": EOXSent2.layer,
     'NPD': NPD.layer,
     'IRE': IRE.layer,
     "GoMpl": GoMpl.layer,
