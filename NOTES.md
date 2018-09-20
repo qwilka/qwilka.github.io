@@ -47,6 +47,19 @@ urllib.parse.quote("Table of Contents")
 https://github.com/jakevdp/WhirlwindTourOfPython
 https://www.oreilly.com/programming/free/files/a-whirlwind-tour-of-python.pdf
 https://www.w3schools.com/python/default.asp
+https://realpython.com/
+https://realpython.com/python-pathlib/#the-problem-with-python-file-path-handling
+
+https://www.fullstackpython.com/
+https://www.fullstackpython.com/best-python-resources.html
+https://docs.python-guide.org/
+https://github.com/ripienaar/free-for-dev
+https://realpython.com/
+http://shape-of-code.coding-guidelines.com/
+https://github.com/vstinner/hachoir
+https://unicodebook.readthedocs.io/
+http://www.deeplearningbook.org/
+
 
 web
 ===

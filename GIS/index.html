@@ -172,7 +172,6 @@
     }
     map.on('contextmenu', onMapClick)
 
-    //var hash = new L.Hash(map);
     var hash = new L.Hash(map, allMapLayers);
 
 
@@ -181,6 +180,7 @@
         children: [
             { label: GEBCO.title, layer: GEBCO.layer },
             { label: OSM.title, layer: OSM.layer },
+            { label: EOX2017.title, layer: EOX2017.layer },
             { label: 'white background', layer: WhiteBG },
         ]
     };

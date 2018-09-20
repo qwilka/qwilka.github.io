@@ -42,6 +42,27 @@ var OSM = {
 }
 OSM.layer = L.tileLayer.wms(OSM.baseUrl, OSM.options);
 
+var EOX2017 = {
+    title: "Sentinel-2 (2017)",
+    source: "WMS",
+    type: "BASEMAP",
+    ref: [
+        "https://s2maps.eu/",
+        "https://gis.stackexchange.com/questions/253034/sentinel-2-imagery-as-a-webservice-in-a-leaflet-or-openlayers-map?rq=1"
+    ],
+    baseUrl: "https://tiles.maps.eox.at/?",
+    options: {
+        layers: "s2cloudless-2017_3857",
+        CRS: "EPSG:4326",
+        format: 'image/png',
+        transparent: false,
+        noWrap: true,
+        opacity: 1.0,
+        attribution: '<a target="_blank" href="https://s2maps.eu/">EOX (CC-BY-4.0)</a>'
+    }
+}
+EOX2017.layer = L.tileLayer.wms(EOX2017.baseUrl, EOX2017.options);
+
 
 
 // https://ogc.fiskeridir.no/wms.ashx?service=WMS&request=GetCapabilities&version=1.3.0
@@ -164,7 +185,7 @@ var NPD = {
         format: 'image/png',
         transparent: true,
         noWrap: true,
-        opacity: 0.9,
+        opacity: 1.0,
         attribution: '<a target="_blank" href="http://www.npd.no/en/Maps/Fact-maps/">NPD</a> <a target="_blank" href="https://data.norge.no/nlod/no">(NLOD)</a>'
     }
 }
@@ -409,6 +430,7 @@ AusInfra.layer = L.tileLayer.wms(AusInfra.baseUrl, AusInfra.options);
 var allMapLayers = {
     'GEBCO': GEBCO.layer,
     "OSM": OSM.layer,
+    "EOX2017": EOX2017.layer,
     'NPD': NPD.layer,
     'IRE': IRE.layer,
     "GoMpl": GoMpl.layer,
