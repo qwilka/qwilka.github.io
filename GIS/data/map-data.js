@@ -6,11 +6,11 @@ var GEBCO = {
     source: "WMS",
     type: "BASEMAP",
     ref: ["https://www.gebco.net/"],
-    baseUrl: "https://www.gebco.net/data_and_products/gebco_web_services/web_map_service/mapserv",
+    baseUrl: "http://www.gebco.net/data_and_products/gebco_web_services/web_map_service/mapserv",
     options: {
         layers: "GEBCO_LATEST",
         CRS: "EPSG:4326",
-        version: '1.1.1',
+        version: '1.3.0',
         format: 'image/png',
         transparent: false,
         noWrap: true,
@@ -30,7 +30,7 @@ var OSM = {
     ],
     baseUrl: "http://ows.terrestris.de/osm/service",
     options: {
-        layers: "TOPO-OSM-WMS",
+        layers: "OSM-WMS",
         CRS: "EPSG:4326",
         version: '1.1.1',
         format: 'image/png',
@@ -41,7 +41,26 @@ var OSM = {
     }
 }
 OSM.layer = L.tileLayer.wms(OSM.baseUrl, OSM.options);
-
+// var OSM = {
+//     title: "OpenStreetMap",
+//     source: "WMS",
+//     type: "BASEMAP",
+//     ref: [
+//         "https://tiles.maps.eox.at/wms?service=wms&request=getcapabilities",
+//         "https://gis.stackexchange.com/questions/253034/sentinel-2-imagery-as-a-webservice-in-a-leaflet-or-openlayers-map?rq=1"
+//     ],
+//     baseUrl: "https://tiles.maps.eox.at/?",
+//     options: {
+//         layers: "osm_3857",
+//         CRS: "EPSG:4326",
+//         format: 'image/png',
+//         transparent: false,
+//         noWrap: true,
+//         opacity: 1.0,
+//         attribution: '&copy; <a target="_blank" href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, Rendering &copy; <a target="_blank" href="https://maps.eox.at/">EOX</a>'
+//     }
+// }
+// OSM.layer = L.tileLayer.wms(OSM.baseUrl, OSM.options);
 
 var EOXSent2 = {
     title: "Sentinel-2 cloudless",
@@ -49,6 +68,7 @@ var EOXSent2 = {
     type: "BASEMAP",
     ref: [
         "https://s2maps.eu/",
+        "https://wiki.openstreetmap.org/wiki/Sentinel-2",
         "https://gis.stackexchange.com/questions/253034/sentinel-2-imagery-as-a-webservice-in-a-leaflet-or-openlayers-map?rq=1"
     ],
     baseUrl: "https://tiles.maps.eox.at/?",
@@ -127,6 +147,31 @@ var OSMEOXli = {
     }
 }
 OSMEOXli.layer = L.tileLayer.wms(OSMEOXli.baseUrl, OSMEOXli.options);
+
+
+// var Landsat = {
+//     title: "Landsat",
+//     source: "WMS",
+//     type: "BASEMAP",
+//     ref: [
+//         "https://wiki.openstreetmap.org/wiki/Landsat",
+//         "https://onearth.jpl.nasa.gov/",
+//         "https://wiki.earthdata.nasa.gov/display/GIBS/GIBS+API+for+Developers",
+//         "https://github.com/nasa-gibs/onearth"
+//     ],
+//     baseUrl: "https://gibs.earthdata.nasa.gov/twms/epsg4326/best/twms.cgi",
+//     options: {
+//         layers: "MODIS_Terra_CorrectedReflectance_TrueColor",
+//         CRS: "EPSG:4326",
+//         version: '1.3.0',
+//         format: 'image/png',
+//         transparent: false,
+//         noWrap: true,
+//         opacity: 1.0,
+//         attribution: 'Terrain Light &copy; <a target="_blank" href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, Rendering &copy; <a target="_blank" href="https://maps.eox.at/">EOX</a>'
+//     }
+// }
+// Landsat.layer = L.tileLayer.wms(Landsat.baseUrl, Landsat.options);
 
 
 // https://ogc.fiskeridir.no/wms.ashx?service=WMS&request=GetCapabilities&version=1.3.0
