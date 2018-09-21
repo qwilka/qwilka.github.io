@@ -6,7 +6,7 @@ var GEBCO = {
     source: "WMS",
     type: "BASEMAP",
     ref: ["https://www.gebco.net/"],
-    baseUrl: "http://www.gebco.net/data_and_products/gebco_web_services/web_map_service/mapserv",
+    baseUrl: "//www.gebco.net/data_and_products/gebco_web_services/web_map_service/mapserv",
     options: {
         layers: "GEBCO_LATEST",
         CRS: "EPSG:4326",
