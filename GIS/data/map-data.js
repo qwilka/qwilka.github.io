@@ -1,6 +1,8 @@
 //  .. White background
 var WhiteBG = L.tileLayer("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEAAQMAAABmvDolAAAAA1BMVEX///+nxBvIAAAAH0lEQVQYGe3BAQ0AAADCIPunfg43YAAAAAAAAAAA5wIhAAAB9aK9BAAAAABJRU5ErkJggg==");
 
+// baseUrl without protocol (“Blocked loading mixed active content”)
+// https://stackoverflow.com/questions/47536960/got-blocked-loading-mixed-active-content-on-http-website
 var GEBCO = {
     title: "GEBCO",
     source: "WMS",
