@@ -150,6 +150,21 @@ var OSMEOXli = {
 }
 OSMEOXli.layer = L.tileLayer.wms(OSMEOXli.baseUrl, OSMEOXli.options);
 
+var Esri_WorldImagery = {
+    title: "Esri WorldImagery",
+    source: "WMS",
+    type: "BASEMAP",
+    ref: [
+        "https://www.arcgis.com/home/item.html?id=50c23e4987a44de4ab163e1baeab4a46",
+        "http://leaflet-extras.github.io/leaflet-providers/preview/"
+    ],
+    baseUrl: "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+    options: {
+        attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+    }
+}
+Esri_WorldImagery.layer = L.tileLayer.wms(Esri_WorldImagery.baseUrl, Esri_WorldImagery.options);
+
 
 // var Landsat = {
 //     title: "Landsat",
