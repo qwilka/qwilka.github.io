@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Qwilka</title>
+    <link>/authors/</link>
+      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Authors</title>
+      <link>/authors/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/authors/admin/</guid>
+      <description>&lt;p&gt;I am a subsea engineer with 20 years&amp;rsquo; experience working in the oil &amp;amp; gas industry in Aberdeen and Norway. I have worked for MCS, JP Kenny, Wood, and BP, among others. My experience includes pipeline and riser design, working offshore as a project engineer on subsea installation and intervention projects, and 6 years as pipeline engineer on the BP Skarv Development Project in Norway. I am a chartered mechanical engineer, and I received a PhD from NUI Galway in 1997 for research on finite element analysis of composite materials.&lt;/p&gt;
+
+&lt;p&gt;Following from my work on Skarv, I have developed a major interest and a high degree of expertise in subsea data. I have worked with large quantities of ROV video and multi-beam sonar data from pipeline surveys, and other types of data such as pipe vibrations data, and temperature and pressure process data. It&amp;rsquo;s not easy visualizing and analysing large quantities of unstructured data, but I think it&amp;rsquo;s worth the effort because all the things you can learn about how infrastructure actually behaves in the field. I often see things in the data that you wouldn&amp;rsquo;t expect from engineering theory. Because I believe that other engineers would benefit from working closer with their data, I have founded a company called Qwilka that will help engineers manage, visualize, analyse and ultimately extract value from their data.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

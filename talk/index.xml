@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks | Qwilka</title>
+    <link>/talk/</link>
+      <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent &amp; Upcoming Talks</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 31 Oct 2019 15:20:00 +0100</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>/talk/</link>
+    </image>
+    
+    <item>
+      <title>The Future Subsea Digital Toolbox</title>
+      <link>/talk/2019-10-31_sut_future_digital_toolbox/</link>
+      <pubDate>Thu, 31 Oct 2019 15:20:00 +0100</pubDate>
+      <guid>/talk/2019-10-31_sut_future_digital_toolbox/</guid>
+      <description>
+
+&lt;p&gt;I will be delivering a talk entitled «&lt;code&gt;Beyond visualisations: realising the full value of subsea data&lt;/code&gt;» at the joint SUT-IMCA-THSIS event &lt;a href=&#34;https://www.sut.org/event/the-future-subsea-digital-toolbox/&#34; target=&#34;_blank&#34;&gt;The Future Subsea Digital Toolbox&lt;/a&gt; in Aberdeen on 31st October.&lt;/p&gt;
+
+&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;
+
+&lt;p&gt;In recent years there have been many exciting developments related to the gathering and presentation of subsea data. These developments promise to reduce costs and improve insight, however the focus on new technologies may be distracting from the ultimate purposes of subsea data: to optimise performance, enhance integrity and reduce threats through better understanding of infrastructure behaviour and risks.  Emulation and incremental improvement often characterise the initial phase of a technological shift; however true transformation is only achieved when the inherent strengths of the new technology are realised and exploited to the full. This presentation will propose that the opportunity now exists to transform subsea engineering into a data-driven discipline, where optimised design solutions are possible and true risk is well understood. The presentation will discuss how this can be achieved and the special challenges involved in realising the full value of subsea data.&lt;/p&gt;
+
+&lt;h4 id=&#34;links&#34;&gt;Links&lt;/h4&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sut.org/event/the-future-subsea-digital-toolbox/&#34; target=&#34;_blank&#34;&gt;https://www.sut.org/event/the-future-subsea-digital-toolbox/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.eventbrite.co.uk/e/the-future-subsea-digital-toolbox-tickets-74805281611&#34; target=&#34;_blank&#34;&gt;https://www.eventbrite.co.uk/e/the-future-subsea-digital-toolbox-tickets-74805281611&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Python Conference Ireland 2019</title>
+      <link>/talk/2019-10-12_pycon2019/</link>
+      <pubDate>Sat, 12 Oct 2019 11:30:00 +0100</pubDate>
+      <guid>/talk/2019-10-12_pycon2019/</guid>
+      <description>
+
+&lt;p&gt;I presented a talk on my Python module &lt;a href=&#34;https://github.com/qwilka/pflacs&#34; target=&#34;_blank&#34;&gt;pflacs&lt;/a&gt; at the 2019
+Python Ireland conference in Dublin, on the 12th of October.
+The presentation slides can be accessed at this link:&lt;br /&gt;
+&lt;a href=&#34;https://qwilka.github.io/PyConIE2019&#34; target=&#34;_blank&#34;&gt;https://qwilka.github.io/PyConIE2019&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;
+
+&lt;p&gt;This talk introduces a Python module I have created called pflacs, an
+open-source package that takes advantage of Python&amp;rsquo;s flexible dynamic
+nature and its introspection tools to provide an object-orientated
+environment for automating engineering design and computational studies.
+ Traditionally engineering design methodologies have been very slow,
+manual and iterative, however recent developments in computer
+technologies are driving a growing trend towards automation. The author
+has a background in the subsea oil &amp;amp; gas industry, and has applied
+pflacs to automating the design of subsea pipelines. Although its
+origins and primary objectives are in engineering design, pflacs can be
+used to manage and automate parameter study type analyses in any domain
+that has a significant computational component.&lt;/p&gt;
+
+&lt;h4 id=&#34;about-the-slides&#34;&gt;About the slides&lt;/h4&gt;
+
+&lt;p&gt;The slides are in &lt;a href=&#34;https://revealjs.com/#&#34; target=&#34;_blank&#34;&gt;Reveal.js&lt;/a&gt; format, having been generated from a Jupyter notebook with &lt;code&gt;nbconvert&lt;/code&gt;,
+&lt;a href=&#34;https://medium.com/learning-machine-learning/present-your-data-science-projects-with-jupyter-slides-75f20735eb0f&#34; target=&#34;_blank&#34;&gt;as explained here.&lt;/a&gt;  The slides are laid out on a 2D grid (type &lt;code&gt;o&lt;/code&gt; to show the slides&amp;rsquo; layout). Use the arrow control at the bottom right to navigate the slides. Start by using the down-arrow until you reach the bottom slide, then select the next slide over with the right-arrow. So process down first, then right and down again. If you need help, type &lt;code&gt;?&lt;/code&gt; to show useful key bindings.&lt;/p&gt;
+
+&lt;h4 id=&#34;links&#34;&gt;Links&lt;/h4&gt;
+
+&lt;ol&gt;
+&lt;li&gt;PyConIE 2019 website  &lt;a href=&#34;https://pycon2019.python.ie/&#34; target=&#34;_blank&#34;&gt;https://pycon2019.python.ie/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Python Ireland website  &lt;a href=&#34;https://python.ie/&#34; target=&#34;_blank&#34;&gt;https://python.ie/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Presentation slides &lt;a href=&#34;https://qwilka.github.io/PyConIE2019&#34; target=&#34;_blank&#34;&gt;https://qwilka.github.io/PyConIE2019&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Article on &lt;code&gt;pflacs&lt;/code&gt; (in draft)  &lt;a href=&#34;https://qwilka.github.io/PFLACS_intro_article_2019/&#34; target=&#34;_blank&#34;&gt;https://qwilka.github.io/PFLACS_intro_article_2019/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pflacs&lt;/code&gt; on Gihub  &lt;a href=&#34;https://github.com/qwilka/pflacs&#34; target=&#34;_blank&#34;&gt;https://github.com/qwilka/pflacs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;vntree&lt;/code&gt; on Gihub  &lt;a href=&#34;https://github.com/qwilka/vn-tree&#34; target=&#34;_blank&#34;&gt;https://github.com/qwilka/vn-tree&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pdover2t&lt;/code&gt; on Gihub  &lt;a href=&#34;https://github.com/qwilka/PDover2t&#34; target=&#34;_blank&#34;&gt;https://github.com/qwilka/PDover2t&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

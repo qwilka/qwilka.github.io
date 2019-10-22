@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Qwilka</title>
+    <link>/</link>
+      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <description>Qwilka</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 31 Oct 2019 15:20:00 +0100</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Qwilka</title>
+      <link>/</link>
+    </image>
+    
+    <item>
+      <title>The Future Subsea Digital Toolbox</title>
+      <link>/talk/2019-10-31_sut_future_digital_toolbox/</link>
+      <pubDate>Thu, 31 Oct 2019 15:20:00 +0100</pubDate>
+      <guid>/talk/2019-10-31_sut_future_digital_toolbox/</guid>
+      <description>
+
+&lt;p&gt;I will be delivering a talk entitled «&lt;code&gt;Beyond visualisations: realising the full value of subsea data&lt;/code&gt;» at the joint SUT-IMCA-THSIS event &lt;a href=&#34;https://www.sut.org/event/the-future-subsea-digital-toolbox/&#34; target=&#34;_blank&#34;&gt;The Future Subsea Digital Toolbox&lt;/a&gt; in Aberdeen on 31st October.&lt;/p&gt;
+
+&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;
+
+&lt;p&gt;In recent years there have been many exciting developments related to the gathering and presentation of subsea data. These developments promise to reduce costs and improve insight, however the focus on new technologies may be distracting from the ultimate purposes of subsea data: to optimise performance, enhance integrity and reduce threats through better understanding of infrastructure behaviour and risks.  Emulation and incremental improvement often characterise the initial phase of a technological shift; however true transformation is only achieved when the inherent strengths of the new technology are realised and exploited to the full. This presentation will propose that the opportunity now exists to transform subsea engineering into a data-driven discipline, where optimised design solutions are possible and true risk is well understood. The presentation will discuss how this can be achieved and the special challenges involved in realising the full value of subsea data.&lt;/p&gt;
+
+&lt;h4 id=&#34;links&#34;&gt;Links&lt;/h4&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sut.org/event/the-future-subsea-digital-toolbox/&#34; target=&#34;_blank&#34;&gt;https://www.sut.org/event/the-future-subsea-digital-toolbox/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.eventbrite.co.uk/e/the-future-subsea-digital-toolbox-tickets-74805281611&#34; target=&#34;_blank&#34;&gt;https://www.eventbrite.co.uk/e/the-future-subsea-digital-toolbox-tickets-74805281611&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Python Conference Ireland 2019</title>
+      <link>/talk/2019-10-12_pycon2019/</link>
+      <pubDate>Sat, 12 Oct 2019 11:30:00 +0100</pubDate>
+      <guid>/talk/2019-10-12_pycon2019/</guid>
+      <description>
+
+&lt;p&gt;I presented a talk on my Python module &lt;a href=&#34;https://github.com/qwilka/pflacs&#34; target=&#34;_blank&#34;&gt;pflacs&lt;/a&gt; at the 2019
+Python Ireland conference in Dublin, on the 12th of October.
+The presentation slides can be accessed at this link:&lt;br /&gt;
+&lt;a href=&#34;https://qwilka.github.io/PyConIE2019&#34; target=&#34;_blank&#34;&gt;https://qwilka.github.io/PyConIE2019&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;
+
+&lt;p&gt;This talk introduces a Python module I have created called pflacs, an
+open-source package that takes advantage of Python&amp;rsquo;s flexible dynamic
+nature and its introspection tools to provide an object-orientated
+environment for automating engineering design and computational studies.
+ Traditionally engineering design methodologies have been very slow,
+manual and iterative, however recent developments in computer
+technologies are driving a growing trend towards automation. The author
+has a background in the subsea oil &amp;amp; gas industry, and has applied
+pflacs to automating the design of subsea pipelines. Although its
+origins and primary objectives are in engineering design, pflacs can be
+used to manage and automate parameter study type analyses in any domain
+that has a significant computational component.&lt;/p&gt;
+
+&lt;h4 id=&#34;about-the-slides&#34;&gt;About the slides&lt;/h4&gt;
+
+&lt;p&gt;The slides are in &lt;a href=&#34;https://revealjs.com/#&#34; target=&#34;_blank&#34;&gt;Reveal.js&lt;/a&gt; format, having been generated from a Jupyter notebook with &lt;code&gt;nbconvert&lt;/code&gt;,
+&lt;a href=&#34;https://medium.com/learning-machine-learning/present-your-data-science-projects-with-jupyter-slides-75f20735eb0f&#34; target=&#34;_blank&#34;&gt;as explained here.&lt;/a&gt;  The slides are laid out on a 2D grid (type &lt;code&gt;o&lt;/code&gt; to show the slides&amp;rsquo; layout). Use the arrow control at the bottom right to navigate the slides. Start by using the down-arrow until you reach the bottom slide, then select the next slide over with the right-arrow. So process down first, then right and down again. If you need help, type &lt;code&gt;?&lt;/code&gt; to show useful key bindings.&lt;/p&gt;
+
+&lt;h4 id=&#34;links&#34;&gt;Links&lt;/h4&gt;
+
+&lt;ol&gt;
+&lt;li&gt;PyConIE 2019 website  &lt;a href=&#34;https://pycon2019.python.ie/&#34; target=&#34;_blank&#34;&gt;https://pycon2019.python.ie/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Python Ireland website  &lt;a href=&#34;https://python.ie/&#34; target=&#34;_blank&#34;&gt;https://python.ie/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Presentation slides &lt;a href=&#34;https://qwilka.github.io/PyConIE2019&#34; target=&#34;_blank&#34;&gt;https://qwilka.github.io/PyConIE2019&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Article on &lt;code&gt;pflacs&lt;/code&gt; (in draft)  &lt;a href=&#34;https://qwilka.github.io/PFLACS_intro_article_2019/&#34; target=&#34;_blank&#34;&gt;https://qwilka.github.io/PFLACS_intro_article_2019/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pflacs&lt;/code&gt; on Gihub  &lt;a href=&#34;https://github.com/qwilka/pflacs&#34; target=&#34;_blank&#34;&gt;https://github.com/qwilka/pflacs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;vntree&lt;/code&gt; on Gihub  &lt;a href=&#34;https://github.com/qwilka/vn-tree&#34; target=&#34;_blank&#34;&gt;https://github.com/qwilka/vn-tree&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pdover2t&lt;/code&gt; on Gihub  &lt;a href=&#34;https://github.com/qwilka/PDover2t&#34; target=&#34;_blank&#34;&gt;https://github.com/qwilka/PDover2t&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learn to program with Python</title>
+      <link>/post/2018-04-29-python-learning-program/</link>
+      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>/post/2018-04-29-python-learning-program/</guid>
+      <description>
+
+&lt;h1 id=&#34;note-this-is-a-work-in-progress&#34;&gt;NOTE: this is a work-in-progress&lt;/h1&gt;
+
+&lt;p&gt;This article aims to help those, who want to learn how to program, to get started without being distracted by large number of options available. I believe that &lt;a href=&#34;https://www.python.org/&#34; target=&#34;_blank&#34;&gt;Python&lt;/a&gt; is the best choice currently for learning to program, because Python is both &lt;em&gt;easy and useful&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;installing&#34;&gt;Installing&lt;/h2&gt;
+
+&lt;p&gt;For learning Python I recommend &lt;a href=&#34;http://thonny.org/&#34; target=&#34;_blank&#34;&gt;Thonny&lt;/a&gt;, which is an open-source Python code editor orientated towards beginners that incorporates Python itself, so you only need to install Thonny to get started. I recommend using Thonny instead of the built-in &lt;a href=&#34;https://en.wikipedia.org/wiki/IDLE&#34; target=&#34;_blank&#34;&gt;IDLE&lt;/a&gt; code editor, which is obsolescent, &lt;a href=&#34;http://inventwithpython.com/blog/2011/11/29/the-things-i-hate-about-idle-that-i-wish-someone-would-fix/&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;disposable&amp;rdquo;&lt;/a&gt; and unsuitable for beginners, in my opinion.&lt;/p&gt;
+
+&lt;h2 id=&#34;learning&#34;&gt;Learning&lt;/h2&gt;
+
+&lt;p&gt;There are many Python learning resources available on the web. Too many in fact, with so many options there is great potential for confusing and wasting time, if you don&amp;rsquo;t know where to start.&lt;/p&gt;
+
+&lt;p&gt;I recommend starting with &lt;a href=&#34;http://greenteapress.com/wp/think-python-2e/&#34; target=&#34;_blank&#34;&gt;Think Python 2nd ed.&lt;/a&gt; by &lt;em&gt;Allen B. Downey&lt;/em&gt;, which is &lt;a href=&#34;http://greenteapress.com/thinkpython2/html/index.html&#34; target=&#34;_blank&#34;&gt;free-to-read&lt;/a&gt; online, or you can &lt;a href=&#34;http://amzn.to/1WmXPCx&#34; target=&#34;_blank&#34;&gt;buy the book&lt;/a&gt; if you prefer.&lt;/p&gt;
+
+&lt;p&gt;The next learning resource I recommend is the book &lt;a href=&#34;https://automatetheboringstuff.com/&#34; target=&#34;_blank&#34;&gt;Automate the Boring Stuff with Python&lt;/a&gt; by Al Sweigart.  It is also &lt;a href=&#34;https://automatetheboringstuff.com/#toc&#34; target=&#34;_blank&#34;&gt;free-to-read online&lt;/a&gt; or you can &lt;a href=&#34;http://www.amazon.com/gp/product/1593275994/ref=as_li_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=1593275994&amp;amp;linkCode=as2&amp;amp;tag=playwithpyth-20&amp;amp;linkId=HDM7V3T6RHC5VVN4&#34; target=&#34;_blank&#34;&gt;buy the book&lt;/a&gt;. &lt;em&gt;Automate-the-Boring-Stuff&lt;/em&gt; focuses on the &lt;em&gt;useful&lt;/em&gt; aspect of Python, while still being very accessible to beginners.&lt;/p&gt;
+
+&lt;p&gt;You should also become familiar with the official &lt;a href=&#34;https://docs.python.org/3/&#34; target=&#34;_blank&#34;&gt;Python documentation&lt;/a&gt;, it is well developed and comprehensive, if necessarily not very accessible for beginners. You should start with the official &lt;a href=&#34;https://docs.python.org/3/tutorial/index.html&#34; target=&#34;_blank&#34;&gt;Python Tutorial&lt;/a&gt;, that&amp;rsquo;s were I started to learn Python myself (around 15 years ago.) The &lt;a href=&#34;https://docs.python.org/3/glossary.html&#34; target=&#34;_blank&#34;&gt;Glossary&lt;/a&gt; is also useful, to cope with terminology confusion.&lt;/p&gt;
+
+&lt;p&gt;As you learn more, you will need to become familiar with the &lt;a href=&#34;https://docs.python.org/3/library/index.html&#34; target=&#34;_blank&#34;&gt;Python Standard Library&lt;/a&gt;, this contains many of the built-in tools that make Python so useful. The Python &lt;a href=&#34;https://pymotw.com/3/&#34; target=&#34;_blank&#34;&gt;Module of the Week&lt;/a&gt; series of articles are very helpful for understanding how to use the standard library. The Python documentation also contains some useful &lt;a href=&#34;https://docs.python.org/3/howto/index.html&#34; target=&#34;_blank&#34;&gt;how-to&lt;/a&gt; articles that help explain some Python details. I find the &lt;a href=&#34;https://docs.python.org/3/howto/regex.html&#34; target=&#34;_blank&#34;&gt;regex how-to&lt;/a&gt; particularly useful (if you don&amp;rsquo;t know what a &lt;a href=&#34;https://en.wikipedia.org/wiki/Regular_expression&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;regex&amp;rdquo;&lt;/a&gt; is, don&amp;rsquo;t worry, you will learn about these very &lt;a href=&#34;http://regex.info/blog/2006-09-15/247&#34; target=&#34;_blank&#34;&gt;useful and tricky&lt;/a&gt; tools soon&amp;hellip;)&lt;/p&gt;
+
+&lt;h2 id=&#34;other-useful-resources&#34;&gt;Other useful resources&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://pyvideo.org/&#34; target=&#34;_blank&#34;&gt;PyVideo&lt;/a&gt; is a repository of presentations at various Python conferences around the world. &lt;a href=&#34;http://pyvideo.org/events.html&#34; target=&#34;_blank&#34;&gt;Browsing the videos&lt;/a&gt; should give you some idea of the many interesting things people are doing with Python. There are also many &lt;a href=&#34;http://pyvideo.org/tag/tutorial/&#34; target=&#34;_blank&#34;&gt;video tutorials&lt;/a&gt; available.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.learnpython.org/&#34; target=&#34;_blank&#34;&gt;https://www.learnpython.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.grahamwheeler.com/posts/python-crash-course.html&#34; target=&#34;_blank&#34;&gt;https://www.grahamwheeler.com/posts/python-crash-course.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jakevdp/WhirlwindTourOfPython&#34; target=&#34;_blank&#34;&gt;https://github.com/jakevdp/WhirlwindTourOfPython&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://hplgit.github.io/prog4comp/&#34; target=&#34;_blank&#34;&gt;Gentle Introduction to Numerical Simulations with Python, Linge &amp;amp; Langtangen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fangohr.github.io/blog/installation-of-python-spyder-numpy-sympy-scipy-pytest-matplotlib-via-anaconda.html&#34; target=&#34;_blank&#34;&gt;https://fangohr.github.io/blog/installation-of-python-spyder-numpy-sympy-scipy-pytest-matplotlib-via-anaconda.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spyder-ide/spyder&#34; target=&#34;_blank&#34;&gt;https://github.com/spyder-ide/spyder&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;and-now-for-something-completely-different&#34;&gt;And now for something completely different&amp;hellip;&lt;/h2&gt;
+
+&lt;p&gt;{% gist c5c53e1bba02c82e70aaab7d7d6d0d73 %}&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Finding the fish in GIS</title>
+      <link>/post/2018-04-22-finding-fish-gis/</link>
+      <pubDate>Sun, 22 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>/post/2018-04-22-finding-fish-gis/</guid>
+      <description>&lt;p&gt;I recently came across this video in a &lt;a href=&#34;https://www.linkedin.com/feed/update/urn:li:activity:6390252332893900800&#34; target=&#34;_blank&#34;&gt;Linkedin post&lt;/a&gt;.  It&amp;rsquo;s a clip of &lt;a href=&#34;https://en.wikipedia.org/wiki/Remotely_operated_underwater_vehicle&#34; target=&#34;_blank&#34;&gt;ROV&lt;/a&gt; video that shows a small strange sea creature apparently walking across the seabed from a pipeline towards the ROV, and encountering a predator along the way:&lt;/p&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/zKK5qJjI98c&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;This set me wondering about two things: what type of creature is it, and where was the video recorded? The video clip is also available &lt;a href=&#34;https://www.youtube.com/watch?v=zKK5qJjI98c&#34; target=&#34;_blank&#34;&gt;on YouTube&lt;/a&gt;, which incorrectly states that the location is in the North Sea. The video overlay indicates that it was recorded in 2002. Commenters on the &lt;a href=&#34;https://www.linkedin.com/feed/update/urn:li:activity:6390252332893900800&#34; target=&#34;_blank&#34;&gt;Linkedin post&lt;/a&gt; identify the creature as a &lt;a href=&#34;https://en.wikipedia.org/wiki/Frogfish&#34; target=&#34;_blank&#34;&gt;frog fish&lt;/a&gt;, and the location as offshore Vietnam, based on the &lt;a href=&#34;https://www.rosneft.com/press/releases/item/181439/&#34; target=&#34;_blank&#34;&gt;Lan Tay&lt;/a&gt; identification on the overlay. This would suggest that the pipeline that is visible at the start of the video clip is the &lt;a href=&#34;https://www.pvgas.com.vn/product-and-service/services/gas-transportation-and-distribution&#34; target=&#34;_blank&#34;&gt;Nam Con Son&lt;/a&gt; 26&amp;rdquo; pipeline, which transports gas from the Lan Tay platform to the Vietnam mainland, and which was installed in 2002.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/NCSP2.jpg&#34; alt=&#34;Nam Con Son pipeline route&#34; /&gt;&lt;/p&gt;
+
+&lt;div style=&#34;font-size:xx-small&#34;&gt;(Image adapted from the &lt;a href=&#34;http://abarrelfull.wikidot.com/nam-con-son-gas-pipeline&#34;&gt;Nam Con Son 2003 Environmental Statement.&lt;/a&gt;)&lt;/div&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;The video overlay indicates the location water depth and &lt;a href=&#34;https://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system&#34; target=&#34;_blank&#34;&gt;UTM coordinates&lt;/a&gt;, but the UTM zone is not given. The KP 0.102 value on the overlay suggests that the location is close to the platform (since &lt;a href=&#34;https://geodyssey.neocities.org/papers/ahgpp.html&#34; target=&#34;_blank&#34;&gt;KPs&lt;/a&gt; usually follow product flow direction). Initially I thought of writing a program to scan through the indicated coordinate location in all the UTM zones and check the water depth at each location, but since there is a hint that the location is close to the Lan Tay platform offshore Vietnam, I decided it would be quicker to add a capability to query location water depth to the &lt;a href=&#34;https://qwilka.github.io/GIS/&#34; target=&#34;_blank&#34;&gt;Qwilka Subsea GIS&lt;/a&gt;, and use that to check the water depth at the suspected location. Right-clicking on the GIS at the indicated coordinate location south-east of Vietnam gives a location which is close enough to the &lt;a href=&#34;http://globalenergyobservatory.org/geoid/41214&#34; target=&#34;_blank&#34;&gt;Lan Tay platform&lt;/a&gt;, and gives a depth similar to that indicated on the ROV video overlay, which satifies me that this is the correct location of the frog fish:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;/GIS/&#34;&gt;&lt;img src=&#34;/img/QwilkaGIS_LanTay.jpg&#34; alt=&#34;Lan Tay location&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Introducing the Qwilka Subsea GIS</title>
+      <link>/post/2018-04-19-introducing-qwilka-gis/</link>
+      <pubDate>Thu, 19 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>/post/2018-04-19-introducing-qwilka-gis/</guid>
+      <description>&lt;p&gt;I have just set up a demonstration &lt;a href=&#34;https://en.wikipedia.org/wiki/Geographic_information_system&#34; target=&#34;_blank&#34;&gt;GIS&lt;/a&gt; (geographic information system) for my subsea data company Qwilka. It is built using the open source web mapping library &lt;a href=&#34;http://leafletjs.com/&#34; target=&#34;_blank&#34;&gt;Leaflet&lt;/a&gt;, which is light-weight and easy to program. The plan is to use the &lt;a href=&#34;https://qwilka.github.io/GIS/&#34; target=&#34;_blank&#34;&gt;Qwilka Subsea GIS&lt;/a&gt; to display openly available data related to the subsea oil &amp;amp; gas industry. The base map is taken from &lt;a href=&#34;https://www.gebco.net/&#34; target=&#34;_blank&#34;&gt;GEBCO&lt;/a&gt; which provides a global map with ocean bathymetry. There is also an alternative base map from &lt;a href=&#34;https://www.openstreetmap.org/&#34; target=&#34;_blank&#34;&gt;OpenStreetMap&lt;/a&gt; with more land based details like borders, roads and cities.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&#34;https://qwilka.github.io/GIS/&#34; height=&#34;400&#34; width=&#34;750&#34; align=&#34;middle&#34; frameborder=&#34;1&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p align=&#34;center&#34;&gt;
+  &lt;i&gt;Go to webpage:&lt;/i&gt;&lt;br&gt;
+  &lt;a href=&#34;https://qwilka.github.io/GIS/&#34;&gt;Qwilka Subsea GIS&lt;/a&gt;
+  &lt;br&gt;
+&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;Hovering the cursor over the layer control &lt;img src=&#34;/img/Leaflet_layer_control.svg&#34; alt=&#34;layer-control&#34; /&gt;{: height=&amp;ldquo;24&amp;rdquo; width=&amp;ldquo;24&amp;rdquo; } at the top-right enables selecting data layers for display. The attribution box on the bottom-right &lt;img src=&#34;/img/Leaflet_attribution_control.jpg&#34; alt=&#34;attribution-control&#34; /&gt; provides links to the sources of the displayed data (links will open in a new browser tab/window). Right-clicking on the map brings up a popup that displays the location coordinates:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/location_coord_popup.jpg&#34; alt=&#34;location pop-up&#34; /&gt;
+ &lt;p align=&#34;left&#34;&gt;
+  &lt;i&gt;Right-clicking at a location gives coordinate information.&lt;/i&gt;&lt;br&gt;
+  &lt;br&gt;
+&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;To start with, I will focus on adding data provided by &lt;a href=&#34;https://en.wikipedia.org/wiki/Web_Map_Service&#34; target=&#34;_blank&#34;&gt;WMS&lt;/a&gt; (web map service) providers, because that&amp;rsquo;s the easiest to set up, it merely involves passing on data that is hosted on the provider&amp;rsquo;s WMS server. Presently there are subsea infrastructure data from the &lt;a href=&#34;http://www.npd.no/en/About-us/Available-data/&#34; target=&#34;_blank&#34;&gt;NPD&lt;/a&gt; (Norwegian Petroleum Directorate) and the &lt;a href=&#34;https://data.gov.ie/dataset/offshore-gas-pipeline&#34; target=&#34;_blank&#34;&gt;Irish Government&lt;/a&gt;. I will be adding more open WMS data in due course, as I identify suitable providers.&lt;/p&gt;
+
+&lt;p&gt;There are many other authorities providing subsea infrastructure data in various formats which usually require some processing to convert into a format that can be rendered on the GIS. I am planning to add these data also, in due course.  Here is a list of some of the open subsea data that I am planning to look at:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thecrownestate.co.uk/energy-minerals-and-infrastructure/downloads/maps-and-gis-data/&#34; target=&#34;_blank&#34;&gt;UK offshore activity data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://data.gov.au/dataset/oil-and-gas-pipelines-of-australia&#34; target=&#34;_blank&#34;&gt;Oil and Gas Pipelines of Australia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.landscope.org/louisiana/map_layers/energy/offshore_pipelines/24942/&#34; target=&#34;_blank&#34;&gt;GoM pipelines&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you know any other relevant data sources, I would be interested to know about them! I hope you find the &lt;a href=&#34;https://qwilka.github.io/GIS/&#34; target=&#34;_blank&#34;&gt;Qwilka Subsea GIS&lt;/a&gt; interesting, in time I am planning to develop it into a useful reference tool for subsea engineers.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Launching new website</title>
+      <link>/post/2018-03-27-qwilka-site-launched/</link>
+      <pubDate>Tue, 27 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>/post/2018-03-27-qwilka-site-launched/</guid>
+      <description>&lt;p&gt;Finally got around to putting my website together. It&amp;rsquo;s  hosted on &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34;&gt;GitHub&lt;/a&gt;
+and rendered by &lt;a href=&#34;http://jekyllrb.com&#34; target=&#34;_blank&#34;&gt;Jekyll&lt;/a&gt;,
+so I can use &lt;a href=&#34;https://guides.github.com/features/mastering-markdown/&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt;
+to write posts.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Introducing Qwilka</title>
+      <link>/post/2018-03-07-introducing_qwilka/</link>
+      <pubDate>Wed, 07 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>/post/2018-03-07-introducing_qwilka/</guid>
+      <description>&lt;p&gt;By way of introducing Qwilka, the startup company I founded to develop new ways of managing engineering data and get more value from it, I present this short video. I made the video as part of Qwilka&amp;rsquo;s application to the &lt;a href=&#34;https://theogtc.com/&#34; target=&#34;_blank&#34;&gt;OGTC&lt;/a&gt; TechX Pioneer accelerator programme in Aberdeen.  The video did its job, not notwithstanding the basic production, in that Qwilka was invited to pitch to the OGTC in Aberdeen (on the date of this post, as it happened.) Apparently there were more than 120 applications, and only 16 were invited to pitch, but unfortunately Qwilka was not among the 10 companies chosen to participate in the 2018 Pioneer programme following the pitch session.  I am not too disappointed, given the high quality of the &lt;a href=&#34;http://www.theogtc.com/media-centre/news/2018/techx-accelerator-announces-first-pioneers/&#34; target=&#34;_blank&#34;&gt;selected companies&lt;/a&gt;, and since it was an achievement for Qwilka to be invited to pitch. I know there will be other opportunities to develop Qwilka in the future, and we will definitely be pursuing some of those.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/LgyBPAWDDU8&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cost, Design and Data in Subsea</title>
+      <link>/post/2016-11-12-cost-design-data-subsea/</link>
+      <pubDate>Sat, 12 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>/post/2016-11-12-cost-design-data-subsea/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;/img/broken-pipeline.png&#34; alt=&#34;failed pipeline&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;This article was first published on &lt;a href=&#34;https://www.linkedin.com/pulse/cost-design-data-subsea-stephen-mcentee?articleId=6203192302513512448&#34; target=&#34;_blank&#34;&gt;first published on Linkedin&lt;/a&gt; on 12&lt;sup&gt;th&lt;/sup&gt; November 2016.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Traditionally, subsea oil &amp;amp; gas has based its designs on simple engineering theory, because it&amp;rsquo;s regarded as being more reliable to do it that way. However, now the low oil price is bringing to the fore the view that the cost of constructing and maintaining subsea infrastructure is too high, due to over-design and poor understanding of how structures actually behave in the field. This situation was tolerated in the past when the oil price was higher, because it was regarded as robust and lower risk to over-design pipelines and other subsea infrastructure. Now there is immense pressure to reduce costs, and to keep costs down when the oil price recovers again, while somehow at the same time maintaining the necessary standards of safety and reliability. It will not be possible to achieve this by doing things the old-way. If costs are going to be reduced without increasing risk, then it will be necessary to introduce new innovative technologies, to collaborate, and to move beyond the simple engineering theory that we have relied on in the past, to start using more advanced engineering analysis, and to start looking at our data to see how our designs actually perform.&lt;/p&gt;
+
+&lt;p&gt;The oil &amp;amp; gas industry is in crisis. The oil price has been lower for longer. Spending has been cut 20%-30% across the board. There have been large scale job losses in the UK, Norway and the USA. We are being told that the &lt;a href=&#34;http://www.oedigital.com/component/k2/item/12099-statoil-costs-down-but-more-to-come-uptick-or-no-uptick&#34; target=&#34;_blank&#34;&gt;lower level of spending must be sustained when the oil price eventually recovers.&lt;/a&gt; At the same time, there can be no compromise on safety and reliability. But is it actually possible to cut costs in subsea without increasing risks?&lt;/p&gt;
+
+&lt;h3 id=&#34;no-it-s-not-possible&#34;&gt;No, it&amp;rsquo;s not possible&lt;/h3&gt;
+
+&lt;p&gt;Many of our colleagues in subsea don&amp;rsquo;t believe that it is possible to cut costs without increasing risk. There are plenty of stories about subsea projects where spending was reduced, and some type of incident occurred. The implication is always that the untoward incident was a direct consequence of cost cutting, and that it wouldn&amp;rsquo;t have happened if more money was spent on equipment and hiring additional people, like in the old days when the oil price was higher. Many in the industry still believe that the best way to deal with the downturn is to retrench, wait for the recovery, and then things will proceed as before. After all, that&amp;rsquo;s what happened after the last downturn, and the one before that.&lt;/p&gt;
+
+&lt;h3 id=&#34;yes-we-can&#34;&gt;Yes we can&lt;/h3&gt;
+
+&lt;p&gt;Meanwhile senior oil company executives are going to conferences and telling everyone that we are going to to &lt;a href=&#34;https://www.bp.com/en/global/corporate/media/speeches/new-times-new-challenges.html&#34; target=&#34;_blank&#34;&gt;learn from each other and embrace innovation.&lt;/a&gt; We will make more use of &lt;a href=&#34;http://www.oedigital.com/component/k2/item/11938-big-data-adoption-lagging-in-oil-and-gas&#34; target=&#34;_blank&#34;&gt;technology and data.&lt;/a&gt; There will be &lt;a href=&#34;http://www.oedigital.com/component/k2/item/10516-atce15-our-industry-will-adapt&#34; target=&#34;_blank&#34;&gt;more collaboration&lt;/a&gt; and standardisation. That&amp;rsquo;s how we will square the circle and make cost cutting consistent with safety and reliability. However, unless senior management are delivering this same message to their own middle managers (the people who actually execute the work), nothing is going to change any time soon. In the past, the message to middle management has always been &amp;ldquo;you&amp;rsquo;re responsible&amp;rdquo;, and that is the reason why managers in oil &amp;amp; gas are very conservative, risk averse, and wary of change and new technologies.&lt;/p&gt;
+
+&lt;h3 id=&#34;beyond-the-retrenchment-and-the-rhetoric-what-is-actually-technically-possible&#34;&gt;Beyond the retrenchment and the rhetoric, what is actually technically possible?&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://books.google.ie/books?id=DUAKNT-hcuoC&amp;amp;pg=PA534&amp;amp;lpg=PA534&amp;amp;dq=It+is+not+fanciful+to+think+of+the+calculation+portion+of+the+design+of+a+major+system+being+carried+out+in+a+few+seconds+...+and+the+design+being+documented+automatically&amp;amp;source=bl&amp;amp;ots=AaDLsB96y2&amp;amp;sig=VWTVDVsXv3P_7TXNskf2JeZm7vA&amp;amp;hl=en&amp;amp;sa=X#v=onepage&amp;amp;q=It%20is%20not%20fanciful%20to%20think%20of%20the%20calculation%20portion%20of%20the%20design%20of%20a%20major%20system%20being%20carried%20out%20in%20a%20few%20seconds%20...%20and%20the%20design%20being%20documented%20automatically&amp;amp;f=false&#34; target=&#34;_blank&#34;&gt;The design of a major system could be carried out in a few seconds &amp;hellip; and documented automatically&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The subsea industry has been aware for some time that most of the analysis part of a pipeline design could be carried out automatically by computer. It is not hard to see why: a pipeline is one of the simplest engineering structures, an extended cylinder, and the engineering analysis is correspondingly simple, based for the most part on basic engineering theory. The quotation above is taken from the book &lt;em&gt;Subsea Pipeline Engineering&lt;/em&gt; by Palmer and King, which was first published in 2004. Palmer and King are not tech evangelists, they are distinguished engineers who have contributed to subsea since its pioneering days in the 1970s. The fact that they identified the potential for automating pipeline analysis more than a decade ago is indicative that the idea was already &lt;a href=&#34;https://www.newyorker.com/magazine/2008/05/12/in-the-air&#34; target=&#34;_blank&#34;&gt;in-the-air&lt;/a&gt; even then. Around the same time this book was published, I had the idea of automating pipeline calculations by encapsulating them in a single spreadsheet, but when I described this idea to the management of the company I was working for I was told &amp;ldquo;interesting, but no-thanks&amp;rdquo; (I responded &amp;ldquo;if our competitors do this first, you will want to implement the idea immediately&amp;rdquo;) . When I tell this story to industry colleagues, they often respond with similar stories of their own about ideas for improving efficiency that were not taken up. The fact is that our rivals did not automate the pipeline calculations, and we didn&amp;rsquo;t either. The industry had a very good business model based on selling engineering man-hours, and ideas for doing things faster were not consistent with this.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Civil engineers, when designing a bridge, consider the largest loads they can think of, and they apply all those loads at the weakest point, all at the same time, &amp;hellip; and then multiply by 10 &amp;hellip; but you&amp;rsquo;ve never seen a concrete bridge taking off from Heathrow airport.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This observation, contrasting the design approaches of the civil and aeronautical branches of engineering, was made by a stress analysis lecturer called Jarlath Mullins to a class of mechanical engineering students in an Irish university around 1988. I have sometimes quoted Jarlath to my subsea colleagues, particularly when they use the phrase &amp;ldquo;it&amp;rsquo;s conservative&amp;rdquo; to justify increasing a load or FoS, or to avoid carrying out further analysis. The reaction to this quotation is rarely appreciative, it usually provokes justifications along the line that &amp;ldquo;it&amp;rsquo;s different for subsea&amp;rdquo;. The next time you hear a colleague saying &amp;ldquo;it&amp;rsquo;s conservative&amp;rdquo; ask yourself this question: is this a necessary prudent approach to reducing risk due to a genuine lack of information, or is it just defensive engineering, or even worse, laziness and ignorance?&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/John_Wanamaker&#34; target=&#34;_blank&#34;&gt;Half the money I spend on advertising is wasted; the trouble is I don&amp;rsquo;t know which half&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Subsea is in a similar situation as the advertising industry a century ago, we are spending too much money on unnecessary subsea interventions because we don&amp;rsquo;t know when the risk of structural failure is genuine or not. Our assessments of risk are based on very conservative design codes that rely on large factors of safety to ensure reliability. We make too many conservative assumptions, often inconsistent assumptions, and sometimes unacknowledged assumptions, in our attempts to eliminate risk. We could tackle this problem the same way the advertising industry resolved theirs: by using data to understand the problem. Subsea infrastructure are regularly surveyed for integrity management, and these surveys generate large quantities of video, &lt;a href=&#34;http://en.wikipedia.org/wiki/Multibeam_echosounder&#34; target=&#34;_blank&#34;&gt;MBES&lt;/a&gt; and other data. Apart from compiling integrity check-lists and some basic engineering design checks, this data is not used as much as it could be. The survey data could be used to gain a better understanding of how pipelines and other infrastructure actually behave in the field. Doing this would help subsea move away from its current theory-based engineering approach to a more reality-based engineering approach. The data could enable better quantifications of risk and more justifiable design factors of safety, resulting in significantly lower costs through more efficient designs and fewer unnecessary interventions.&lt;/p&gt;
+
+&lt;h3 id=&#34;collaboration-and-data-sharing&#34;&gt;Collaboration and data sharing&lt;/h3&gt;
+
+&lt;p&gt;There is growing recognition that more value can be gained from data by sharing it, in cases when considerations of privacy, proprietary or confidentiality are not paramount. This has led to an explosion in the quantity of publicly available data, including &lt;a href=&#34;http://www.openocean.fr/en/&#34; target=&#34;_blank&#34;&gt;metocean&lt;/a&gt; and &lt;a href=&#34;http://maps.ngdc.noaa.gov/viewers/bathymetry/&#34; target=&#34;_blank&#34;&gt;bathymetric&lt;/a&gt; data directly relevant to subsea. Data licences similar to open source software licences have been developed to facilitate data sharing. The UK government recently issued the 3rd version of its &lt;a href=&#34;http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/&#34; target=&#34;_blank&#34;&gt;Open Government Licence&lt;/a&gt; to protect data issued under Crown Copyright.&lt;/p&gt;
+
+&lt;p&gt;In the oil &amp;amp; gas industry, a narrow, proprietorial, &lt;em&gt;need-to-know&lt;/em&gt; approach to data sharing still prevails. This approach may be justified for seismic data which has monetary value and is share-price sensitive, but is it justified for subsea data? You can&amp;rsquo;t sell your pipeline survey data to another oil company, and ROV video is unlikely to a greater impact on company share value than Google Street View. I am not suggesting that we put ROV survey data on YouTube, I am saying that we will extract more value from subsea data if it is distributed more widely among interested parties, because the more data we have, the more confidence we will have in the risk quantifications it yields. When your engineering contractor tells you that a 12.5m freespan recently discovered in your 10&amp;rdquo; pipeline is a &lt;a href=&#34;http://en.wikipedia.org/wiki/Vortex-induced_vibration&#34; target=&#34;_blank&#34;&gt;VIV&lt;/a&gt; risk and it requires a £1 million intervention to be remediated, you might wonder whether the risk is real regardless of what the design code says. After all, there have been more sightings of the &lt;a href=&#34;http://en.wikipedia.org/wiki/Yeti&#34; target=&#34;_blank&#34;&gt;abominable snowman&lt;/a&gt; than field observations of &lt;a href=&#34;http://www.kunnskapsdugnad.no/ikbViewer/Content/777784/Vedeld&#34; target=&#34;_blank&#34;&gt;VIV in subsea pipelines.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If the new-found idea of &lt;em&gt;collaboration&lt;/em&gt; in subsea actually means anything more than the normal mutually beneficial cooperation between businesses that would happen anyway, then data sharing should be at the top of the list of areas with potential for real collaboration.&lt;/p&gt;
+
+&lt;h3 id=&#34;in-conclusion&#34;&gt;In conclusion&lt;/h3&gt;
+
+&lt;p&gt;The subsea oil &amp;amp; gas industry can achieve its goal of sustainably lowering costs while still maintaining the highest levels of safety and reliability in subsea infrastructure by doing things differently, in particular by making more use of technology and data, and by collaborating more than we have in the past. We will soon find out if the industry can transform itself, or if it reverts to its &lt;em&gt;old-ways&lt;/em&gt;, when the upturn finally arrives&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

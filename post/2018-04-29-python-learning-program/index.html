@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.5.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Stephen McEntee">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="NOTE: this is a work-in-progress This article aims to help those, who want to learn how to program, to get started without being distracted by large number of options available. I believe that Python is the best choice currently for learning to program, because Python is both easy and useful.
+Installing For learning Python I recommend Thonny, which is an open-source Python code editor orientated towards beginners that incorporates Python itself, so you only need to install Thonny to get started.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/post/2018-04-29-python-learning-program/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/post/2018-04-29-python-learning-program/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Qwilka">
+  <meta property="og:url" content="/post/2018-04-29-python-learning-program/">
+  <meta property="og:title" content="Learn to program with Python | Qwilka">
+  <meta property="og:description" content="NOTE: this is a work-in-progress This article aims to help those, who want to learn how to program, to get started without being distracted by large number of options available. I believe that Python is the best choice currently for learning to program, because Python is both easy and useful.
+Installing For learning Python I recommend Thonny, which is an open-source Python code editor orientated towards beginners that incorporates Python itself, so you only need to install Thonny to get started."><meta property="og:image" content="/img/icon-192.png">
+  <meta property="twitter:image" content="/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2018-04-29T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2018-04-29T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/post/2018-04-29-python-learning-program/"
+  },
+  "headline": "Learn to program with Python",
+  
+  "datePublished": "2018-04-29T00:00:00Z",
+  "dateModified": "2018-04-29T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Stephen McEntee"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Qwilka",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/img/icon-512.png"
+    }
+  },
+  "description": "NOTE: this is a work-in-progress This article aims to help those, who want to learn how to program, to get started without being distracted by large number of options available. I believe that Python is the best choice currently for learning to program, because Python is both easy and useful.\nInstalling For learning Python I recommend Thonny, which is an open-source Python code editor orientated towards beginners that incorporates Python itself, so you only need to install Thonny to get started."
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Learn to program with Python | Qwilka</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Qwilka</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#demo"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>Talks</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>About</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+
+        
+
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Learn to program with Python</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    2018-04-29
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      
+
+<h1 id="note-this-is-a-work-in-progress">NOTE: this is a work-in-progress</h1>
+
+<p>This article aims to help those, who want to learn how to program, to get started without being distracted by large number of options available. I believe that <a href="https://www.python.org/" target="_blank">Python</a> is the best choice currently for learning to program, because Python is both <em>easy and useful</em>.</p>
+
+<h2 id="installing">Installing</h2>
+
+<p>For learning Python I recommend <a href="http://thonny.org/" target="_blank">Thonny</a>, which is an open-source Python code editor orientated towards beginners that incorporates Python itself, so you only need to install Thonny to get started. I recommend using Thonny instead of the built-in <a href="https://en.wikipedia.org/wiki/IDLE" target="_blank">IDLE</a> code editor, which is obsolescent, <a href="http://inventwithpython.com/blog/2011/11/29/the-things-i-hate-about-idle-that-i-wish-someone-would-fix/" target="_blank">&ldquo;disposable&rdquo;</a> and unsuitable for beginners, in my opinion.</p>
+
+<h2 id="learning">Learning</h2>
+
+<p>There are many Python learning resources available on the web. Too many in fact, with so many options there is great potential for confusing and wasting time, if you don&rsquo;t know where to start.</p>
+
+<p>I recommend starting with <a href="http://greenteapress.com/wp/think-python-2e/" target="_blank">Think Python 2nd ed.</a> by <em>Allen B. Downey</em>, which is <a href="http://greenteapress.com/thinkpython2/html/index.html" target="_blank">free-to-read</a> online, or you can <a href="http://amzn.to/1WmXPCx" target="_blank">buy the book</a> if you prefer.</p>
+
+<p>The next learning resource I recommend is the book <a href="https://automatetheboringstuff.com/" target="_blank">Automate the Boring Stuff with Python</a> by Al Sweigart.  It is also <a href="https://automatetheboringstuff.com/#toc" target="_blank">free-to-read online</a> or you can <a href="http://www.amazon.com/gp/product/1593275994/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1593275994&amp;linkCode=as2&amp;tag=playwithpyth-20&amp;linkId=HDM7V3T6RHC5VVN4" target="_blank">buy the book</a>. <em>Automate-the-Boring-Stuff</em> focuses on the <em>useful</em> aspect of Python, while still being very accessible to beginners.</p>
+
+<p>You should also become familiar with the official <a href="https://docs.python.org/3/" target="_blank">Python documentation</a>, it is well developed and comprehensive, if necessarily not very accessible for beginners. You should start with the official <a href="https://docs.python.org/3/tutorial/index.html" target="_blank">Python Tutorial</a>, that&rsquo;s were I started to learn Python myself (around 15 years ago.) The <a href="https://docs.python.org/3/glossary.html" target="_blank">Glossary</a> is also useful, to cope with terminology confusion.</p>
+
+<p>As you learn more, you will need to become familiar with the <a href="https://docs.python.org/3/library/index.html" target="_blank">Python Standard Library</a>, this contains many of the built-in tools that make Python so useful. The Python <a href="https://pymotw.com/3/" target="_blank">Module of the Week</a> series of articles are very helpful for understanding how to use the standard library. The Python documentation also contains some useful <a href="https://docs.python.org/3/howto/index.html" target="_blank">how-to</a> articles that help explain some Python details. I find the <a href="https://docs.python.org/3/howto/regex.html" target="_blank">regex how-to</a> particularly useful (if you don&rsquo;t know what a <a href="https://en.wikipedia.org/wiki/Regular_expression" target="_blank">&ldquo;regex&rdquo;</a> is, don&rsquo;t worry, you will learn about these very <a href="http://regex.info/blog/2006-09-15/247" target="_blank">useful and tricky</a> tools soon&hellip;)</p>
+
+<h2 id="other-useful-resources">Other useful resources</h2>
+
+<p><a href="http://pyvideo.org/" target="_blank">PyVideo</a> is a repository of presentations at various Python conferences around the world. <a href="http://pyvideo.org/events.html" target="_blank">Browsing the videos</a> should give you some idea of the many interesting things people are doing with Python. There are also many <a href="http://pyvideo.org/tag/tutorial/" target="_blank">video tutorials</a> available.</p>
+
+<ul>
+<li><a href="https://www.learnpython.org/" target="_blank">https://www.learnpython.org/</a></li>
+<li><a href="https://www.grahamwheeler.com/posts/python-crash-course.html" target="_blank">https://www.grahamwheeler.com/posts/python-crash-course.html</a></li>
+<li><a href="https://github.com/jakevdp/WhirlwindTourOfPython" target="_blank">https://github.com/jakevdp/WhirlwindTourOfPython</a></li>
+<li><a href="http://hplgit.github.io/prog4comp/" target="_blank">Gentle Introduction to Numerical Simulations with Python, Linge &amp; Langtangen</a></li>
+<li><a href="https://fangohr.github.io/blog/installation-of-python-spyder-numpy-sympy-scipy-pytest-matplotlib-via-anaconda.html" target="_blank">https://fangohr.github.io/blog/installation-of-python-spyder-numpy-sympy-scipy-pytest-matplotlib-via-anaconda.html</a></li>
+<li><a href="https://github.com/spyder-ide/spyder" target="_blank">https://github.com/spyder-ide/spyder</a></li>
+</ul>
+
+<h2 id="and-now-for-something-completely-different">And now for something completely different&hellip;</h2>
+
+<p>{% gist c5c53e1bba02c82e70aaab7d7d6d0d73 %}</p>
+
+    </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/academic.min.368ad8701ddf69c34950016f6435139b.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

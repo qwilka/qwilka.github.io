@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.5.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Stephen McEntee">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="This article was first published on first published on Linkedin on 12th November 2016.
+Traditionally, subsea oil &amp; gas has based its designs on simple engineering theory, because it&rsquo;s regarded as being more reliable to do it that way. However, now the low oil price is bringing to the fore the view that the cost of constructing and maintaining subsea infrastructure is too high, due to over-design and poor understanding of how structures actually behave in the field.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/post/2016-11-12-cost-design-data-subsea/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/post/2016-11-12-cost-design-data-subsea/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Qwilka">
+  <meta property="og:url" content="/post/2016-11-12-cost-design-data-subsea/">
+  <meta property="og:title" content="Cost, Design and Data in Subsea | Qwilka">
+  <meta property="og:description" content="This article was first published on first published on Linkedin on 12th November 2016.
+Traditionally, subsea oil &amp; gas has based its designs on simple engineering theory, because it&rsquo;s regarded as being more reliable to do it that way. However, now the low oil price is bringing to the fore the view that the cost of constructing and maintaining subsea infrastructure is too high, due to over-design and poor understanding of how structures actually behave in the field."><meta property="og:image" content="/img/icon-192.png">
+  <meta property="twitter:image" content="/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2016-11-12T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2016-11-12T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/post/2016-11-12-cost-design-data-subsea/"
+  },
+  "headline": "Cost, Design and Data in Subsea",
+  
+  "datePublished": "2016-11-12T00:00:00Z",
+  "dateModified": "2016-11-12T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Stephen McEntee"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Qwilka",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/img/icon-512.png"
+    }
+  },
+  "description": "This article was first published on first published on Linkedin on 12th November 2016.\nTraditionally, subsea oil \u0026amp; gas has based its designs on simple engineering theory, because it\u0026rsquo;s regarded as being more reliable to do it that way. However, now the low oil price is bringing to the fore the view that the cost of constructing and maintaining subsea infrastructure is too high, due to over-design and poor understanding of how structures actually behave in the field."
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Cost, Design and Data in Subsea | Qwilka</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Qwilka</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#demo"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>Talks</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>About</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+
+        
+
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Cost, Design and Data in Subsea</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    2016-11-12
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      
+
+<p><img src="/img/broken-pipeline.png" alt="failed pipeline" /></p>
+
+<p><em>This article was first published on <a href="https://www.linkedin.com/pulse/cost-design-data-subsea-stephen-mcentee?articleId=6203192302513512448" target="_blank">first published on Linkedin</a> on 12<sup>th</sup> November 2016.</em></p>
+
+<p>Traditionally, subsea oil &amp; gas has based its designs on simple engineering theory, because it&rsquo;s regarded as being more reliable to do it that way. However, now the low oil price is bringing to the fore the view that the cost of constructing and maintaining subsea infrastructure is too high, due to over-design and poor understanding of how structures actually behave in the field. This situation was tolerated in the past when the oil price was higher, because it was regarded as robust and lower risk to over-design pipelines and other subsea infrastructure. Now there is immense pressure to reduce costs, and to keep costs down when the oil price recovers again, while somehow at the same time maintaining the necessary standards of safety and reliability. It will not be possible to achieve this by doing things the old-way. If costs are going to be reduced without increasing risk, then it will be necessary to introduce new innovative technologies, to collaborate, and to move beyond the simple engineering theory that we have relied on in the past, to start using more advanced engineering analysis, and to start looking at our data to see how our designs actually perform.</p>
+
+<p>The oil &amp; gas industry is in crisis. The oil price has been lower for longer. Spending has been cut 20%-30% across the board. There have been large scale job losses in the UK, Norway and the USA. We are being told that the <a href="http://www.oedigital.com/component/k2/item/12099-statoil-costs-down-but-more-to-come-uptick-or-no-uptick" target="_blank">lower level of spending must be sustained when the oil price eventually recovers.</a> At the same time, there can be no compromise on safety and reliability. But is it actually possible to cut costs in subsea without increasing risks?</p>
+
+<h3 id="no-it-s-not-possible">No, it&rsquo;s not possible</h3>
+
+<p>Many of our colleagues in subsea don&rsquo;t believe that it is possible to cut costs without increasing risk. There are plenty of stories about subsea projects where spending was reduced, and some type of incident occurred. The implication is always that the untoward incident was a direct consequence of cost cutting, and that it wouldn&rsquo;t have happened if more money was spent on equipment and hiring additional people, like in the old days when the oil price was higher. Many in the industry still believe that the best way to deal with the downturn is to retrench, wait for the recovery, and then things will proceed as before. After all, that&rsquo;s what happened after the last downturn, and the one before that.</p>
+
+<h3 id="yes-we-can">Yes we can</h3>
+
+<p>Meanwhile senior oil company executives are going to conferences and telling everyone that we are going to to <a href="https://www.bp.com/en/global/corporate/media/speeches/new-times-new-challenges.html" target="_blank">learn from each other and embrace innovation.</a> We will make more use of <a href="http://www.oedigital.com/component/k2/item/11938-big-data-adoption-lagging-in-oil-and-gas" target="_blank">technology and data.</a> There will be <a href="http://www.oedigital.com/component/k2/item/10516-atce15-our-industry-will-adapt" target="_blank">more collaboration</a> and standardisation. That&rsquo;s how we will square the circle and make cost cutting consistent with safety and reliability. However, unless senior management are delivering this same message to their own middle managers (the people who actually execute the work), nothing is going to change any time soon. In the past, the message to middle management has always been &ldquo;you&rsquo;re responsible&rdquo;, and that is the reason why managers in oil &amp; gas are very conservative, risk averse, and wary of change and new technologies.</p>
+
+<h3 id="beyond-the-retrenchment-and-the-rhetoric-what-is-actually-technically-possible">Beyond the retrenchment and the rhetoric, what is actually technically possible?</h3>
+
+<blockquote>
+<p><a href="https://books.google.ie/books?id=DUAKNT-hcuoC&amp;pg=PA534&amp;lpg=PA534&amp;dq=It+is+not+fanciful+to+think+of+the+calculation+portion+of+the+design+of+a+major+system+being+carried+out+in+a+few+seconds+...+and+the+design+being+documented+automatically&amp;source=bl&amp;ots=AaDLsB96y2&amp;sig=VWTVDVsXv3P_7TXNskf2JeZm7vA&amp;hl=en&amp;sa=X#v=onepage&amp;q=It%20is%20not%20fanciful%20to%20think%20of%20the%20calculation%20portion%20of%20the%20design%20of%20a%20major%20system%20being%20carried%20out%20in%20a%20few%20seconds%20...%20and%20the%20design%20being%20documented%20automatically&amp;f=false" target="_blank">The design of a major system could be carried out in a few seconds &hellip; and documented automatically</a></p>
+</blockquote>
+
+<p>The subsea industry has been aware for some time that most of the analysis part of a pipeline design could be carried out automatically by computer. It is not hard to see why: a pipeline is one of the simplest engineering structures, an extended cylinder, and the engineering analysis is correspondingly simple, based for the most part on basic engineering theory. The quotation above is taken from the book <em>Subsea Pipeline Engineering</em> by Palmer and King, which was first published in 2004. Palmer and King are not tech evangelists, they are distinguished engineers who have contributed to subsea since its pioneering days in the 1970s. The fact that they identified the potential for automating pipeline analysis more than a decade ago is indicative that the idea was already <a href="https://www.newyorker.com/magazine/2008/05/12/in-the-air" target="_blank">in-the-air</a> even then. Around the same time this book was published, I had the idea of automating pipeline calculations by encapsulating them in a single spreadsheet, but when I described this idea to the management of the company I was working for I was told &ldquo;interesting, but no-thanks&rdquo; (I responded &ldquo;if our competitors do this first, you will want to implement the idea immediately&rdquo;) . When I tell this story to industry colleagues, they often respond with similar stories of their own about ideas for improving efficiency that were not taken up. The fact is that our rivals did not automate the pipeline calculations, and we didn&rsquo;t either. The industry had a very good business model based on selling engineering man-hours, and ideas for doing things faster were not consistent with this.</p>
+
+<blockquote>
+<p>Civil engineers, when designing a bridge, consider the largest loads they can think of, and they apply all those loads at the weakest point, all at the same time, &hellip; and then multiply by 10 &hellip; but you&rsquo;ve never seen a concrete bridge taking off from Heathrow airport.</p>
+</blockquote>
+
+<p>This observation, contrasting the design approaches of the civil and aeronautical branches of engineering, was made by a stress analysis lecturer called Jarlath Mullins to a class of mechanical engineering students in an Irish university around 1988. I have sometimes quoted Jarlath to my subsea colleagues, particularly when they use the phrase &ldquo;it&rsquo;s conservative&rdquo; to justify increasing a load or FoS, or to avoid carrying out further analysis. The reaction to this quotation is rarely appreciative, it usually provokes justifications along the line that &ldquo;it&rsquo;s different for subsea&rdquo;. The next time you hear a colleague saying &ldquo;it&rsquo;s conservative&rdquo; ask yourself this question: is this a necessary prudent approach to reducing risk due to a genuine lack of information, or is it just defensive engineering, or even worse, laziness and ignorance?</p>
+
+<blockquote>
+<p><a href="http://en.wikipedia.org/wiki/John_Wanamaker" target="_blank">Half the money I spend on advertising is wasted; the trouble is I don&rsquo;t know which half</a></p>
+</blockquote>
+
+<p>Subsea is in a similar situation as the advertising industry a century ago, we are spending too much money on unnecessary subsea interventions because we don&rsquo;t know when the risk of structural failure is genuine or not. Our assessments of risk are based on very conservative design codes that rely on large factors of safety to ensure reliability. We make too many conservative assumptions, often inconsistent assumptions, and sometimes unacknowledged assumptions, in our attempts to eliminate risk. We could tackle this problem the same way the advertising industry resolved theirs: by using data to understand the problem. Subsea infrastructure are regularly surveyed for integrity management, and these surveys generate large quantities of video, <a href="http://en.wikipedia.org/wiki/Multibeam_echosounder" target="_blank">MBES</a> and other data. Apart from compiling integrity check-lists and some basic engineering design checks, this data is not used as much as it could be. The survey data could be used to gain a better understanding of how pipelines and other infrastructure actually behave in the field. Doing this would help subsea move away from its current theory-based engineering approach to a more reality-based engineering approach. The data could enable better quantifications of risk and more justifiable design factors of safety, resulting in significantly lower costs through more efficient designs and fewer unnecessary interventions.</p>
+
+<h3 id="collaboration-and-data-sharing">Collaboration and data sharing</h3>
+
+<p>There is growing recognition that more value can be gained from data by sharing it, in cases when considerations of privacy, proprietary or confidentiality are not paramount. This has led to an explosion in the quantity of publicly available data, including <a href="http://www.openocean.fr/en/" target="_blank">metocean</a> and <a href="http://maps.ngdc.noaa.gov/viewers/bathymetry/" target="_blank">bathymetric</a> data directly relevant to subsea. Data licences similar to open source software licences have been developed to facilitate data sharing. The UK government recently issued the 3rd version of its <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank">Open Government Licence</a> to protect data issued under Crown Copyright.</p>
+
+<p>In the oil &amp; gas industry, a narrow, proprietorial, <em>need-to-know</em> approach to data sharing still prevails. This approach may be justified for seismic data which has monetary value and is share-price sensitive, but is it justified for subsea data? You can&rsquo;t sell your pipeline survey data to another oil company, and ROV video is unlikely to a greater impact on company share value than Google Street View. I am not suggesting that we put ROV survey data on YouTube, I am saying that we will extract more value from subsea data if it is distributed more widely among interested parties, because the more data we have, the more confidence we will have in the risk quantifications it yields. When your engineering contractor tells you that a 12.5m freespan recently discovered in your 10&rdquo; pipeline is a <a href="http://en.wikipedia.org/wiki/Vortex-induced_vibration" target="_blank">VIV</a> risk and it requires a £1 million intervention to be remediated, you might wonder whether the risk is real regardless of what the design code says. After all, there have been more sightings of the <a href="http://en.wikipedia.org/wiki/Yeti" target="_blank">abominable snowman</a> than field observations of <a href="http://www.kunnskapsdugnad.no/ikbViewer/Content/777784/Vedeld" target="_blank">VIV in subsea pipelines.</a></p>
+
+<p>If the new-found idea of <em>collaboration</em> in subsea actually means anything more than the normal mutually beneficial cooperation between businesses that would happen anyway, then data sharing should be at the top of the list of areas with potential for real collaboration.</p>
+
+<h3 id="in-conclusion">In conclusion</h3>
+
+<p>The subsea oil &amp; gas industry can achieve its goal of sustainably lowering costs while still maintaining the highest levels of safety and reliability in subsea infrastructure by doing things differently, in particular by making more use of technology and data, and by collaborating more than we have in the past. We will soon find out if the industry can transform itself, or if it reverts to its <em>old-ways</em>, when the upturn finally arrives&hellip;</p>
+
+    </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/academic.min.368ad8701ddf69c34950016f6435139b.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
