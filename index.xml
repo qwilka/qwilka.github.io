@@ -27,11 +27,12 @@
 
 &lt;p&gt;In recent years there have been many exciting developments related to the gathering and presentation of subsea data. These developments promise to reduce costs and improve insight, however the focus on new technologies may be distracting from the ultimate purposes of subsea data: to optimise performance, enhance integrity and reduce threats through better understanding of infrastructure behaviour and risks.  Emulation and incremental improvement often characterise the initial phase of a technological shift; however true transformation is only achieved when the inherent strengths of the new technology are realised and exploited to the full. This presentation will propose that the opportunity now exists to transform subsea engineering into a data-driven discipline, where optimised design solutions are possible and true risk is well understood. The presentation will discuss how this can be achieved and the special challenges involved in realising the full value of subsea data.&lt;/p&gt;
 
-&lt;h4 id=&#34;webpage-links-with-downloadable-presentations&#34;&gt;Webpage links with downloadable presentations&lt;/h4&gt;
+&lt;h4 id=&#34;webpage-links&#34;&gt;Webpage links&lt;/h4&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.sut.org/event/the-future-subsea-digital-toolbox/&#34; target=&#34;_blank&#34;&gt;SUT&lt;/a&gt; event webpage.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.ths.org.uk/event_details.asp?v0=699&#34; target=&#34;_blank&#34;&gt;The Hydrographic Society in Scotland&lt;/a&gt; event webpage.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sut.org/event/the-future-subsea-digital-toolbox/&#34; target=&#34;_blank&#34;&gt;SUT&lt;/a&gt; event webpage with downloadable presentations.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ths.org.uk/event_details.asp?v0=699&#34; target=&#34;_blank&#34;&gt;The Hydrographic Society in Scotland&lt;/a&gt; event webpage with downloadable presentations.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imca-int.com/&#34; target=&#34;_blank&#34;&gt;IMCA&lt;/a&gt; home page.&lt;/li&gt;
 &lt;/ol&gt;
 </description>
     </item>
@@ -43,14 +44,13 @@
       <guid>/talk/2019-10-12_pycon2019/</guid>
       <description>
 
-&lt;p&gt;I presented a talk on my Python module &lt;a href=&#34;https://github.com/qwilka/pflacs&#34; target=&#34;_blank&#34;&gt;pflacs&lt;/a&gt; at the 2019
-Python Ireland conference in Dublin, on the 12th of October.
-The presentation slides can be accessed at this link:&lt;br /&gt;
-&lt;a href=&#34;https://qwilka.github.io/PyConIE2019&#34; target=&#34;_blank&#34;&gt;https://qwilka.github.io/PyConIE2019&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I presented a talk on my Python module &lt;a href=&#34;https://github.com/qwilka/pflacs&#34; target=&#34;_blank&#34;&gt;pflacs&lt;/a&gt; at the 2019 Python Ireland conference in Dublin, on the 12th of October.&lt;/p&gt;
+
+&lt;p&gt;The presentation slides are &lt;a href=&#34;https://qwilka.github.io/PyConIE2019&#34; target=&#34;_blank&#34;&gt;available at this link&lt;/a&gt;. The slides are in &lt;a href=&#34;https://revealjs.com/#/&#34; target=&#34;_blank&#34;&gt;Reveal.js format&lt;/a&gt;, generated from a &lt;a href=&#34;https://github.com/qwilka/blog-resources/blob/master/drafts/PyConIE2019_pflacs_presentation.ipynb&#34; target=&#34;_blank&#34;&gt;Jupyter notebook&lt;/a&gt;. Reveal lays out the slides on a 2-dimensional grid (press &lt;code&gt;o&lt;/code&gt; to see an overview). Press &lt;code&gt;n&lt;/code&gt; to move to the next slide, and press &lt;code&gt;p&lt;/code&gt; to go back. Alternatively, you can use the arrow control at the bottom-right, go down &lt;code&gt;▼&lt;/code&gt; first and then to the right &lt;code&gt;▶&lt;/code&gt;. Pressing &lt;code&gt;?&lt;/code&gt; shows all the keyboard shortcuts.&lt;/p&gt;
 
 &lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;
 
-&lt;p&gt;This talk introduces a Python module I have created called pflacs, an
+&lt;p&gt;This talk introduces a Python module I have created called &lt;code&gt;pflacs&lt;/code&gt;, an
 open-source package that takes advantage of Python&amp;rsquo;s flexible dynamic
 nature and its introspection tools to provide an object-orientated
 environment for automating engineering design and computational studies.
@@ -58,15 +58,10 @@ environment for automating engineering design and computational studies.
 manual and iterative, however recent developments in computer
 technologies are driving a growing trend towards automation. The author
 has a background in the subsea oil &amp;amp; gas industry, and has applied
-pflacs to automating the design of subsea pipelines. Although its
-origins and primary objectives are in engineering design, pflacs can be
+&lt;code&gt;pflacs&lt;/code&gt; to automating the design of subsea pipelines. Although its
+origins and primary objectives are in engineering design, &lt;code&gt;pflacs&lt;/code&gt; can be
 used to manage and automate parameter study type analyses in any domain
 that has a significant computational component.&lt;/p&gt;
-
-&lt;h4 id=&#34;about-the-slides&#34;&gt;About the slides&lt;/h4&gt;
-
-&lt;p&gt;The slides are in &lt;a href=&#34;https://revealjs.com/#&#34; target=&#34;_blank&#34;&gt;Reveal.js&lt;/a&gt; format, having been generated from a Jupyter notebook with &lt;code&gt;nbconvert&lt;/code&gt;,
-&lt;a href=&#34;https://medium.com/learning-machine-learning/present-your-data-science-projects-with-jupyter-slides-75f20735eb0f&#34; target=&#34;_blank&#34;&gt;as explained here.&lt;/a&gt;  The slides are laid out on a 2D grid (type &lt;code&gt;o&lt;/code&gt; to show the slides&amp;rsquo; layout). Use the arrow control at the bottom right to navigate the slides. Start by using the down-arrow until you reach the bottom slide, then select the next slide over with the right-arrow. So process down first, then right and down again. If you need help, type &lt;code&gt;?&lt;/code&gt; to show useful key bindings.&lt;/p&gt;
 
 &lt;h4 id=&#34;links&#34;&gt;Links&lt;/h4&gt;
 
