@@ -323,7 +323,7 @@ var DKpl = {
     source: "GEOJSON",
     type: "OVERLAY",
     ref: [],
-    baseUrl: "./data/DK_Geus_pipelines_simplified.geojson",
+    baseUrl: "../data/DK_Geus_pipelines_simplified.geojson",
     options: {
         attribution: "<a target='_blank' href='http://data.geus.dk/geusmap/ows/help/?lang=en'>DK-Geus</a>"	
     }
