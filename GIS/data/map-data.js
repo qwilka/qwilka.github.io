@@ -431,7 +431,7 @@ var GEBCOsid = {
 GEBCOsid.layer = L.tileLayer.wms(GEBCOsid.baseUrl, GEBCOsid.options);
 
 var AusInfra = {
-    title: "National Oil and Gas Infrastructure",
+    title: "Offshore platforms, onshore pipelines",
     source: "WMS",
     type: "OVERLAY",
     ref: [
@@ -441,8 +441,8 @@ var AusInfra = {
     ],
     baseUrl: "http://services.ga.gov.au/gis/services/Oil_Gas_Infrastructure/MapServer/WMSServer",
     options: {
-        layers: '0,1,2',
-        CRS: "EPSG:4283",
+        layers: ["National_Oil_Gas_Platforms", "National_Onshore_Gas_Pipelines", "National_Onshore_Oil_Pipelines"],
+        CRS: "EPSG:4326",
         format: 'image/png',
         transparent: true,
         noWrap: true,
