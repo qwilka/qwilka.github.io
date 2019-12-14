@@ -17,7 +17,7 @@ var GEBCO = {
         transparent: false,
         noWrap: true,
         opacity: 1.0,
-        attribution: '<a target="_blank" href="https://www.gebco.net/">GEBCO</a>'
+        attribution: "<a target='_blank' href='https://www.gebco.net/'>GEBCO</a>"
     }
 }
 GEBCO.layer = L.tileLayer.wms(GEBCO.baseUrl, GEBCO.options);
@@ -39,30 +39,10 @@ var OSM = {
         transparent: false,
         noWrap: true,
         opacity: 1.0,
-        attribution: '&copy; <a target="_blank" href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        attribution: "&copy; <a target='_blank' href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a>"
     }
 }
 OSM.layer = L.tileLayer.wms(OSM.baseUrl, OSM.options);
-// var OSM = {
-//     title: "OpenStreetMap",
-//     source: "WMS",
-//     type: "BASEMAP",
-//     ref: [
-//         "https://tiles.maps.eox.at/wms?service=wms&request=getcapabilities",
-//         "https://gis.stackexchange.com/questions/253034/sentinel-2-imagery-as-a-webservice-in-a-leaflet-or-openlayers-map?rq=1"
-//     ],
-//     baseUrl: "https://tiles.maps.eox.at/?",
-//     options: {
-//         layers: "osm_3857",
-//         CRS: "EPSG:4326",
-//         format: 'image/png',
-//         transparent: false,
-//         noWrap: true,
-//         opacity: 1.0,
-//         attribution: '&copy; <a target="_blank" href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, Rendering &copy; <a target="_blank" href="https://maps.eox.at/">EOX</a>'
-//     }
-// }
-// OSM.layer = L.tileLayer.wms(OSM.baseUrl, OSM.options);
 
 var EOXSent2 = {
     title: "Sentinel-2 cloudless",
@@ -81,7 +61,7 @@ var EOXSent2 = {
         transparent: false,
         noWrap: true,
         opacity: 1.0,
-        attribution: '<a target="_blank" href="https://s2maps.eu/">Sentinel-2 cloudless</a> by <a target="_blank" href="https://eox.at/">EOX IT Services GmbH</a> (Contains modified <a target="_blank" href="https://sentinel.esa.int/web/sentinel/home">Copernicus Sentinel</a> data 2016 & 2017)'
+        attribution: "<a target='_blank' href='https://s2maps.eu/'>Sentinel-2 cloudless</a> by <a target='_blank' href='https://eox.at/'>EOX IT Services GmbH</a> (Contains modified <a target='_blank' href='https://sentinel.esa.int/web/sentinel/home'>Copernicus Sentinel</a> data 2016 & 2017)"
     }
 }
 EOXSent2.layer = L.tileLayer.wms(EOXSent2.baseUrl, EOXSent2.options);
@@ -102,7 +82,7 @@ var EOXBlue = {
         transparent: false,
         noWrap: true,
         opacity: 1.0,
-        attribution: 'Blue Marble &copy; <a target="_blank" href="http://nasa.gov/">NASA</a>, Rendering &copy; <a target="_blank" href="https://maps.eox.at/">EOX</a>'
+        attribution: "Blue Marble &copy; <a target='_blank' href='http://nasa.gov/'>NASA</a>, Rendering &copy; <a target='_blank' href='https://maps.eox.at/'>EOX</a>"
     }
 }
 EOXBlue.layer = L.tileLayer.wms(EOXBlue.baseUrl, EOXBlue.options);
@@ -123,7 +103,7 @@ var EOXBlack = {
         transparent: false,
         noWrap: true,
         opacity: 1.0,
-        attribution: 'Black Marble &copy; <a target="_blank" href="http://nasa.gov/">NASA</a>, Rendering &copy; <a target="_blank" href="https://maps.eox.at/">EOX</a>'
+        attribution: "Black Marble &copy; <a target='_blank' href='http://nasa.gov/'>NASA</a>, Rendering &copy; <a target='_blank' href='https://maps.eox.at/'>EOX</a>"
     }
 }
 EOXBlack.layer = L.tileLayer.wms(EOXBlack.baseUrl, EOXBlack.options);
@@ -145,7 +125,7 @@ var OSMEOXli = {
         transparent: false,
         noWrap: true,
         opacity: 1.0,
-        attribution: 'Terrain Light &copy; <a target="_blank" href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, Rendering &copy; <a target="_blank" href="https://maps.eox.at/">EOX</a>'
+        attribution: "Terrain Light &copy; <a target='_blank' href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a>, Rendering &copy; <a target='_blank' href='https://maps.eox.at/'>EOX</a>"
     }
 }
 OSMEOXli.layer = L.tileLayer.wms(OSMEOXli.baseUrl, OSMEOXli.options);
@@ -160,38 +140,11 @@ var Esri_WorldImagery = {
     ],
     baseUrl: "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
     options: {
-        attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+        attribution: "Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community"
     }
 }
 Esri_WorldImagery.layer = L.tileLayer.wms(Esri_WorldImagery.baseUrl, Esri_WorldImagery.options);
 
-
-// var Landsat = {
-//     title: "Landsat",
-//     source: "WMS",
-//     type: "BASEMAP",
-//     ref: [
-//         "https://wiki.openstreetmap.org/wiki/Landsat",
-//         "https://onearth.jpl.nasa.gov/",
-//         "https://wiki.earthdata.nasa.gov/display/GIBS/GIBS+API+for+Developers",
-//         "https://github.com/nasa-gibs/onearth"
-//     ],
-//     baseUrl: "https://gibs.earthdata.nasa.gov/twms/epsg4326/best/twms.cgi",
-//     options: {
-//         layers: "MODIS_Terra_CorrectedReflectance_TrueColor",
-//         CRS: "EPSG:4326",
-//         version: '1.3.0',
-//         format: 'image/png',
-//         transparent: false,
-//         noWrap: true,
-//         opacity: 1.0,
-//         attribution: 'Terrain Light &copy; <a target="_blank" href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, Rendering &copy; <a target="_blank" href="https://maps.eox.at/">EOX</a>'
-//     }
-// }
-// Landsat.layer = L.tileLayer.wms(Landsat.baseUrl, Landsat.options);
-
-
-// https://ogc.fiskeridir.no/wms.ashx?service=WMS&request=GetCapabilities&version=1.3.0
 var FiskDir2017K4 = {
     title: "2017 K4 Norske fiskefartøy",
     source: "WMS",
@@ -205,7 +158,7 @@ var FiskDir2017K4 = {
         transparent: true,
         noWrap: true,
         opacity: 0.9,
-        attribution: '<a target="_blank" href="https://www.fiskeridir.no/Kart/Om-kartdata/Om-nedlasting-av-geodata">Fiskeridirektoratet</a> <a target="_blank" href="https://data.norge.no/nlod/no">(NLOD)</a>'
+        attribution: "<a target='_blank' href='https://www.fiskeridir.no/Kart/Om-kartdata/Om-nedlasting-av-geodata'>Fiskeridirektoratet</a> <a target='_blank' href='https://data.norge.no/nlod/no'>(NLOD)</a>"
     }
 }
 FiskDir2017K4.layer = L.tileLayer.wms(FiskDir2017K4.baseUrl, FiskDir2017K4.options)
@@ -222,7 +175,7 @@ var FiskDir2017K3 = {
         transparent: true,
         noWrap: true,
         opacity: 0.9,
-        attribution: '<a target="_blank" href="https://www.fiskeridir.no/Kart/Om-kartdata/Om-nedlasting-av-geodata">Fiskeridirektoratet</a> <a target="_blank" href="https://data.norge.no/nlod/no">(NLOD)</a>'
+        attribution: "<a target='_blank' href='https://www.fiskeridir.no/Kart/Om-kartdata/Om-nedlasting-av-geodata'>Fiskeridirektoratet</a> <a target='_blank' href='https://data.norge.no/nlod/no'>(NLOD)</a>"
     }
 }
 FiskDir2017K3.layer = L.tileLayer.wms(FiskDir2017K3.baseUrl, FiskDir2017K3.options)
@@ -239,7 +192,7 @@ var FiskDir2017K2 = {
         transparent: true,
         noWrap: true,
         opacity: 0.9,
-        attribution: '<a target="_blank" href="https://www.fiskeridir.no/Kart/Om-kartdata/Om-nedlasting-av-geodata">Fiskeridirektoratet</a> <a target="_blank" href="https://data.norge.no/nlod/no">(NLOD)</a>'
+        attribution: "<a target='_blank' href='https://www.fiskeridir.no/Kart/Om-kartdata/Om-nedlasting-av-geodata'>Fiskeridirektoratet</a> <a target='_blank' href='https://data.norge.no/nlod/no'>(NLOD)</a>"
     }
 }
 FiskDir2017K2.layer = L.tileLayer.wms(FiskDir2017K2.baseUrl, FiskDir2017K2.options)
@@ -256,7 +209,7 @@ var FiskDir2017K1 = {
         transparent: true,
         noWrap: true,
         opacity: 0.9,
-        attribution: '<a target="_blank" href="https://www.fiskeridir.no/Kart/Om-kartdata/Om-nedlasting-av-geodata">Fiskeridirektoratet</a> <a target="_blank" href="https://data.norge.no/nlod/no">(NLOD)</a>'
+        attribution: "<a target='_blank' href='https://www.fiskeridir.no/Kart/Om-kartdata/Om-nedlasting-av-geodata'>Fiskeridirektoratet</a> <a target='_blank' href='https://data.norge.no/nlod/no'>(NLOD)</a>"
     }
 }
 FiskDir2017K1.layer = L.tileLayer.wms(FiskDir2017K1.baseUrl, FiskDir2017K1.options)
@@ -273,29 +226,11 @@ var FiskDir2017U = {
         transparent: true,
         noWrap: true,
         opacity: 0.9,
-        attribution: '<a target="_blank" href="https://www.fiskeridir.no/Kart/Om-kartdata/Om-nedlasting-av-geodata">Fiskeridirektoratet</a> <a target="_blank" href="https://data.norge.no/nlod/no">(NLOD)</a>'
+        attribution: "<a target='_blank' href='https://www.fiskeridir.no/Kart/Om-kartdata/Om-nedlasting-av-geodata'>Fiskeridirektoratet</a> <a target='_blank' href='https://data.norge.no/nlod/no'>(NLOD)</a>"
     }
 }
 FiskDir2017U.layer = L.tileLayer.wms(FiskDir2017U.baseUrl, FiskDir2017U.options)
 
-
-// var NPDobj = {
-//     baseUrl: "http://gis.npd.no/ogc/factmaps/2_0",
-//     title: "Pipelines & infrastructure",
-//     source: "WMS",
-//     type: "OVERLAY",
-//     ref: ["http://npdwms.npd.no/", "http://www.npd.no/en/Maps/Fact-maps/"],
-//     options: {
-//         layers: "dscAll,pplAll,fclFixed",
-//         CRS: "EPSG:23032",
-//         format: 'image/png',
-//         transparent: true,
-//         noWrap: true,
-//         opacity: 0.9,
-//         attribution: '<a target="_blank" href="http://www.npd.no/en/Maps/Fact-maps/">NPD</a> <a target="_blank" href="https://data.norge.no/nlod/no">(NLOD)</a>'
-//     }
-// }
-// var NPD = L.tileLayer.wms(NPDobj.baseUrl, NPDobj.options)
 var NPD = {
     title: "Pipelines and infrastructure",
     source: "WMS",
@@ -312,25 +247,11 @@ var NPD = {
         transparent: true,
         noWrap: true,
         opacity: 1.0,
-        attribution: '<a target="_blank" href="http://www.npd.no/en/Maps/Fact-maps/">NPD</a> <a target="_blank" href="https://data.norge.no/nlod/no">(NLOD)</a>'
+        attribution: "<a target='_blank' href='http://www.npd.no/en/Maps/Fact-maps/'>NPD</a> <a target='_blank' href='https://data.norge.no/nlod/no'>(NLOD)</a>"
     }
 }
 NPD.layer = L.tileLayer.wms(NPD.baseUrl, NPD.options);
 
-// https://data.gov.ie/dataset/offshore-gas-pipeline
-// var IREobj = {
-//     baseUrl: "http://atlas.marine.ie/arcgis/services/EnergyResourcesInfrastructure/MapServer/WMSServer",
-//     options: {
-//         layers: '1,2,3',
-//         CRS: "EPSG:4326",
-//         format: 'image/png',
-//         transparent: true,
-//         noWrap: true,
-//         opacity: 0.9,
-//         attribution: '<a target="_blank" href="https://data.gov.ie/dataset/offshore-gas-pipeline">IE-GovData</a> <a href="https://creativecommons.org/licenses/by/4.0/">(CC BY 4.0)</a>'
-//     }
-// }
-// var IRE = L.tileLayer.wms(IREobj.baseUrl, IREobj.options)
 var IRE = {
     title: "Offshore pipelines and fields",
     source: "WMS",
@@ -346,31 +267,11 @@ var IRE = {
         transparent: true,
         noWrap: true,
         opacity: 0.9,
-        attribution: '<a target="_blank" href="https://data.gov.ie/dataset/offshore-gas-pipeline">IE-GovData</a> <a href="https://creativecommons.org/licenses/by/4.0/">(CC BY 4.0)</a>'
+        attribution: "<a target='_blank' href='https://data.gov.ie/dataset/offshore-gas-pipeline'>IE-GovData</a> <a href='https://creativecommons.org/licenses/by/4.0/'>(CC BY 4.0)</a>"
     }
 }
 IRE.layer = L.tileLayer.wms(IRE.baseUrl, IRE.options);
 
-// https://marinescotland.atkinsgeospatial.com/nmpi/default.aspx?layers=515#
-// http://marine.gov.scot/maps/1529
-// http://marine.gov.scot/maps/515
-// http://www.gov.scot/Topics/marine/seamanagement/nmpihome/wms-wfs
-// http://msmap1.atkinsgeospatial.com/geoserver/nmpwfs/ows?token=d46ffd2a-e192-4e51-8a6a-b3292c20f1ee&service=wms&request=getCapabilities
-// https://data.gov.uk/dataset/ac766f0e-c121-4876-853d-cd68aa6181e1/resource/2987869a-dc81-4f4d-8955-1983ae288603
-// var MarScoobj = {
-//     baseUrl: "http://msmap1.atkinsgeospatial.com/geoserver/nmpwfs/ows",
-//     options: {
-//         layers: 'utility_and_government_services_fishing_intensity_pipelines_all_gears',
-//         CRS: "EPSG:3857",
-//         format: 'image/png',
-//         transparent: true,
-//         noWrap: true,
-//         opacity: 0.9,
-//         token: "d46ffd2a-e192-4e51-8a6a-b3292c20f1ee",
-//         attribution: '<a target="_blank" href="http://marine.gov.scot/maps/1529">&copy; Crown Copyright (ScotGov)</a>'
-//     }
-// }
-// var MarSco = L.tileLayer.wms(MarScoobj.baseUrl, MarScoobj.options)
 var MarSCOfish = {
     title: "Fishing activity",
     source: "WMS",
@@ -386,7 +287,7 @@ var MarSCOfish = {
         noWrap: true,
         opacity: 0.9,
         token: "d46ffd2a-e192-4e51-8a6a-b3292c20f1ee",
-        attribution: '<a target="_blank" href="http://marine.gov.scot/maps/616">&copy; Crown Copyright (ScotGov)</a>'
+        attribution: "<a target='_blank' href='http://marine.gov.scot/maps/616'>&copy; Crown Copyright (ScotGov)</a>"
     }
 }
 MarSCOfish.layer = L.tileLayer.wms(MarSCOfish.baseUrl, MarSCOfish.options)
@@ -411,7 +312,7 @@ var MarSCOpl = {
         noWrap: true,
         opacity: 0.9,
         token: "d46ffd2a-e192-4e51-8a6a-b3292c20f1ee",
-        attribution: '<a target="_blank" href="http://marine.gov.scot/maps/616">&copy; Crown Copyright (ScotGov)</a>'
+        attribution: "<a target='_blank' href='http://marine.gov.scot/maps/616'>&copy; Crown Copyright (ScotGov)</a>"
     }
 }
 MarSCOpl.layer = L.tileLayer.wms(MarSCOpl.baseUrl, MarSCOpl.options)
@@ -424,7 +325,7 @@ var DKpl = {
     ref: [],
     baseUrl: "./data/DK_Geus_pipelines_simplified.geojson",
     options: {
-        attribution: '<a target="_blank" href="http://data.geus.dk/geusmap/ows/help/?lang=en">DK-Geus</a>'	
+        attribution: "<a target='_blank' href='http://data.geus.dk/geusmap/ows/help/?lang=en'>DK-Geus</a>"	
     }
 }
 DKpl.layer  = new L.GeoJSON.AJAX(DKpl.baseUrl ,{
@@ -469,7 +370,7 @@ var GoMbathy = {
         noWrap: true,
         transparent: true,
         opacity: 0.8,
-        attribution: '<a target="_blank" href="https://gis.boem.gov/">BOEM</a>'	
+        attribution: "<a target='_blank' href='https://gis.boem.gov/'>BOEM</a>"	
     }
 }
 GoMbathy.layer = L.tileLayer.wms(GoMbathy.baseUrl, GoMbathy.options);
@@ -487,7 +388,7 @@ var GoMpl = {
         transparent: true,
         noWrap: true,
         opacity: 0.9,
-        attribution: '<a target="_blank" href="https://gis.boem.gov/arcgis/rest/services/BOEM_BSEE/POC_Layers/MapServer">BOEM</a>'
+        attribution: "<a target='_blank' href='https://gis.boem.gov/arcgis/rest/services/BOEM_BSEE/POC_Layers/MapServer'>BOEM</a>"
     }
 }
 GoMpl.layer = L.tileLayer.wms(GoMpl.baseUrl, GoMpl.options);
@@ -505,7 +406,7 @@ var EEZ = {
         transparent: true,
         noWrap: true,
         opacity: 0.9,
-        attribution: '<a target="_blank" href="http://www.marineregions.org">FlandersMarineInst (CC-BY-NC-SA)</a>'
+        attribution: "<a target='_blank' href='http://www.marineregions.org'>FlandersMarineInst (CC-BY-NC-SA)</a>"
     }
 }
 EEZ.layer = L.tileLayer.wms(EEZ.baseUrl, EEZ.options);
@@ -524,7 +425,7 @@ var GEBCOsid = {
         transparent: true,
         noWrap: true,
         opacity: 0.6,
-        attribution: '<a target="_blank" href="https://www.gebco.net/">GEBCO</a>'
+        attribution: "<a target='_blank' href='https://www.gebco.net/'>GEBCO</a>"
     }
 }
 GEBCOsid.layer = L.tileLayer.wms(GEBCOsid.baseUrl, GEBCOsid.options);
@@ -546,7 +447,7 @@ var AusInfra = {
         transparent: true,
         noWrap: true,
         opacity: 0.9,
-        attribution: '<a target="_blank" href="https://data.gov.au/dataset/d40adb23-4ca1-428c-8676-b1c3c247990e">Geoscience Australia</a>'
+        attribution: "<a target='_blank' href='https://data.gov.au/dataset/d40adb23-4ca1-428c-8676-b1c3c247990e'>Geoscience Australia</a>"
     }
 }
 AusInfra.layer = L.tileLayer.wms(AusInfra.baseUrl, AusInfra.options);
