@@ -465,7 +465,7 @@ var allMapLayers = {
     'IRE': IRE.layer,
     "GoMpl": GoMpl.layer,
     "GoMbathy": GoMbathy.layer,
-    "MarSCOpl": MarSCOpl.layer,
+    "MaSCpl": MarSCOpl.layer,
     "AusInfra": AusInfra.layer,
     'EEZ': EEZ.layer
 };
