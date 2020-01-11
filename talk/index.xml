@@ -19,7 +19,7 @@
       <guid>/talk/2019-10-31_sut_future_digital_toolbox/</guid>
       <description>
 
-&lt;p&gt;I presented a talk entitled «&lt;code&gt;Beyond visualisations: realising the full value of subsea data&lt;/code&gt;» at the joint SUT-IMCA-THSIS event &lt;a href=&#34;https://www.sut.org/event/the-future-subsea-digital-toolbox/&#34; target=&#34;_blank&#34;&gt;The Future Subsea Digital Toolbox&lt;/a&gt; in Aberdeen on 31st October 2019. The theme of my talk was that we need to look beyond current technological developments (exciting as they are) if we are going to realise the full potential value in subsea data.&lt;/p&gt;
+&lt;p&gt;I presented a talk entitled &lt;code&gt;Beyond visualisations: realising the full value of subsea data&lt;/code&gt; at the joint SUT-IMCA-THSIS event &lt;a href=&#34;https://www.sut.org/event/the-future-subsea-digital-toolbox/&#34; target=&#34;_blank&#34;&gt;The Future Subsea Digital Toolbox&lt;/a&gt; in Aberdeen on 31st October 2019. The theme of my talk was that we need to look beyond current technological developments (exciting as they are) if we are going to realise the full potential value in subsea data.&lt;/p&gt;
 
 &lt;p&gt;My presentation slides can be &lt;a href=&#34;https://www.sut.org/wp-content/uploads/2019/06/SMcEntee-Qwilka.pdf&#34; target=&#34;_blank&#34;&gt;downloaded at this link&lt;/a&gt;.&lt;/p&gt;
 
@@ -46,7 +46,7 @@
 
 &lt;p&gt;I presented a talk on my Python module &lt;a href=&#34;https://github.com/qwilka/pflacs&#34; target=&#34;_blank&#34;&gt;pflacs&lt;/a&gt; at the 2019 Python Ireland conference in Dublin, on the 12th of October.&lt;/p&gt;
 
-&lt;p&gt;The presentation slides are &lt;a href=&#34;https://qwilka.github.io/PyConIE2019&#34; target=&#34;_blank&#34;&gt;available at this link&lt;/a&gt;. The slides are in &lt;a href=&#34;https://revealjs.com/#/&#34; target=&#34;_blank&#34;&gt;Reveal.js format&lt;/a&gt;, generated from a &lt;a href=&#34;https://github.com/qwilka/blog-resources/blob/master/drafts/PyConIE2019_pflacs_presentation.ipynb&#34; target=&#34;_blank&#34;&gt;Jupyter notebook&lt;/a&gt;. Reveal lays out the slides on a 2-dimensional grid (press &lt;code&gt;o&lt;/code&gt; to see an overview). Press &lt;code&gt;n&lt;/code&gt; to move to the next slide, and press &lt;code&gt;p&lt;/code&gt; to go back. Alternatively, you can use the arrow control at the bottom-right, go down &lt;code&gt;▼&lt;/code&gt; first and then to the right &lt;code&gt;▶&lt;/code&gt;. Pressing &lt;code&gt;?&lt;/code&gt; shows all the keyboard shortcuts.&lt;/p&gt;
+&lt;p&gt;The presentation slides can be &lt;a href=&#34;https://qwilka.github.io/PyConIE2019&#34; target=&#34;_blank&#34;&gt;viewed at this link&lt;/a&gt;. The slides are in &lt;a href=&#34;https://revealjs.com/#/&#34; target=&#34;_blank&#34;&gt;Reveal.js format&lt;/a&gt;, generated from a &lt;a href=&#34;https://github.com/qwilka/pflacs/blob/master/examples/2019_PyConIE_presentation/PyConIE2019_pflacs_presentation.ipynb&#34; target=&#34;_blank&#34;&gt;Jupyter notebook&lt;/a&gt;. Reveal lays out the slides on a 2-dimensional grid (press &lt;code&gt;o&lt;/code&gt; to see an overview). Press &lt;code&gt;n&lt;/code&gt; to move to the next slide, and press &lt;code&gt;p&lt;/code&gt; to go back. Alternatively, you can use the arrow control at the bottom-right, go down &lt;code&gt;▼&lt;/code&gt; first and then to the right &lt;code&gt;▶&lt;/code&gt;. Pressing &lt;code&gt;?&lt;/code&gt; shows all the keyboard shortcuts.&lt;/p&gt;
 
 &lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;
 

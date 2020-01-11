@@ -88,19 +88,19 @@
       <link>/post/2018-04-19-introducing-qwilka-gis/</link>
       <pubDate>Thu, 19 Apr 2018 00:00:00 +0000</pubDate>
       <guid>/post/2018-04-19-introducing-qwilka-gis/</guid>
-      <description>&lt;p&gt;I have just set up a demonstration &lt;a href=&#34;https://en.wikipedia.org/wiki/Geographic_information_system&#34; target=&#34;_blank&#34;&gt;GIS&lt;/a&gt; (geographic information system) for my subsea data company Qwilka. It is built using the open source web mapping library &lt;a href=&#34;http://leafletjs.com/&#34; target=&#34;_blank&#34;&gt;Leaflet&lt;/a&gt;, which is light-weight and easy to program. The plan is to use the &lt;a href=&#34;https://qwilka.github.io/GIS/&#34; target=&#34;_blank&#34;&gt;Qwilka Subsea GIS&lt;/a&gt; to display openly available data related to the subsea oil &amp;amp; gas industry. The base map is taken from &lt;a href=&#34;https://www.gebco.net/&#34; target=&#34;_blank&#34;&gt;GEBCO&lt;/a&gt; which provides a global map with ocean bathymetry. There is also an alternative base map from &lt;a href=&#34;https://www.openstreetmap.org/&#34; target=&#34;_blank&#34;&gt;OpenStreetMap&lt;/a&gt; with more land based details like borders, roads and cities.&lt;/p&gt;
+      <description>&lt;p&gt;I have just set up a demonstration &lt;a href=&#34;https://en.wikipedia.org/wiki/Geographic_information_system&#34; target=&#34;_blank&#34;&gt;GIS&lt;/a&gt; (geographic information system) for my subsea data company Qwilka. It is built using the open source web mapping library &lt;a href=&#34;http://leafletjs.com/&#34; target=&#34;_blank&#34;&gt;Leaflet&lt;/a&gt;, which is light-weight and easy to program. The plan is to use the &lt;a href=&#34;https://qwilka.github.io/gis1/&#34; target=&#34;_blank&#34;&gt;Qwilka Subsea GIS&lt;/a&gt; to display openly available data related to the subsea oil &amp;amp; gas industry. The base map is taken from &lt;a href=&#34;https://www.gebco.net/&#34; target=&#34;_blank&#34;&gt;GEBCO&lt;/a&gt; which provides a global map with ocean bathymetry. There is also an alternative base map from &lt;a href=&#34;https://www.openstreetmap.org/&#34; target=&#34;_blank&#34;&gt;OpenStreetMap&lt;/a&gt; with more land based details like borders, roads and cities.&lt;/p&gt;
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
-&lt;p&gt;&lt;iframe src=&#34;https://qwilka.github.io/GIS/&#34; height=&#34;400&#34; width=&#34;750&#34; align=&#34;middle&#34; frameborder=&#34;1&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe src=&#34;https://qwilka.github.io/gis1/&#34; height=&#34;400&#34; width=&#34;750&#34; align=&#34;middle&#34; frameborder=&#34;1&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;p align=&#34;center&#34;&gt;
   &lt;i&gt;Go to webpage:&lt;/i&gt;&lt;br&gt;
-  &lt;a href=&#34;https://qwilka.github.io/GIS/&#34;&gt;Qwilka Subsea GIS&lt;/a&gt;
+  &lt;a href=&#34;https://qwilka.github.io/gis1/&#34;&gt;Qwilka Subsea GIS&lt;/a&gt;
   &lt;br&gt;
 &lt;/p&gt;&lt;/p&gt;
 
-&lt;p&gt;Hovering the cursor over the layer control &lt;img src=&#34;/img/Leaflet_layer_control.svg&#34; alt=&#34;layer-control&#34; /&gt;{: height=&amp;ldquo;24&amp;rdquo; width=&amp;ldquo;24&amp;rdquo; } at the top-right enables selecting data layers for display. The attribution box on the bottom-right &lt;img src=&#34;/img/Leaflet_attribution_control.jpg&#34; alt=&#34;attribution-control&#34; /&gt; provides links to the sources of the displayed data (links will open in a new browser tab/window). Right-clicking on the map brings up a popup that displays the location coordinates:&lt;/p&gt;
+&lt;p&gt;Hovering the cursor over the layer control &lt;img src=&#34;/img/Leaflet_layer_control.svg&#34; alt=&#34;layer-control&#34; /&gt; at the top-right enables selecting data layers for display. The attribution box on the bottom-right &lt;img src=&#34;/img/Leaflet_attribution_control.jpg&#34; alt=&#34;attribution-control&#34; /&gt; provides links to the sources of the displayed data (links will open in a new browser tab/window). Right-clicking on the map brings up a popup that displays the location coordinates:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;/img/location_coord_popup.jpg&#34; alt=&#34;location pop-up&#34; /&gt;
  &lt;p align=&#34;left&#34;&gt;
@@ -118,7 +118,7 @@
 &lt;li&gt;&lt;a href=&#34;http://www.landscope.org/louisiana/map_layers/energy/offshore_pipelines/24942/&#34; target=&#34;_blank&#34;&gt;GoM pipelines&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;If you know any other relevant data sources, I would be interested to know about them! I hope you find the &lt;a href=&#34;https://qwilka.github.io/GIS/&#34; target=&#34;_blank&#34;&gt;Qwilka Subsea GIS&lt;/a&gt; interesting, in time I am planning to develop it into a useful reference tool for subsea engineers.&lt;/p&gt;
+&lt;p&gt;If you know any other relevant data sources, I would be interested to know about them! I hope you find the &lt;a href=&#34;https://qwilka.github.io/gis1/&#34; target=&#34;_blank&#34;&gt;Qwilka Subsea GIS&lt;/a&gt; interesting, in time I am planning to develop it into a useful reference tool for subsea engineers.&lt;/p&gt;
 </description>
     </item>
     
