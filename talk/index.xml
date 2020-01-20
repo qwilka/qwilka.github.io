@@ -21,7 +21,7 @@
 
 &lt;p&gt;I will be presenting a talk at Python Conference Limerick 2020 entitled «Trees for structure and support in Python».&lt;/p&gt;
 
-&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;
 
 &lt;p&gt;Tree data structures are pervasive in computing, they enable us to organise information in a natural hierarchical fashion that can be very effective, as well as being convenient and intuitive.  Python does not provide a built-in tree object for general use, but it&amp;rsquo;s not difficult create trees in Python.  This talk presents some of the ways of constructing trees in Python, and examines a selection of some of the many applications of trees, including their uses in GUIs, data management, spatial partitioning, and decision analysis.  We look at various interesting tree modules and applications in the wider Python ecosystem, and beyond.  Finally, the talk introduces the presenter&amp;rsquo;s own Python package «vntree», examines some of its features, and demonstrates how it can be used to provide structure and support for various applications.&lt;/p&gt;
 
@@ -68,8 +68,6 @@
 
 &lt;p&gt;I presented a talk on my Python module &lt;a href=&#34;https://github.com/qwilka/pflacs&#34; target=&#34;_blank&#34;&gt;pflacs&lt;/a&gt; at the 2019 Python Ireland conference in Dublin, on the 12th of October.&lt;/p&gt;
 
-&lt;p&gt;The presentation slides can be &lt;a href=&#34;https://qwilka.github.io/PyConIE2019&#34; target=&#34;_blank&#34;&gt;viewed at this link&lt;/a&gt;. The slides are in &lt;a href=&#34;https://revealjs.com/#/&#34; target=&#34;_blank&#34;&gt;Reveal.js format&lt;/a&gt;, generated from a &lt;a href=&#34;https://github.com/qwilka/pflacs/blob/master/examples/2019_PyConIE_presentation/PyConIE2019_pflacs_presentation.ipynb&#34; target=&#34;_blank&#34;&gt;Jupyter notebook&lt;/a&gt;. Reveal lays out the slides on a 2-dimensional grid (press &lt;code&gt;o&lt;/code&gt; to see an overview). Press &lt;code&gt;n&lt;/code&gt; to move to the next slide, and press &lt;code&gt;p&lt;/code&gt; to go back. Alternatively, you can use the arrow control at the bottom-right, go down &lt;code&gt;▼&lt;/code&gt; first and then to the right &lt;code&gt;▶&lt;/code&gt;. Pressing &lt;code&gt;?&lt;/code&gt; shows all the keyboard shortcuts.&lt;/p&gt;
-
 &lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;
 
 &lt;p&gt;This talk introduces a Python module I have created called &lt;code&gt;pflacs&lt;/code&gt;, an
@@ -85,13 +83,13 @@ origins and primary objectives are in engineering design, &lt;code&gt;pflacs&lt;
 used to manage and automate parameter study type analyses in any domain
 that has a significant computational component.&lt;/p&gt;
 
-&lt;h3 id=&#34;presentation&#34;&gt;Presentation&lt;/h3&gt;
+&lt;h4 id=&#34;video&#34;&gt;Video&lt;/h4&gt;
 
-&lt;p&gt;Here is the video of my talk at PyCon Ireland 2019:&lt;/p&gt;
+&lt;p&gt;The video of my talk at PyCon Ireland 2019 can be viewed on &lt;a href=&#34;https://youtu.be/nUStcSwv-ZQ&#34; target=&#34;_blank&#34;&gt;YouTube at this link.&lt;/a&gt;&lt;/p&gt;
 
-&lt;iframe width=560&#34; height=&#34;315&#34; src=&#34;https://youtu.be/nUStcSwv-ZQ&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+&lt;h4 id=&#34;slides&#34;&gt;Slides&lt;/h4&gt;
 
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;The presentation slides can be &lt;a href=&#34;https://qwilka.github.io/PyConIE2019&#34; target=&#34;_blank&#34;&gt;viewed at this link&lt;/a&gt;. The slides are in &lt;a href=&#34;https://revealjs.com/#/&#34; target=&#34;_blank&#34;&gt;Reveal.js format&lt;/a&gt;, generated from a &lt;a href=&#34;https://github.com/qwilka/pflacs/blob/master/examples/2019_PyConIE_presentation/PyConIE2019_pflacs_presentation.ipynb&#34; target=&#34;_blank&#34;&gt;Jupyter notebook&lt;/a&gt;. Reveal lays out the slides on a 2-dimensional grid (press &lt;code&gt;o&lt;/code&gt; to see an overview). Press &lt;code&gt;n&lt;/code&gt; to move to the next slide, and press &lt;code&gt;p&lt;/code&gt; to go back. Alternatively, you can use the arrow control at the bottom-right, go down &lt;code&gt;▼&lt;/code&gt; first and then to the right &lt;code&gt;▶&lt;/code&gt;. Pressing &lt;code&gt;?&lt;/code&gt; shows all the keyboard shortcuts.&lt;/p&gt;
 
 &lt;h4 id=&#34;links&#34;&gt;Links&lt;/h4&gt;
 
