@@ -5,12 +5,34 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Qwilka</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 31 Oct 2019 15:20:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 29 Feb 2020 11:30:00 +0100</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Qwilka</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>PyCon Limerick 2020</title>
+      <link>/talk/2020-02-29_pycon_limerick/</link>
+      <pubDate>Sat, 29 Feb 2020 11:30:00 +0100</pubDate>
+      <guid>/talk/2020-02-29_pycon_limerick/</guid>
+      <description>
+
+&lt;p&gt;I will be presenting a talk at Python Conference Limerick 2020 entitled «Trees for structure and support in Python».&lt;/p&gt;
+
+&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+
+&lt;p&gt;Tree data structures are pervasive in computing, they enable us to organise information in a natural hierarchical fashion that can be very effective, as well as being convenient and intuitive.  Python does not provide a built-in tree object for general use, but it&amp;rsquo;s not difficult create trees in Python.  This talk presents some of the ways of constructing trees in Python, and examines a selection of some of the many applications of trees, including their uses in GUIs, data management, spatial partitioning, and decision analysis.  We look at various interesting tree modules and applications in the wider Python ecosystem, and beyond.  Finally, the talk introduces the presenter&amp;rsquo;s own Python package «vntree», examines some of its features, and demonstrates how it can be used to provide structure and support for various applications.&lt;/p&gt;
+
+&lt;h4 id=&#34;links&#34;&gt;Links&lt;/h4&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://python.ie/pycon-limerick-2020/&#34; target=&#34;_blank&#34;&gt;https://python.ie/pycon-limerick-2020/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;vntree&lt;/code&gt; on Gihub  &lt;a href=&#34;https://github.com/qwilka/vntree&#34; target=&#34;_blank&#34;&gt;https://github.com/qwilka/vntree&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
     
     <item>
       <title>The Future Subsea Digital Toolbox</title>
@@ -63,15 +85,24 @@ origins and primary objectives are in engineering design, &lt;code&gt;pflacs&lt;
 used to manage and automate parameter study type analyses in any domain
 that has a significant computational component.&lt;/p&gt;
 
+&lt;h3 id=&#34;presentation&#34;&gt;Presentation&lt;/h3&gt;
+
+&lt;p&gt;Here is the video of my talk at PyCon Ireland 2019:&lt;/p&gt;
+
+&lt;iframe width=560&#34; height=&#34;315&#34; src=&#34;https://youtu.be/nUStcSwv-ZQ&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
 &lt;h4 id=&#34;links&#34;&gt;Links&lt;/h4&gt;
 
 &lt;ol&gt;
 &lt;li&gt;PyConIE 2019 website  &lt;a href=&#34;https://pycon2019.python.ie/&#34; target=&#34;_blank&#34;&gt;https://pycon2019.python.ie/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Python Ireland website  &lt;a href=&#34;https://python.ie/&#34; target=&#34;_blank&#34;&gt;https://python.ie/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Presentation slides &lt;a href=&#34;https://qwilka.github.io/PyConIE2019&#34; target=&#34;_blank&#34;&gt;https://qwilka.github.io/PyConIE2019&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Presentation video &lt;a href=&#34;https://youtu.be/nUStcSwv-ZQ&#34; target=&#34;_blank&#34;&gt;https://youtu.be/nUStcSwv-ZQ&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Article on &lt;code&gt;pflacs&lt;/code&gt; (in draft)  &lt;a href=&#34;https://qwilka.github.io/PFLACS_intro_article_2019/&#34; target=&#34;_blank&#34;&gt;https://qwilka.github.io/PFLACS_intro_article_2019/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;pflacs&lt;/code&gt; on Gihub  &lt;a href=&#34;https://github.com/qwilka/pflacs&#34; target=&#34;_blank&#34;&gt;https://github.com/qwilka/pflacs&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;vntree&lt;/code&gt; on Gihub  &lt;a href=&#34;https://github.com/qwilka/vn-tree&#34; target=&#34;_blank&#34;&gt;https://github.com/qwilka/vn-tree&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;vntree&lt;/code&gt; on Gihub  &lt;a href=&#34;https://github.com/qwilka/vntree&#34; target=&#34;_blank&#34;&gt;https://github.com/qwilka/vntree&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;pdover2t&lt;/code&gt; on Gihub  &lt;a href=&#34;https://github.com/qwilka/PDover2t&#34; target=&#34;_blank&#34;&gt;https://github.com/qwilka/PDover2t&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
@@ -130,7 +161,7 @@ that has a significant computational component.&lt;/p&gt;
       <guid>/post/2018-04-22-finding-fish-gis/</guid>
       <description>&lt;p&gt;I recently came across this video in a &lt;a href=&#34;https://www.linkedin.com/feed/update/urn:li:activity:6390252332893900800&#34; target=&#34;_blank&#34;&gt;Linkedin post&lt;/a&gt;.  It&amp;rsquo;s a clip of &lt;a href=&#34;https://en.wikipedia.org/wiki/Remotely_operated_underwater_vehicle&#34; target=&#34;_blank&#34;&gt;ROV&lt;/a&gt; video that shows a small strange sea creature apparently walking across the seabed from a pipeline towards the ROV, and encountering a predator along the way:&lt;/p&gt;
 
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/zKK5qJjI98c&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width=560&#34; height=&#34;365&#34; src=&#34;https://www.youtube.com/embed/zKK5qJjI98c&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
