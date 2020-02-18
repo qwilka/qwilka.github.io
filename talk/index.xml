@@ -5,7 +5,7 @@
     <link>/talk/</link>
       <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 29 Feb 2020 11:30:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 29 Feb 2020 15:30:00 +0100</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Recent &amp; Upcoming Talks</title>
@@ -15,7 +15,7 @@
     <item>
       <title>PyCon Limerick 2020</title>
       <link>/talk/2020-02-29_pycon_limerick/</link>
-      <pubDate>Sat, 29 Feb 2020 11:30:00 +0100</pubDate>
+      <pubDate>Sat, 29 Feb 2020 15:30:00 +0100</pubDate>
       <guid>/talk/2020-02-29_pycon_limerick/</guid>
       <description>
 
@@ -28,8 +28,9 @@
 &lt;h4 id=&#34;links&#34;&gt;Links&lt;/h4&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://python.ie/pycon-limerick-2020/&#34; target=&#34;_blank&#34;&gt;https://python.ie/pycon-limerick-2020/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;vntree&lt;/code&gt; on Gihub  &lt;a href=&#34;https://github.com/qwilka/vntree&#34; target=&#34;_blank&#34;&gt;https://github.com/qwilka/vntree&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pyconlimerick.github.io/&#34; target=&#34;_blank&#34;&gt;PyCon Limerick 2020&lt;/a&gt; website&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/qwilka/PyCon_Limerick_2020&#34; target=&#34;_blank&#34;&gt;Presentation resources&lt;/a&gt;  on GitHub, including source code and sides&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/qwilka/vntree&#34; target=&#34;_blank&#34;&gt;vntree&lt;/a&gt; on Gihub&lt;br /&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
     </item>
