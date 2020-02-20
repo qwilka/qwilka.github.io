@@ -28,9 +28,10 @@
 &lt;h4 id=&#34;links&#34;&gt;Links&lt;/h4&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://pyconlimerick.github.io/&#34; target=&#34;_blank&#34;&gt;PyCon Limerick 2020&lt;/a&gt; website&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/qwilka/PyCon_Limerick_2020&#34; target=&#34;_blank&#34;&gt;Presentation resources&lt;/a&gt;  on GitHub, including source code and sides&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/qwilka/vntree&#34; target=&#34;_blank&#34;&gt;vntree&lt;/a&gt; on Gihub&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://python.ie/pycon-limerick-2020/&#34; target=&#34;_blank&#34;&gt;Python Ireland&lt;/a&gt; website with details of PyCon Limerick 2020&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pyconlimerick.github.io/&#34; target=&#34;_blank&#34;&gt;PyCon Limerick 2020&lt;/a&gt; website with conference details, including programme and schedule&lt;/li&gt;
+&lt;li&gt;My &lt;a href=&#34;https://github.com/qwilka/PyCon_Limerick_2020&#34; target=&#34;_blank&#34;&gt;presentation resources&lt;/a&gt;  on GitHub, including source code and sides&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/qwilka/vntree&#34; target=&#34;_blank&#34;&gt;vntree&lt;/a&gt; respository on GitHub&lt;br /&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
     </item>
@@ -67,7 +68,7 @@
       <guid>/talk/2019-10-12_pycon2019/</guid>
       <description>
 
-&lt;p&gt;I presented a talk on my Python module &lt;a href=&#34;https://github.com/qwilka/pflacs&#34; target=&#34;_blank&#34;&gt;pflacs&lt;/a&gt; at the 2019 Python Ireland conference in Dublin, on the 12th of October.&lt;/p&gt;
+&lt;p&gt;I presented a talk on my Python module &lt;a href=&#34;https://github.com/qwilka/pflacs&#34; target=&#34;_blank&#34;&gt;pflacs&lt;/a&gt; at the 2019 Python Ireland conference in Dublin, on the 12th of October. The title of the talk was &lt;a href=&#34;https://github.com/qwilka/PyCon_Ireland_2019_pflacs&#34; target=&#34;_blank&#34;&gt;pflacs: Faster loadcases and parameter studies&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;
 
@@ -90,16 +91,16 @@ that has a significant computational component.&lt;/p&gt;
 
 &lt;h4 id=&#34;slides&#34;&gt;Slides&lt;/h4&gt;
 
-&lt;p&gt;The presentation slides can be &lt;a href=&#34;https://qwilka.github.io/PyConIE2019&#34; target=&#34;_blank&#34;&gt;viewed at this link&lt;/a&gt;. The slides are in &lt;a href=&#34;https://revealjs.com/#/&#34; target=&#34;_blank&#34;&gt;Reveal.js format&lt;/a&gt;, generated from a &lt;a href=&#34;https://github.com/qwilka/pflacs/blob/master/examples/2019_PyConIE_presentation/PyConIE2019_pflacs_presentation.ipynb&#34; target=&#34;_blank&#34;&gt;Jupyter notebook&lt;/a&gt;. Reveal lays out the slides on a 2-dimensional grid (press &lt;code&gt;o&lt;/code&gt; to see an overview). Press &lt;code&gt;n&lt;/code&gt; to move to the next slide, and press &lt;code&gt;p&lt;/code&gt; to go back. Alternatively, you can use the arrow control at the bottom-right, go down &lt;code&gt;▼&lt;/code&gt; first and then to the right &lt;code&gt;▶&lt;/code&gt;. Pressing &lt;code&gt;?&lt;/code&gt; shows all the keyboard shortcuts.&lt;/p&gt;
+&lt;p&gt;The presentation slides can be &lt;a href=&#34;https://qwilka.github.io/PyCon_Ireland_2019_pflacs/&#34; target=&#34;_blank&#34;&gt;viewed at this link&lt;/a&gt;. The slides are in &lt;a href=&#34;https://revealjs.com/#/&#34; target=&#34;_blank&#34;&gt;Reveal.js format&lt;/a&gt;, generated from a &lt;a href=&#34;https://github.com/qwilka/PyCon_Ireland_2019_pflacs/blob/master/notebook/PyConIE2019_pflacs_presentation.ipynb&#34; target=&#34;_blank&#34;&gt;Jupyter notebook&lt;/a&gt;. Reveal lays out the slides on a 2-dimensional grid (press &lt;code&gt;o&lt;/code&gt; to see an overview). Press &lt;code&gt;n&lt;/code&gt; to move to the next slide, and press &lt;code&gt;p&lt;/code&gt; to go back. Alternatively, you can use the arrow control at the bottom-right, go down &lt;code&gt;▼&lt;/code&gt; first and then to the right &lt;code&gt;▶&lt;/code&gt;. Pressing &lt;code&gt;?&lt;/code&gt; shows all the keyboard shortcuts.&lt;/p&gt;
 
 &lt;h4 id=&#34;links&#34;&gt;Links&lt;/h4&gt;
 
 &lt;ol&gt;
 &lt;li&gt;PyConIE 2019 website  &lt;a href=&#34;https://pycon2019.python.ie/&#34; target=&#34;_blank&#34;&gt;https://pycon2019.python.ie/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Python Ireland website  &lt;a href=&#34;https://python.ie/&#34; target=&#34;_blank&#34;&gt;https://python.ie/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Presentation slides &lt;a href=&#34;https://qwilka.github.io/PyConIE2019&#34; target=&#34;_blank&#34;&gt;https://qwilka.github.io/PyConIE2019&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Presentation slides &lt;a href=&#34;https://qwilka.github.io/PyCon_Ireland_2019_pflacs/&#34; target=&#34;_blank&#34;&gt;https://qwilka.github.io/PyCon_Ireland_2019_pflacs/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Presentation video &lt;a href=&#34;https://youtu.be/nUStcSwv-ZQ&#34; target=&#34;_blank&#34;&gt;https://youtu.be/nUStcSwv-ZQ&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Article on &lt;code&gt;pflacs&lt;/code&gt; (in draft)  &lt;a href=&#34;https://qwilka.github.io/PFLACS_intro_article_2019/&#34; target=&#34;_blank&#34;&gt;https://qwilka.github.io/PFLACS_intro_article_2019/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GitHub repo with presentation resources &lt;a href=&#34;https://github.com/qwilka/PyCon_Ireland_2019_pflacs&#34; target=&#34;_blank&#34;&gt;https://github.com/qwilka/PyCon_Ireland_2019_pflacs&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;pflacs&lt;/code&gt; on Gihub  &lt;a href=&#34;https://github.com/qwilka/pflacs&#34; target=&#34;_blank&#34;&gt;https://github.com/qwilka/pflacs&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;vntree&lt;/code&gt; on Gihub  &lt;a href=&#34;https://github.com/qwilka/vntree&#34; target=&#34;_blank&#34;&gt;https://github.com/qwilka/vntree&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;pdover2t&lt;/code&gt; on Gihub  &lt;a href=&#34;https://github.com/qwilka/PDover2t&#34; target=&#34;_blank&#34;&gt;https://github.com/qwilka/PDover2t&lt;/a&gt;&lt;/li&gt;
