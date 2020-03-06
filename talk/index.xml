@@ -17,21 +17,16 @@
       <link>/talk/2020-02-29_pycon_limerick/</link>
       <pubDate>Sat, 29 Feb 2020 15:30:00 +0100</pubDate>
       <guid>/talk/2020-02-29_pycon_limerick/</guid>
-      <description>
-
-&lt;p&gt;I will be presenting a talk at Python Conference Limerick 2020 entitled «Trees for structure and support in Python».&lt;/p&gt;
-
+      <description>&lt;p&gt;I presented a talk at Python Conference Limerick 2020 entitled «Trees for structure and support in Python».&lt;/p&gt;
 &lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;
-
 &lt;p&gt;Tree data structures are pervasive in computing, they enable us to organise information in a natural hierarchical fashion that can be very effective, as well as being convenient and intuitive.  Python does not provide a built-in tree object for general use, but it&amp;rsquo;s not difficult create trees in Python.  This talk presents some of the ways of constructing trees in Python, and examines a selection of some of the many applications of trees, including their uses in GUIs, data management, spatial partitioning, and decision analysis.  We look at various interesting tree modules and applications in the wider Python ecosystem, and beyond.  Finally, the talk introduces the presenter&amp;rsquo;s own Python package «vntree», examines some of its features, and demonstrates how it can be used to provide structure and support for various applications.&lt;/p&gt;
-
 &lt;h4 id=&#34;links&#34;&gt;Links&lt;/h4&gt;
-
 &lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://python.ie/pycon-limerick-2020/&#34; target=&#34;_blank&#34;&gt;Python Ireland&lt;/a&gt; website with details of PyCon Limerick 2020&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://pyconlimerick.github.io/&#34; target=&#34;_blank&#34;&gt;PyCon Limerick 2020&lt;/a&gt; website with conference details, including programme and schedule&lt;/li&gt;
-&lt;li&gt;My &lt;a href=&#34;https://github.com/qwilka/PyCon_Limerick_2020&#34; target=&#34;_blank&#34;&gt;presentation resources&lt;/a&gt;  on GitHub, including source code and sides&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/qwilka/vntree&#34; target=&#34;_blank&#34;&gt;vntree&lt;/a&gt; respository on GitHub&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://qwilka.github.io/PyCon_Limerick_2020/&#34;&gt;Presentation slides&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Github repository with &lt;a href=&#34;https://github.com/qwilka/PyCon_Limerick_2020&#34;&gt;presentation resources&lt;/a&gt; including example source code&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/qwilka/vntree&#34;&gt;vntree&lt;/a&gt; respository on GitHub&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pyconlimerick.github.io/&#34;&gt;PyCon Limerick 2020&lt;/a&gt; website with conference details, including programme and schedule&lt;/li&gt;
+&lt;li&gt;My &lt;a href=&#34;https://github.com/qwilka/PyCon_Limerick_2020&#34;&gt;presentation resources&lt;/a&gt;  on GitHub, including source code and sides&lt;/li&gt;
 &lt;/ol&gt;
 </description>
     </item>
@@ -41,22 +36,15 @@
       <link>/talk/2019-10-31_sut_future_digital_toolbox/</link>
       <pubDate>Thu, 31 Oct 2019 15:20:00 +0100</pubDate>
       <guid>/talk/2019-10-31_sut_future_digital_toolbox/</guid>
-      <description>
-
-&lt;p&gt;I presented a talk entitled &lt;code&gt;Beyond visualisations: realising the full value of subsea data&lt;/code&gt; at the joint SUT-IMCA-THSIS event &lt;a href=&#34;https://www.sut.org/event/the-future-subsea-digital-toolbox/&#34; target=&#34;_blank&#34;&gt;The Future Subsea Digital Toolbox&lt;/a&gt; in Aberdeen on 31st October 2019. The theme of my talk was that we need to look beyond current technological developments (exciting as they are) if we are going to realise the full potential value in subsea data.&lt;/p&gt;
-
-&lt;p&gt;My presentation slides can be &lt;a href=&#34;https://www.sut.org/wp-content/uploads/2019/06/SMcEntee-Qwilka.pdf&#34; target=&#34;_blank&#34;&gt;downloaded at this link&lt;/a&gt;.&lt;/p&gt;
-
+      <description>&lt;p&gt;I presented a talk entitled &lt;code&gt;Beyond visualisations: realising the full value of subsea data&lt;/code&gt; at the joint SUT-IMCA-THSIS event &lt;a href=&#34;https://www.sut.org/event/the-future-subsea-digital-toolbox/&#34;&gt;The Future Subsea Digital Toolbox&lt;/a&gt; in Aberdeen on 31st October 2019. The theme of my talk was that we need to look beyond current technological developments (exciting as they are) if we are going to realise the full potential value in subsea data.&lt;/p&gt;
+&lt;p&gt;My presentation slides can be &lt;a href=&#34;https://www.sut.org/wp-content/uploads/2019/06/SMcEntee-Qwilka.pdf&#34;&gt;downloaded at this link&lt;/a&gt;.&lt;/p&gt;
 &lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;
-
 &lt;p&gt;In recent years there have been many exciting developments related to the gathering and presentation of subsea data. These developments promise to reduce costs and improve insight, however the focus on new technologies may be distracting from the ultimate purposes of subsea data: to optimise performance, enhance integrity and reduce threats through better understanding of infrastructure behaviour and risks.  Emulation and incremental improvement often characterise the initial phase of a technological shift; however true transformation is only achieved when the inherent strengths of the new technology are realised and exploited to the full. This presentation will propose that the opportunity now exists to transform subsea engineering into a data-driven discipline, where optimised design solutions are possible and true risk is well understood. The presentation will discuss how this can be achieved and the special challenges involved in realising the full value of subsea data.&lt;/p&gt;
-
 &lt;h4 id=&#34;webpage-links&#34;&gt;Webpage links&lt;/h4&gt;
-
 &lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.sut.org/event/the-future-subsea-digital-toolbox/&#34; target=&#34;_blank&#34;&gt;SUT&lt;/a&gt; event webpage with downloadable presentations.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.ths.org.uk/event_details.asp?v0=699&#34; target=&#34;_blank&#34;&gt;The Hydrographic Society in Scotland&lt;/a&gt; event webpage with downloadable presentations.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.imca-int.com/&#34; target=&#34;_blank&#34;&gt;IMCA&lt;/a&gt; home page.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sut.org/event/the-future-subsea-digital-toolbox/&#34;&gt;SUT&lt;/a&gt; event webpage with downloadable presentations.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ths.org.uk/event_details.asp?v0=699&#34;&gt;The Hydrographic Society in Scotland&lt;/a&gt; event webpage with downloadable presentations.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.imca-int.com/&#34;&gt;IMCA&lt;/a&gt; home page.&lt;/li&gt;
 &lt;/ol&gt;
 </description>
     </item>
@@ -66,17 +54,13 @@
       <link>/talk/2019-10-12_pycon2019/</link>
       <pubDate>Sat, 12 Oct 2019 11:30:00 +0100</pubDate>
       <guid>/talk/2019-10-12_pycon2019/</guid>
-      <description>
-
-&lt;p&gt;I presented a talk on my Python module &lt;a href=&#34;https://github.com/qwilka/pflacs&#34; target=&#34;_blank&#34;&gt;pflacs&lt;/a&gt; at the 2019 Python Ireland conference in Dublin, on the 12th of October. The title of the talk was &lt;a href=&#34;https://github.com/qwilka/PyCon_Ireland_2019_pflacs&#34; target=&#34;_blank&#34;&gt;pflacs: Faster loadcases and parameter studies&lt;/a&gt;.&lt;/p&gt;
-
+      <description>&lt;p&gt;I presented a talk on my Python module &lt;a href=&#34;https://github.com/qwilka/pflacs&#34;&gt;pflacs&lt;/a&gt; at the 2019 Python Ireland conference in Dublin, on the 12th of October. The title of the talk was &lt;a href=&#34;https://github.com/qwilka/PyCon_Ireland_2019_pflacs&#34;&gt;pflacs: Faster loadcases and parameter studies&lt;/a&gt;.&lt;/p&gt;
 &lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;
-
 &lt;p&gt;This talk introduces a Python module I have created called &lt;code&gt;pflacs&lt;/code&gt;, an
 open-source package that takes advantage of Python&amp;rsquo;s flexible dynamic
 nature and its introspection tools to provide an object-orientated
 environment for automating engineering design and computational studies.
- Traditionally engineering design methodologies have been very slow,
+Traditionally engineering design methodologies have been very slow,
 manual and iterative, however recent developments in computer
 technologies are driving a growing trend towards automation. The author
 has a background in the subsea oil &amp;amp; gas industry, and has applied
@@ -84,29 +68,22 @@ has a background in the subsea oil &amp;amp; gas industry, and has applied
 origins and primary objectives are in engineering design, &lt;code&gt;pflacs&lt;/code&gt; can be
 used to manage and automate parameter study type analyses in any domain
 that has a significant computational component.&lt;/p&gt;
-
 &lt;h4 id=&#34;video&#34;&gt;Video&lt;/h4&gt;
-
-&lt;p&gt;The video of my talk at PyCon Ireland 2019 can be viewed on &lt;a href=&#34;https://youtu.be/nUStcSwv-ZQ&#34; target=&#34;_blank&#34;&gt;YouTube at this link.&lt;/a&gt;&lt;/p&gt;
-
+&lt;p&gt;The video of my talk at PyCon Ireland 2019 can be viewed on &lt;a href=&#34;https://youtu.be/nUStcSwv-ZQ&#34;&gt;YouTube at this link.&lt;/a&gt;&lt;/p&gt;
 &lt;h4 id=&#34;slides&#34;&gt;Slides&lt;/h4&gt;
-
-&lt;p&gt;The presentation slides can be &lt;a href=&#34;https://qwilka.github.io/PyCon_Ireland_2019_pflacs/&#34; target=&#34;_blank&#34;&gt;viewed at this link&lt;/a&gt;. The slides are in &lt;a href=&#34;https://revealjs.com/#/&#34; target=&#34;_blank&#34;&gt;Reveal.js format&lt;/a&gt;, generated from a &lt;a href=&#34;https://github.com/qwilka/PyCon_Ireland_2019_pflacs/blob/master/notebook/PyConIE2019_pflacs_presentation.ipynb&#34; target=&#34;_blank&#34;&gt;Jupyter notebook&lt;/a&gt;. Reveal lays out the slides on a 2-dimensional grid (press &lt;code&gt;o&lt;/code&gt; to see an overview). Press &lt;code&gt;n&lt;/code&gt; to move to the next slide, and press &lt;code&gt;p&lt;/code&gt; to go back. Alternatively, you can use the arrow control at the bottom-right, go down &lt;code&gt;▼&lt;/code&gt; first and then to the right &lt;code&gt;▶&lt;/code&gt;. Pressing &lt;code&gt;?&lt;/code&gt; shows all the keyboard shortcuts.&lt;/p&gt;
-
+&lt;p&gt;The presentation slides can be &lt;a href=&#34;https://qwilka.github.io/PyCon_Ireland_2019_pflacs/&#34;&gt;viewed at this link&lt;/a&gt;. The slides are in &lt;a href=&#34;https://revealjs.com/#/&#34;&gt;Reveal.js format&lt;/a&gt;, generated from a &lt;a href=&#34;https://github.com/qwilka/PyCon_Ireland_2019_pflacs/blob/master/notebook/PyConIE2019_pflacs_presentation.ipynb&#34;&gt;Jupyter notebook&lt;/a&gt;. Reveal lays out the slides on a 2-dimensional grid (press &lt;code&gt;o&lt;/code&gt; to see an overview). Press &lt;code&gt;n&lt;/code&gt; to move to the next slide, and press &lt;code&gt;p&lt;/code&gt; to go back. Alternatively, you can use the arrow control at the bottom-right, go down &lt;code&gt;▼&lt;/code&gt; first and then to the right &lt;code&gt;▶&lt;/code&gt;. Pressing &lt;code&gt;?&lt;/code&gt; shows all the keyboard shortcuts.&lt;/p&gt;
 &lt;h4 id=&#34;links&#34;&gt;Links&lt;/h4&gt;
-
 &lt;ol&gt;
-&lt;li&gt;PyConIE 2019 website  &lt;a href=&#34;https://pycon2019.python.ie/&#34; target=&#34;_blank&#34;&gt;https://pycon2019.python.ie/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Python Ireland website  &lt;a href=&#34;https://python.ie/&#34; target=&#34;_blank&#34;&gt;https://python.ie/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Presentation slides &lt;a href=&#34;https://qwilka.github.io/PyCon_Ireland_2019_pflacs/&#34; target=&#34;_blank&#34;&gt;https://qwilka.github.io/PyCon_Ireland_2019_pflacs/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Presentation video &lt;a href=&#34;https://youtu.be/nUStcSwv-ZQ&#34; target=&#34;_blank&#34;&gt;https://youtu.be/nUStcSwv-ZQ&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;GitHub repo with presentation resources &lt;a href=&#34;https://github.com/qwilka/PyCon_Ireland_2019_pflacs&#34; target=&#34;_blank&#34;&gt;https://github.com/qwilka/PyCon_Ireland_2019_pflacs&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;pflacs&lt;/code&gt; on Gihub  &lt;a href=&#34;https://github.com/qwilka/pflacs&#34; target=&#34;_blank&#34;&gt;https://github.com/qwilka/pflacs&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;vntree&lt;/code&gt; on Gihub  &lt;a href=&#34;https://github.com/qwilka/vntree&#34; target=&#34;_blank&#34;&gt;https://github.com/qwilka/vntree&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;pdover2t&lt;/code&gt; on Gihub  &lt;a href=&#34;https://github.com/qwilka/PDover2t&#34; target=&#34;_blank&#34;&gt;https://github.com/qwilka/PDover2t&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PyConIE 2019 website  &lt;a href=&#34;https://pycon2019.python.ie/&#34;&gt;https://pycon2019.python.ie/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Python Ireland website  &lt;a href=&#34;https://python.ie/&#34;&gt;https://python.ie/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Presentation slides &lt;a href=&#34;https://qwilka.github.io/PyCon_Ireland_2019_pflacs/&#34;&gt;https://qwilka.github.io/PyCon_Ireland_2019_pflacs/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Presentation video &lt;a href=&#34;https://youtu.be/nUStcSwv-ZQ&#34;&gt;https://youtu.be/nUStcSwv-ZQ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GitHub repo with presentation resources &lt;a href=&#34;https://github.com/qwilka/PyCon_Ireland_2019_pflacs&#34;&gt;https://github.com/qwilka/PyCon_Ireland_2019_pflacs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pflacs&lt;/code&gt; on Gihub  &lt;a href=&#34;https://github.com/qwilka/pflacs&#34;&gt;https://github.com/qwilka/pflacs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;vntree&lt;/code&gt; on Gihub  &lt;a href=&#34;https://github.com/qwilka/vntree&#34;&gt;https://github.com/qwilka/vntree&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pdover2t&lt;/code&gt; on Gihub  &lt;a href=&#34;https://github.com/qwilka/PDover2t&#34;&gt;https://github.com/qwilka/PDover2t&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://youtu.be/nUStcSwv-ZQ&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://img.youtube.com/vi/nUStcSwv-ZQ/0.jpg&#34; alt=&#34;PyConIE2019 pflacs on YouTube&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://youtu.be/nUStcSwv-ZQ&#34;&gt;&lt;img src=&#34;https://img.youtube.com/vi/nUStcSwv-ZQ/0.jpg%22&#34; alt=&#34;PyConIE2019 pflacs on YouTube&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
