@@ -27,7 +27,7 @@
         "attributionControl": true,
         "locationPopup": true,
         "scaleControl": true,
-        "sidePanel": false,
+        "sidePanel": true,
         "useCache": true
     },
     "ftree_vnleaf_0": [
@@ -257,10 +257,7 @@
                             "http://services.ga.gov.au/gis/services/Oil_Gas_Infrastructure/MapServer/WMSServer?request=GetCapabilities&service=WMS"
                         ],
                         "bbox": [
-                            -12.3046875,
-                            55.52863,
-                            36.5625,
-                            74.70644988
+                            92.021,-46.739,167.519,0
                         ],
                         "layerOpts": {
                             "layers": [
@@ -299,13 +296,13 @@
                                 "weight": 3,
                                 "opacity": 1
                             },
-                            "content_name:gas": {
+                            "content_name||gas": {
                                 "color": "DarkOrange"
                             },
-                            "content_name:oil": {
+                            "content_name||oil": {
                                 "color": "Green"
                             },
-                            "content_name:Multi-phase": {
+                            "content_name||Multi-phase": {
                                 "color": "Maroon"
                             }
                         },
@@ -315,10 +312,7 @@
                         "url": "https://qwilka.github.io/data/DK_Geus_pipelines_simplified.geojson",
                         "refs": [],
                         "bbox": [
-                            -12.3046875,
-                            55.52863,
-                            36.5625,
-                            74.70644988
+                            -1.3403,51.9036,17.5341,59.3555
                         ],
                         "layerOpts": {
                             "attribution": "<a target='_blank' href='http://data.geus.dk/geusmap/ows/help/?lang=en'>DK-Geus</a>"
@@ -346,10 +340,7 @@
                             "https://data.gov.ie/dataset/offshore-commercial-field"
                         ],
                         "bbox": [
-                            -12.3046875,
-                            55.52863,
-                            36.5625,
-                            74.70644988
+                            -17.907,49.353,0.966,57.243
                         ],
                         "layerOpts": {
                             "layers": "1,2",
@@ -375,10 +366,7 @@
                             "http://data.marine.ie/geonetwork/srv/eng/catalog.search#/metadata/ie.marine.data:dataset.2177"
                         ],
                         "bbox": [
-                            -12.3046875,
-                            55.52863,
-                            36.5625,
-                            74.70644988
+                            -17.907,49.353,0.966,57.243
                         ],
                         "layerOpts": {
                             "layers": "1",
@@ -404,10 +392,7 @@
                             "http://data.marine.ie/geonetwork/srv/eng/catalog.search#/metadata/ie.marine.data:dataset.2177"
                         ],
                         "bbox": [
-                            -12.3046875,
-                            55.52863,
-                            36.5625,
-                            74.70644988
+                            -17.907,49.353,0.966,57.243
                         ],
                         "layerOpts": {
                             "layers": "2",
@@ -471,10 +456,10 @@
                             "https://kartkatalog.geonorge.no/metadata/dybdedata-kurver-generaliserte-wms/7790f618-eb6a-4c4a-a925-8a605565ae92"
                         ],
                         "bbox": [
-                            -45.0,
-                            51.7776,
-                            55.5137,
-                            83.5405
+                            -12.3046875,
+                            55.52863,
+                            36.5625,
+                            74.70644988
                         ],
                         "layerOpts": {
                             "layers": "Dybdekurver_havomraader_WMS",
@@ -1107,6 +1092,9 @@
                                 "layerId": "gba",
                                 "layerType": "geojson",
                                 "cache": true,
+                                "bbox": [
+                                    -22.587,48.661,15.161,63.273
+                                ],
                                 "style": {
                                     "default": {
                                         "color": "Red",
@@ -1160,7 +1148,7 @@
                                 ],
                                 "url": "/gis/assets/OGA_pipelines.geojson",
                                 "layerOpts": {
-                                    "attribution": "UK <a target='_blank' href='https://data-ogauthority.opendata.arcgis.com/datasets/oga-offshore-zipped-shapefiles-wgs84'>OGA</a> 2020-07-22"
+                                    "attribution": "UK <a target='_blank' href='https://data-ogauthority.opendata.arcgis.com/datasets/oga-offshore-zipped-shapefiles-wgs84'>Oil&Gas Authority</a> 2020-09-03"
                                 }
                             }
                         },
@@ -1173,6 +1161,9 @@
                                 "layerId": "gbb",
                                 "layerType": "geojson",
                                 "cache": true,
+                                "bbox": [
+                                    -22.587,48.661,15.161,63.273
+                                ],
                                 "style": {
                                     "default": {
                                         "radius": 4,
@@ -1232,7 +1223,7 @@
                                 ],
                                 "url": "/gis/assets/OGA_platforms.geojson",
                                 "layerOpts": {
-                                    "attribution": "UK <a target='_blank' href='https://data-ogauthority.opendata.arcgis.com/datasets/oga-offshore-zipped-shapefiles-wgs84'>OGA</a> 2020-07-22",
+                                    "attribution": "UK <a target='_blank' href='https://data-ogauthority.opendata.arcgis.com/datasets/oga-offshore-zipped-shapefiles-wgs84'>Oil&Gas Authority</a> 2020-09-03",
                                     "geojsonMarkerOptions": {
                                         "radius": 8,
                                         "fillColor": "#0099cc",
@@ -1269,10 +1260,7 @@
                                     "https://data.gov.uk/dataset/ac766f0e-c121-4876-853d-cd68aa6181e1/resource/2987869a-dc81-4f4d-8955-1983ae288603"
                                 ],
                                 "bbox": [
-                                    -12.3046875,
-                                    55.52863,
-                                    36.5625,
-                                    74.70644988
+                                    -22.587,48.661,15.161,63.273
                                 ],
                                 "layerOpts": {
                                     "layers": "nmp:NMPMAP8polygon,nmp:NMPMAP8line",
@@ -1304,10 +1292,7 @@
                                     "https://data.gov.uk/dataset/ac766f0e-c121-4876-853d-cd68aa6181e1/resource/2987869a-dc81-4f4d-8955-1983ae288603"
                                 ],
                                 "bbox": [
-                                    -12.3046875,
-                                    55.52863,
-                                    36.5625,
-                                    74.70644988
+                                    -22.587,48.661,15.161,63.273
                                 ],
                                 "layerOpts": {
                                     "layers": "utility_and_government_services_fishing_intensity_pipelines_all_gears",
@@ -1346,10 +1331,7 @@
                                 "url": "https://gis.boem.gov/arcgis/services/BOEM_BSEE/MMC_Layers/MapServer/WmsServer",
                                 "refs": [],
                                 "bbox": [
-                                    -12.3046875,
-                                    55.52863,
-                                    36.5625,
-                                    74.70644988
+                                    -99.206,20.550,-80.332,32.379
                                 ],
                                 "layerOpts": {
                                     "layers": "26",
@@ -1373,10 +1355,7 @@
                                 "url": "https://gis.boem.gov/arcgis/services/BOEM_BSEE/GOM_Deepwater_Bathymetry_and_Hillshade_Tiled/MapServer/WmsServer",
                                 "refs": [],
                                 "bbox": [
-                                    -12.3046875,
-                                    55.52863,
-                                    36.5625,
-                                    74.70644988
+                                    -99.206,20.550,-80.332,32.379
                                 ],
                                 "layerOpts": {
                                     "layers": "0",
@@ -1395,33 +1374,10 @@
             ]
         },
         {
-            "title": "Other map resources",
+            "title": "Subsea cables",
             "type": "gis-folder-overlays",
             "folder": true,
             "children": [
-                {
-                    "title": "Exclusive economic zone boundaries",
-                    "type": "gis-layer",
-                    "checkbox": true,
-                    "selected": false,
-                    "data": {
-                        "layerId": "eez",
-                        "layerType": "WMS",
-                        "url": "http://geo.vliz.be:80/geoserver/MarineRegions/wms",
-                        "refs": [
-                            "http://www.marineregions.org/webservices.php"
-                        ],
-                        "layerOpts": {
-                            "layers": "MarineRegions:eez_boundaries",
-                            "version": "1.1.1",
-                            "format": "image/png",
-                            "transparent": true,
-                            "noWrap": true,
-                            "opacity": 0.8,
-                            "attribution": "EEZ boundaries: <a target='_blank' href='http://www.marineregions.org'>Flanders Marine Institute</a>, <a target='_blank' href='https://creativecommons.org/licenses/by/4.0/'>(CC BY 4.0)</a>"
-                        }
-                    }
-                },
                 {
                     "title": "Submarine Cables",
                     "type": "gis-layer",
@@ -1467,6 +1423,36 @@
                                 "opacity": 0.8,
                                 "fillOpacity": 0.6                                
                             }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Other map resources",
+            "type": "gis-folder-overlays",
+            "folder": true,
+            "children": [
+                {
+                    "title": "Exclusive economic zone boundaries",
+                    "type": "gis-layer",
+                    "checkbox": true,
+                    "selected": false,
+                    "data": {
+                        "layerId": "eez",
+                        "layerType": "WMS",
+                        "url": "http://geo.vliz.be:80/geoserver/MarineRegions/wms",
+                        "refs": [
+                            "http://www.marineregions.org/webservices.php"
+                        ],
+                        "layerOpts": {
+                            "layers": "MarineRegions:eez_boundaries",
+                            "version": "1.1.1",
+                            "format": "image/png",
+                            "transparent": true,
+                            "noWrap": true,
+                            "opacity": 0.8,
+                            "attribution": "EEZ boundaries: <a target='_blank' href='http://www.marineregions.org'>Flanders Marine Institute</a>, <a target='_blank' href='https://creativecommons.org/licenses/by/4.0/'>(CC BY 4.0)</a>"
                         }
                     }
                 },
