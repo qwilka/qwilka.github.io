@@ -534,11 +534,18 @@
     <div class="article-style">
       <p>I have just set up a demonstration <a href="https://en.wikipedia.org/wiki/Geographic_information_system">GIS</a> (geographic information system) for my subsea data company Qwilka. It is built using the open source web mapping library <a href="http://leafletjs.com/">Leaflet</a>, which is light-weight and easy to program. The plan is to use the <a href="https://qwilka.github.io/gis1/">Qwilka Subsea GIS</a> to display openly available data related to the subsea oil &amp; gas industry. The base map is taken from <a href="https://www.gebco.net/">GEBCO</a> which provides a global map with ocean bathymetry. There is also an alternative base map from <a href="https://www.openstreetmap.org/">OpenStreetMap</a> with more land based details like borders, roads and cities.</p>
 <p> </p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+ <iframe src="https://qwilka.github.io/gis1/" height="400" width="750" align="middle" frameborder="1"></iframe> 
+ <p align="center">
+  <i>Go to webpage:</i><br>
+  <a href="https://qwilka.github.io/gis1/">Qwilka Subsea GIS</a>
+  <br>
+</p>
 <p>Hovering the cursor over the layer control <img src="/img/Leaflet_layer_control.svg" alt="layer-control"> at the top-right enables selecting data layers for display. The attribution box on the bottom-right <img src="/img/Leaflet_attribution_control.jpg" alt="attribution-control"> provides links to the sources of the displayed data (links will open in a new browser tab/window). Right-clicking on the map brings up a popup that displays the location coordinates:</p>
 <p><img src="/img/location_coord_popup.jpg" alt="location pop-up"></p>
-<!-- raw HTML omitted -->
+ <p align="left">
+  <i>Right-clicking at a location gives coordinate information.</i><br>
+  <br>
+</p>
 <p>To start with, I will focus on adding data provided by <a href="https://en.wikipedia.org/wiki/Web_Map_Service">WMS</a> (web map service) providers, because that&rsquo;s the easiest to set up, it merely involves passing on data that is hosted on the provider&rsquo;s WMS server. Presently there are subsea infrastructure data from the <a href="http://www.npd.no/en/About-us/Available-data/">NPD</a> (Norwegian Petroleum Directorate) and the <a href="https://data.gov.ie/dataset/offshore-gas-pipeline">Irish Government</a>. I will be adding more open WMS data in due course, as I identify suitable providers.</p>
 <p>There are many other authorities providing subsea infrastructure data in various formats which usually require some processing to convert into a format that can be rendered on the GIS. I am planning to add these data also, in due course.  Here is a list of some of the open subsea data that I am planning to look at:</p>
 <ul>

@@ -29,7 +29,7 @@
     
   
   <meta name="description" content="I recently came across this video in a Linkedin post. It&rsquo;s a clip of ROV video that shows a small strange sea creature apparently walking across the seabed from a pipeline towards the ROV, and encountering a predator along the way:
- This set me wondering about two things: what type of creature is it, and where was the video recorded? The video clip is also available on YouTube, which incorrectly states that the location is in the North Sea.">
+  This set me wondering about two things: what type of creature is it, and where was the video recorded? The video clip is also available on YouTube, which incorrectly states that the location is in the North Sea.">
 
   
   <link rel="alternate" hreflang="en-us" href="/post/2018-04-22-finding-fish-gis/">
@@ -115,7 +115,7 @@
   <meta property="og:url" content="/post/2018-04-22-finding-fish-gis/">
   <meta property="og:title" content="Finding the fish in GIS | Qwilka">
   <meta property="og:description" content="I recently came across this video in a Linkedin post. It&rsquo;s a clip of ROV video that shows a small strange sea creature apparently walking across the seabed from a pipeline towards the ROV, and encountering a predator along the way:
- This set me wondering about two things: what type of creature is it, and where was the video recorded? The video clip is also available on YouTube, which incorrectly states that the location is in the North Sea."><meta property="og:image" content="/img/icon-192.png">
+  This set me wondering about two things: what type of creature is it, and where was the video recorded? The video clip is also available on YouTube, which incorrectly states that the location is in the North Sea."><meta property="og:image" content="/img/icon-192.png">
   <meta property="twitter:image" content="/img/icon-192.png"><meta property="og:locale" content="en-us">
   
     
@@ -167,7 +167,7 @@
       "url": "/img/icon-512.png"
     }
   },
-  "description": "I recently came across this video in a Linkedin post. It\u0026rsquo;s a clip of ROV video that shows a small strange sea creature apparently walking across the seabed from a pipeline towards the ROV, and encountering a predator along the way:\n This set me wondering about two things: what type of creature is it, and where was the video recorded? The video clip is also available on YouTube, which incorrectly states that the location is in the North Sea."
+  "description": "I recently came across this video in a Linkedin post. It\u0026rsquo;s a clip of ROV video that shows a small strange sea creature apparently walking across the seabed from a pipeline towards the ROV, and encountering a predator along the way:\n  This set me wondering about two things: what type of creature is it, and where was the video recorded? The video clip is also available on YouTube, which incorrectly states that the location is in the North Sea."
 }
 </script>
 
@@ -535,11 +535,11 @@
 
     <div class="article-style">
       <p>I recently came across this video in a <a href="https://www.linkedin.com/feed/update/urn:li:activity:6390252332893900800">Linkedin post</a>.  It&rsquo;s a clip of <a href="https://en.wikipedia.org/wiki/Remotely_operated_underwater_vehicle">ROV</a> video that shows a small strange sea creature apparently walking across the seabed from a pipeline towards the ROV, and encountering a predator along the way:</p>
-<!-- raw HTML omitted -->
+<iframe width=560" height="365" src="https://www.youtube.com/embed/zKK5qJjI98c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <p> </p>
 <p>This set me wondering about two things: what type of creature is it, and where was the video recorded? The video clip is also available <a href="https://www.youtube.com/watch?v=zKK5qJjI98c">on YouTube</a>, which incorrectly states that the location is in the North Sea. The video overlay indicates that it was recorded in 2002. Commenters on the <a href="https://www.linkedin.com/feed/update/urn:li:activity:6390252332893900800">Linkedin post</a> identify the creature as a <a href="https://en.wikipedia.org/wiki/Frogfish">frog fish</a>, and the location as offshore Vietnam, based on the <a href="https://www.rosneft.com/press/releases/item/181439/">Lan Tay</a> identification on the overlay. This would suggest that the pipeline that is visible at the start of the video clip is the <a href="https://www.pvgas.com.vn/product-and-service/services/gas-transportation-and-distribution">Nam Con Son</a> 26&rdquo; pipeline, which transports gas from the Lan Tay platform to the Vietnam mainland, and which was installed in 2002.</p>
 <p><img src="/img/NCSP2.jpg" alt="Nam Con Son pipeline route"></p>
-<!-- raw HTML omitted -->
+<div style="font-size:xx-small">(Image adapted from the <a href="http://abarrelfull.wikidot.com/nam-con-son-gas-pipeline">Nam Con Son 2003 Environmental Statement.</a>)</div>
 <p> </p>
 <p>The video overlay indicates the location water depth and <a href="https://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system">UTM coordinates</a>, but the UTM zone is not given. The KP 0.102 value on the overlay suggests that the location is close to the platform (since <a href="https://geodyssey.neocities.org/papers/ahgpp.html">KPs</a> usually follow product flow direction). Initially I thought of writing a program to scan through the indicated coordinate location in all the UTM zones and check the water depth at each location, but since there is a hint that the location is close to the Lan Tay platform offshore Vietnam, I decided it would be quicker to add a capability to query location water depth to the <a href="https://qwilka.github.io/GIS/">Qwilka Subsea GIS</a>, and use that to check the water depth at the suspected location. Right-clicking on the GIS at the indicated coordinate location south-east of Vietnam gives a location which is close enough to the <a href="http://globalenergyobservatory.org/geoid/41214">Lan Tay platform</a>, and gives a depth similar to that indicated on the ROV video overlay, which satifies me that this is the correct location of the frog fish:</p>
 <p><a href="/GIS/"><img src="/img/QwilkaGIS_LanTay.jpg" alt="Lan Tay location"></a></p>
