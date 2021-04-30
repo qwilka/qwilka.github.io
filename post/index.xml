@@ -38,7 +38,9 @@
 &lt;li&gt;&lt;a href=&#34;https://github.com/spyder-ide/spyder&#34;&gt;https://github.com/spyder-ide/spyder&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;and-now-for-something-completely-different&#34;&gt;And now for something completely different&amp;hellip;&lt;/h2&gt;
-&lt;p&gt;{% gist c5c53e1bba02c82e70aaab7d7d6d0d73 %}&lt;/p&gt;
+&lt;p&gt;Here is some Python source code, see if you can figure out what it does by reading it:&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/qwilka/c5c53e1bba02c82e70aaab7d7d6d0d73.js&#34;&gt;&lt;/script&gt;
+
 </description>
     </item>
     
