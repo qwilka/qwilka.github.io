@@ -12,7 +12,7 @@
       "layerControl": true,
       "layerTreeControl": false,
       "layerControlPosition": "topleft",
-      "attributionControl": null,    
+      "attributionControl": true,    
       "attributionPosition": "bottomright",
       "attributionPrefix": "<a target=\"_blank\" href=\"https://qwilka.github.io/\">Qwilka</a>",
       "hash": true,
